@@ -10,11 +10,20 @@ export function getUser() {
 }
 
 export function createUser(formData) {
-    const newUser = { name:formData.get('name'), 
-        password:formData.get('password'), 
-        booksread:[],
-        bookstoread:[],
-        totalpgsrd: []
+    const newUser = {
+        name: formData.get('name'),
+        password: formData.get('password'),
+        booksread: [],
+        bookstoread: [],
+        totalpgsrd: [],
+        newUser: false
     };
-    return newUser;}
-    
+    return newUser;
+}
+export function findById(myArray, id) {
+    for (let item of myArray) {
+        if (item.id === id) {
+            return item;
+        }
+    }
+}
