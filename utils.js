@@ -16,7 +16,11 @@ export function createUser(formData) {
         booksread: [],
         bookstoread: [],
         totalpgsrd: [],
-        newUser: false
+        newUser: false,
+        Genre:'',
+        Theme:'',
+        BookLength:'',
+        ReadingLevel:''
     };
     return newUser;
 }
