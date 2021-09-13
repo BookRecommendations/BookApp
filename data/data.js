@@ -1,7 +1,9 @@
 [
-    {
+    {  
+        'id': '1',
         'author': 'Chinua Achebe',
         'country': 'Nigeria',
+        'genre': 'Classic',
         'imageLink': 'images/things-fall-apart.jpg',
         'language': 'English',
         'link': 'https://en.wikipedia.org/wiki/Things_Fall_Apart\n',
@@ -9,9 +11,11 @@
         'title': 'Things Fall Apart',
         'year': 1958
     },
-    {
+    {   
+        'id': '2',
         'author': 'Hans Christian Andersen',
         'country': 'Denmark',
+        'genre': 'Classic',
         'imageLink': 'images/fairy-tales.jpg',
         'language': 'Danish',
         'link': 'https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n',
@@ -20,8 +24,10 @@
         'year': 1836
     },
     {
+        'id': '3',
         'author': 'Dante Alighieri',
         'country': 'Italy',
+        'genre': 'Classic',
         'imageLink': 'images/the-divine-comedy.jpg',
         'language': 'Italian',
         'link': 'https://en.wikipedia.org/wiki/Divine_Comedy\n',
@@ -29,9 +35,10 @@
         'title': 'The Divine Comedy',
         'year': 1315
     },
-    {
+    { 'id': '4',
         'author': 'Unknown',
         'country': 'Sumer and Akkadian Empire',
+        'genre': 'Classic',
         'imageLink': 'images/the-epic-of-gilgamesh.jpg',
         'language': 'Akkadian',
         'link': 'https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n',
@@ -40,8 +47,10 @@
         'year': -1700
     },
     {
+        'id': '5',
         'author': 'Unknown',
         'country': 'Achaemenid Empire',
+        'genre': 'Classic',
         'imageLink': 'images/the-book-of-job.jpg',
         'language': 'Hebrew',
         'link': 'https://en.wikipedia.org/wiki/Book_of_Job\n',
@@ -49,9 +58,10 @@
         'title': 'The Book Of Job',
         'year': -600
     },
-    {
+    { 'id': '6',
         'author': 'Unknown',
         'country': 'India/Iran/Iraq/Egypt/Tajikistan',
+        'genre': 'Classic',
         'imageLink': 'images/one-thousand-and-one-nights.jpg',
         'language': 'Arabic',
         'link': 'https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n',
@@ -60,8 +70,10 @@
         'year': 1200
     },
     {
+        'id': '7',
         'author': 'Unknown',
         'country': 'Iceland',
+        'genre': 'Classic',
         'imageLink': 'images/njals-saga.jpg',
         'language': 'Old Norse',
         'link': 'https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n',
@@ -70,8 +82,10 @@
         'year': 1350
     },
     {
+        'id': '8',
         'author': 'Jane Austen',
         'country': 'United Kingdom',
+        'genre': 'Classic',
         'imageLink': 'images/pride-and-prejudice.jpg',
         'language': 'English',
         'link': 'https://en.wikipedia.org/wiki/Pride_and_Prejudice\n',
@@ -80,8 +94,10 @@
         'year': 1813
     },
     {
+        'id': '9',
         'author': 'Honor\u00e9 de Balzac',
         'country': 'France',
+        'genre': 'Classic',
         'imageLink': 'images/le-pere-goriot.jpg',
         'language': 'French',
         'link': 'https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n',
@@ -89,9 +105,10 @@
         'title': 'Le P\u00e8re Goriot',
         'year': 1835
     },
-    {
+    { 'id': '10',
         'author': 'Samuel Beckett',
         'country': 'Republic of Ireland',
+        'genre': 'Classic',
         'imageLink': 'images/molloy-malone-dies-the-unnamable.jpg',
         'language': 'French, English',
         'link': 'https://en.wikipedia.org/wiki/Molloy_(novel)\n',
@@ -100,8 +117,10 @@
         'year': 1952
     },
     {
+        'id': '11',
         'author': 'Giovanni Boccaccio',
         'country': 'Italy',
+        'genre': 'Classic',
         'imageLink': 'images/the-decameron.jpg',
         'language': 'Italian',
         'link': 'https://en.wikipedia.org/wiki/The_Decameron\n',
@@ -109,7 +128,7 @@
         'title': 'The Decameron',
         'year': 1351
     },
-    {
+    { 'id': '12',
         'author': 'Jorge Luis Borges',
         'country': 'Argentina',
         'imageLink': 'images/ficciones.jpg',
