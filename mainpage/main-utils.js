@@ -2,14 +2,11 @@ import { setUser, getUser, findById } from '../utils.js';
 import { booksWithPic } from '../data/data.js';
 
 
-export function addToUserObject(userData){
-    const user = getUser();
-    console.log(userData);
+export function addToUserObject(user, userData){
     user.Genre = userData.get('genre');
-    user.Theme = userData.get('theme');
     user.BookLength = userData.get('length');
     user.ReadingLevel = userData.get('level');
-    user.newUser = true;
+    user.newUser = false;
     setUser(user);
     console.log(user);
 }
@@ -24,17 +21,17 @@ export function renderBookShelf(arrayResults) {
         const bookDiv = document.createElement('div');
         const bookImage = document.createElement('img');
         const shelfButton = document.createElement('button');
-        shelfButton.textContent = 'Add Book to Bookshelf';
+        shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
-            
+            user.booksread.push(bookObject);
         });
         const queueButton = document.createElement('button');
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
-
+            user.bookstoread.push(bookObject);
         });
 
-        bookImage.src = bookObject.imageLink;
+        bookImage.src = `/data/${bookObject.imageLink}`;
         const bookDescription = document.createElement('div');
         bookDescription.textContent = 
         `Title: ${bookObject.title}
@@ -53,4 +50,20 @@ export function renderBookShelf(arrayResults) {
     }
     
     return containerDiv;
+}
+
+export function renderBookshelf() {
+const user = getUser();
+const hasReadDiv = document.createElement('div');
+const queueDiv = document.createElement('div');
+
+for (let i = 0; i < user.booksread.length; i++){
+const readBookDiv = document.createElement('div');
+const readBookImg = document.createElement('img');
+readBookImg.src = `/data/${user.booksread[i].imageLink}`;
+}
+
+
+
+
 }
