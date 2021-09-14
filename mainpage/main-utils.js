@@ -73,12 +73,10 @@ export function renderBookshelf() {
     const queueDiv = document.createElement('div');
     queueDiv.classList = 'queuecontainer';
     
-
-
     hasReadDiv.textContent = 'Books you have read:';
-    hasReadDiv.style.border = '1px solid black';
+    
     queueDiv.textContent = 'Books you want to read next';
-    queueDiv.style.border = '1px solid green';
+    
     for (let i = 0; i < user.booksread.length; i++){
         const readBookDiv = document.createElement('div');
         const readBookImg = document.createElement('img');
@@ -91,7 +89,7 @@ export function renderBookshelf() {
         Genre: ${user.booksread[i].genre}
         Pages: ${user.booksread[i].pages}
         Year: ${user.booksread[i].year}`;
-        readBookDiv.style.border = '2px solid red';
+        
         readBookDiv.append(readBookImg);
         hasReadDiv.append(readBookDiv);
     }
@@ -106,7 +104,7 @@ export function renderBookshelf() {
         Genre: ${user.bookstoread[j].genre}
         Pages: ${user.bookstoread[j].pages}
         Year: ${user.bookstoread[j].year}`;
-        queueBookDiv.style.border = '2px solid blue';
+        
 
         queueBookDiv.append(queueBookImg);
         queueDiv.append(queueBookDiv);
