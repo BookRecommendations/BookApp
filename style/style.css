@@ -62,7 +62,7 @@ h4{
 }
 
 main {
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
