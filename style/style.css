@@ -21,6 +21,9 @@ body, .login {
     background-color: var(--color2);
     background-color: #013;
     color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /*opacity: .9;
     background-color: rgba(0, 0, 0, 0.568);*/
 }
@@ -33,39 +36,48 @@ h4{
     align-items: center;
 }
 
+.categories{
+    display: grid;
+    grid-template-columns: repeat (3, 33%);
+    width: 700px;
+}
+
 .bookshelf{
+    color: #013;
     background-image: url("https://images.unsplash.com/photo-1491841573634-28140fc7ced7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80");
-    height:300px; 
-    width: 200px;
+    /*height:300px; 
+    width: 200px;*/
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 
 .read{
-    background-image: url('https://images.unsplash.com/photo-1587321331708-cf94d549f405?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80');
-    height:300px; 
-    width: 200px;
+     background-image: url('https://images.unsplash.com/photo-1587321331708-cf94d549f405?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80');
+    /*height:300px; 
+    width: 200px;*/
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size: cover;
     
 }
 
 .pages{
+        color: #013;
         background-image: url('https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80');
-        height:300px; 
-        width: 200px;
+        /*height:300px; 
+        width: 200px;*/
         background-repeat:no-repeat;
-        background-size: contain;
+        background-size: cover;
         
 
 }
 
 main {
-    display: grid;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: calc(var(--footer-height));
 }
 
