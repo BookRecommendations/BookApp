@@ -7,7 +7,7 @@ const formEl = document.getElementById('userform');
 const resultsDiv = document.getElementById('resultsdiv');
 const user = getUser();
 console.log(user);
-const booksReturned = [booksWithPic[0], booksWithPic[1], booksWithPic[3]];
+const booksReturned = [booksWithPic[0], booksWithPic[1], booksWithPic[2]];
 
 
 if (user.newUser) {
