@@ -1,14 +1,13 @@
 
-export const bookData;
-export const booksWithPic;
 
-const booksWithPic = [
+
+export let booksWithPic = [
     {  
         'id': '1',
         'author': 'Chinua Achebe',
         'country': 'Nigeria',
         'genre': 'Classic',
-        'imageLink': 'images/things-fall-apart.jpg',
+        'imageLink': '/data/images/things-fall-apart.jpg',
         'language': 'English',
         'link': 'https://en.wikipedia.org/wiki/Things_Fall_Apart\n',
         'pages': 209,
@@ -20,7 +19,7 @@ const booksWithPic = [
         'author': 'Hans Christian Andersen',
         'country': 'Denmark',
         'genre': 'Classic',
-        'imageLink': 'images/fairy-tales.jpg',
+        'imageLink': '../assets/images/bookimages/fairy-tales.jpg',
         'language': 'Danish',
         'link': 'https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n',
         'pages': 784,
@@ -32,7 +31,7 @@ const booksWithPic = [
         'author': 'Dante Alighieri',
         'country': 'Italy',
         'genre': 'Classic',
-        'imageLink': 'images/the-divine-comedy.jpg',
+        'imageLink': '/data/images/the-divine-comedy.jpg',
         'language': 'Italian',
         'link': 'https://en.wikipedia.org/wiki/Divine_Comedy\n',
         'pages': 928,
@@ -43,7 +42,7 @@ const booksWithPic = [
         'author': 'Unknown',
         'country': 'Sumer and Akkadian Empire',
         'genre': 'Classic',
-        'imageLink': 'images/the-epic-of-gilgamesh.jpg',
+        'imageLink': '/data/images/the-epic-of-gilgamesh.jpg',
         'language': 'Akkadian',
         'link': 'https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n',
         'pages': 160,
@@ -1026,7 +1025,7 @@ const booksWithPic = [
 ];
 
 
-const bookData = [
+export let bookData = [
     
     {
         'bookID': 1,
@@ -2333,4 +2332,4 @@ const bookData = [
         'publisher': 'Citadel',
         '': ''
     },
-]
+];
