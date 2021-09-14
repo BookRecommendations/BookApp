@@ -1,0 +1,25 @@
+
+.readcontainer {
+border: 5px solid gray;
+margin-bottom: 5px;
+}
+
+.readbookdiv {
+border: 1px solid black;
+}
+.readbookimg {
+
+}
+
+.queuecontainer {
+    border: 5px solid brown;
+    color: brown;
+}
+.queuebookdiv {
+color: black;
+border: 1px solid black;
+}
+
+.queuebookimg {
+
+}
