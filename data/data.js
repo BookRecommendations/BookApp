@@ -1,5 +1,5 @@
 export let booksWithPic = [{
-    'id': '1',
+    'id': 1,
     'author': 'Chinua Achebe',
     'country': 'Nigeria',
     'genre': 'Classic',
@@ -11,7 +11,7 @@ export let booksWithPic = [{
     'year': 1958
 },
 {
-    'id': '2',
+    'id': 2,
     'author': 'Hans Christian Andersen',
     'country': 'Denmark',
     'genre': 'Classic',
@@ -23,7 +23,7 @@ export let booksWithPic = [{
     'year': 1836
 },
 {
-    'id': '3',
+    'id': 3,
     'author': 'Dante Alighieri',
     'country': 'Italy',
     'genre': 'Classic',
@@ -35,7 +35,7 @@ export let booksWithPic = [{
     'year': 1315
 },
 {
-    'id': '4',
+    'id': 4,
     'author': 'Unknown',
     'country': 'Sumer and Akkadian Empire',
     'genre': 'Historical Fiction',
@@ -47,7 +47,7 @@ export let booksWithPic = [{
     'year': -1700
 },
 {
-    'id': '5',
+    'id': 5,
     'author': 'Unknown',
     'country': 'Achaemenid Empire',
     'genre': 'Historical Fiction',
@@ -59,7 +59,7 @@ export let booksWithPic = [{
     'year': -600
 },
 {
-    'id': '6',
+    'id': 6,
     'author': 'Unknown',
     'country': 'India/Iran/Iraq/Egypt/Tajikistan',
     'genre': 'Historical Fiction',
@@ -71,7 +71,7 @@ export let booksWithPic = [{
     'year': 1200
 },
 {
-    'id': '7',
+    'id': 7,
     'author': 'Unknown',
     'country': 'Iceland',
     'genre': 'Historical Fiction',
@@ -83,7 +83,7 @@ export let booksWithPic = [{
     'year': 1350
 },
 {
-    'id': '8',
+    'id': 8,
     'author': 'Jane Austen',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -95,7 +95,7 @@ export let booksWithPic = [{
     'year': 1813
 },
 {
-    'id': '9',
+    'id': 9,
     'author': 'Honor\u00e9 de Balzac',
     'country': 'France',
     'genre': 'Classic',
@@ -107,7 +107,7 @@ export let booksWithPic = [{
     'year': 1835
 },
 {
-    'id': '10',
+    'id': 10,
     'author': 'Samuel Beckett',
     'country': 'Republic of Ireland',
     'genre': 'Classic',
@@ -119,7 +119,7 @@ export let booksWithPic = [{
     'year': 1952
 },
 {
-    'id': '11',
+    'id': 11,
     'author': 'Giovanni Boccaccio',
     'country': 'Italy',
     'genre': 'Historical Fiction',
@@ -131,7 +131,7 @@ export let booksWithPic = [{
     'year': 1351
 },
 {
-    'id': '12',
+    'id': 12,
     'author': 'Jorge Luis Borges',
     'country': 'Argentina',
     'genre': 'Classic',
@@ -143,7 +143,7 @@ export let booksWithPic = [{
     'year': 1965
 },
 {
-    'id': '13',
+    'id': 13,
     'author': 'Emily Bront\u00eb',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -156,7 +156,7 @@ export let booksWithPic = [{
 },
 {
 
-    'id': '14',
+    'id': 14,
     'author': 'Albert Camus',
     'country': 'Algeria, French Empire',
     'genre': 'Classic',
@@ -169,7 +169,7 @@ export let booksWithPic = [{
 },
 {
 
-    'id': '15',
+    'id': 15,
     'author': 'Paul Celan',
     'country': 'Romania, France',
     'genre': 'Classic',
@@ -181,7 +181,7 @@ export let booksWithPic = [{
     'year': 1952
 },
 {
-    'id': '16',
+    'id': 16,
     'author': 'Louis-Ferdinand C\u00e9line',
     'country': 'France',
     'genre': 'Classic',
@@ -193,7 +193,7 @@ export let booksWithPic = [{
     'year': 1932
 },
 {
-    'id': '17',
+    'id': 17,
     'author': 'Miguel de Cervantes',
     'country': 'Spain',
     'genre': 'Classic',
@@ -205,7 +205,7 @@ export let booksWithPic = [{
     'year': 1610
 },
 {
-    'id': '18',
+    'id': 18,
     'author': 'Geoffrey Chaucer',
     'country': 'England',
     'genre': 'Classic',
@@ -217,7 +217,7 @@ export let booksWithPic = [{
     'year': 1450
 },
 {
-    'id': '19',
+    'id': 19,
     'author': 'Anton Chekhov',
     'country': 'Russia',
     'genre': 'Classic',
@@ -229,7 +229,7 @@ export let booksWithPic = [{
     'year': 1886
 },
 {
-    'id': '20',
+    'id': 20,
     'author': 'Joseph Conrad',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -241,7 +241,7 @@ export let booksWithPic = [{
     'year': 1904
 },
 {
-    'id': '21',
+    'id': 21,
     'author': 'Charles Dickens',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -253,7 +253,7 @@ export let booksWithPic = [{
     'year': 1861
 },
 {
-    'id': '22',
+    'id': 22,
     'author': 'Denis Diderot',
     'country': 'France',
     'genre': 'Classic',
@@ -265,7 +265,7 @@ export let booksWithPic = [{
     'year': 1796
 },
 {
-    'id': '23',
+    'id': 23,
     'author': 'Alfred D\u00f6blin',
     'country': 'Germany',
     'genre': 'Classic',
@@ -277,7 +277,7 @@ export let booksWithPic = [{
     'year': 1929
 },
 {
-    'id': '24',
+    'id': 24,
     'author': 'Fyodor Dostoevsky',
     'country': 'Russia',
     'genre': 'Classic',
@@ -289,7 +289,7 @@ export let booksWithPic = [{
     'year': 1866
 },
 {
-    'id': '25',
+    'id': 25,
     'author': 'Fyodor Dostoevsky',
     'country': 'Russia',
     'genre': 'Classic',
@@ -301,7 +301,7 @@ export let booksWithPic = [{
     'year': 1869
 },
 {
-    'id': '26',
+    'id': 26,
     'author': 'Fyodor Dostoevsky',
     'country': 'Russia',
     'genre': 'Classic',
@@ -313,7 +313,7 @@ export let booksWithPic = [{
     'year': 1872
 },
 {
-    'id': '27',
+    'id': 27,
     'author': 'Fyodor Dostoevsky',
     'country': 'Russia',
     'genre': 'Classic',
@@ -325,7 +325,7 @@ export let booksWithPic = [{
     'year': 1880
 },
 {
-    'id': '28',
+    'id': 28,
     'author': 'George Eliot',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -337,7 +337,7 @@ export let booksWithPic = [{
     'year': 1871
 },
 {
-    'id': '29',
+    'id': 29,
     'author': 'Ralph Ellison',
     'country': 'United States',
     'genre': 'Classic',
@@ -349,7 +349,7 @@ export let booksWithPic = [{
     'year': 1952
 },
 {
-    'id': '30',
+    'id': 30,
     'author': 'Euripides',
     'country': 'Greece',
     'genre': 'Classic',
@@ -361,7 +361,7 @@ export let booksWithPic = [{
     'year': -431
 },
 {
-    'id': '31',
+    'id': 31,
     'author': 'William Faulkner',
     'country': 'United States',
     'genre': 'Classic',
@@ -373,7 +373,7 @@ export let booksWithPic = [{
     'year': 1936
 },
 {
-    'id': '32',
+    'id': 32,
     'author': 'William Faulkner',
     'country': 'United States',
     'genre': 'Classic',
@@ -385,7 +385,7 @@ export let booksWithPic = [{
     'year': 1929
 },
 {
-    'id': '33',
+    'id': 33,
     'author': 'Gustave Flaubert',
     'country': 'France',
     'genre': 'Classic',
@@ -397,7 +397,7 @@ export let booksWithPic = [{
     'year': 1857
 },
 {
-    'id': '34',
+    'id': 34,
     'author': 'Gustave Flaubert',
     'country': 'France',
     'genre': 'Classic',
@@ -409,7 +409,7 @@ export let booksWithPic = [{
     'year': 1869
 },
 {
-    'id': '35',
+    'id': 35,
     'author': 'Federico Garc\u00eda Lorca',
     'country': 'Spain',
     'genre': 'Classic',
@@ -421,7 +421,7 @@ export let booksWithPic = [{
     'year': 1928
 },
 {
-    'id': '36',
+    'id': 36,
     'author': 'Gabriel Garc\u00eda M\u00e1rquez',
     'country': 'Colombia',
     'genre': 'Classic',
@@ -434,7 +434,7 @@ export let booksWithPic = [{
 },
 {
 
-    'id': '37',
+    'id': 37,
     'author': 'Gabriel Garc\u00eda M\u00e1rquez',
     'country': 'Colombia',
     'genre': 'Classic',
@@ -446,7 +446,7 @@ export let booksWithPic = [{
     'year': 1985
 },
 {
-    'id': '38',
+    'id': 38,
     'author': 'Johann Wolfgang von Goethe',
     'country': 'Saxe-Weimar',
     'genre': 'Classic',
@@ -458,7 +458,7 @@ export let booksWithPic = [{
     'year': 1832
 },
 {
-    'id': '39',
+    'id': 39,
     'author': 'Nikolai Gogol',
     'country': 'Russia',
     'genre': 'Classic',
@@ -470,7 +470,7 @@ export let booksWithPic = [{
     'year': 1842
 },
 {
-    'id': '40',
+    'id': 40,
     'author': 'G\u00fcnter Grass',
     'country': 'Germany',
     'genre': 'Classic',
@@ -482,7 +482,7 @@ export let booksWithPic = [{
     'year': 1959
 },
 {
-    'id': '41',
+    'id': 41,
     'author': 'Jo\u00e3o Guimar\u00e3es Rosa',
     'country': 'Brazil',
     'genre': 'Classic',
@@ -494,7 +494,7 @@ export let booksWithPic = [{
     'year': 1956
 },
 {
-    'id': '42',
+    'id': 42,
     'author': 'Knut Hamsun',
     'country': 'Norway',
     'genre': 'Classic',
@@ -506,7 +506,7 @@ export let booksWithPic = [{
     'year': 1890
 },
 {
-    'id': '43',
+    'id': 43,
     'author': 'Ernest Hemingway',
     'country': 'United States',
     'genre': 'Classic',
@@ -518,7 +518,7 @@ export let booksWithPic = [{
     'year': 1952
 },
 {
-    'id': '44',
+    'id': 44,
     'author': 'Homer',
     'country': 'Greece',
     'genre': 'Classic',
@@ -530,7 +530,7 @@ export let booksWithPic = [{
     'year': -735
 },
 {
-    'id': '45',
+    'id': 45,
     'author': 'Homer',
     'country': 'Greece',
     'genre': 'Classic',
@@ -542,7 +542,7 @@ export let booksWithPic = [{
     'year': -800
 },
 {
-    'id': '46',
+    'id': 46,
     'author': 'Henrik Ibsen',
     'country': 'Norway',
     'genre': 'Classic',
@@ -554,7 +554,7 @@ export let booksWithPic = [{
     'year': 1879
 },
 {
-    'id': '47',
+    'id': 47,
     'author': 'James Joyce',
     'country': 'Irish Free State',
     'genre': 'Classic',
@@ -566,7 +566,7 @@ export let booksWithPic = [{
     'year': 1922
 },
 {
-    'id': '48',
+    'id': 48,
     'author': 'Franz Kafka',
     'country': 'Czechoslovakia',
     'genre': 'Classic',
@@ -578,7 +578,7 @@ export let booksWithPic = [{
     'year': 1924
 },
 {
-    'id': '49',
+    'id': 49,
     'author': 'Franz Kafka',
     'country': 'Czechoslovakia',
     'genre': 'Classic',
@@ -590,7 +590,7 @@ export let booksWithPic = [{
     'year': 1925
 },
 {
-    'id': '50',
+    'id': 50,
     'author': 'Franz Kafka',
     'country': 'Czechoslovakia',
     'genre': 'Classic',
@@ -602,7 +602,7 @@ export let booksWithPic = [{
     'year': 1926
 },
 {
-    'id': '51',
+    'id': 51,
     'author': 'K\u0101lid\u0101sa',
     'country': 'India',
     'genre': 'Classic',
@@ -614,7 +614,7 @@ export let booksWithPic = [{
     'year': 150
 },
 {
-    'id': '52',
+    'id': 52,
     'author': 'Yasunari Kawabata',
     'country': 'Japan',
     'genre': 'Classic',
@@ -626,7 +626,7 @@ export let booksWithPic = [{
     'year': 1954
 },
 {
-    'id': '53',
+    'id': 53,
     'author': 'Nikos Kazantzakis',
     'country': 'Greece',
     'genre': 'Classic',
@@ -638,7 +638,7 @@ export let booksWithPic = [{
     'year': 1946
 },
 {
-    'id': '54',
+    'id': 54,
     'author': 'D. H. Lawrence',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -650,7 +650,7 @@ export let booksWithPic = [{
     'year': 1913
 },
 {
-    'id': '55',
+    'id': 55,
     'author': 'Halld\u00f3r Laxness',
     'country': 'Iceland',
     'genre': 'Classic',
@@ -662,7 +662,7 @@ export let booksWithPic = [{
     'year': 1934
 },
 {
-    'id': '56',
+    'id': 56,
     'author': 'Giacomo Leopardi',
     'country': 'Italy',
     'genre': 'Classic',
@@ -674,7 +674,7 @@ export let booksWithPic = [{
     'year': 1818
 },
 {
-    'id': '57',
+    'id': 57,
     'author': 'Doris Lessing',
     'country': 'United Kingdom',
     'imageLink': 'images/the-golden-notebook.jpg',
@@ -685,7 +685,7 @@ export let booksWithPic = [{
     'year': 1962
 },
 {
-    'id': '58',
+    'id': 58,
     'author': 'Astrid Lindgren',
     'country': 'Sweden',
     'genre': 'Classic',
@@ -697,7 +697,7 @@ export let booksWithPic = [{
     'year': 1945
 },
 {
-    'id': '59',
+    'id': 59,
     'author': 'Lu Xun',
     'country': 'China',
     'genre': 'Classic',
@@ -709,7 +709,7 @@ export let booksWithPic = [{
     'year': 1918
 },
 {
-    'id': '60',
+    'id': 60,
     'author': 'Naguib Mahfouz',
     'country': 'Egypt',
     'genre': 'Classic',
@@ -721,7 +721,7 @@ export let booksWithPic = [{
     'year': 1959
 },
 {
-    'id': '61',
+    'id': 61,
     'author': 'Thomas Mann',
     'country': 'Germany',
     'genre': 'Classic',
@@ -733,7 +733,7 @@ export let booksWithPic = [{
     'year': 1901
 },
 {
-    'id': '62',
+    'id': 62,
     'author': 'Thomas Mann',
     'country': 'Germany',
     'genre': 'Classic',
@@ -745,7 +745,7 @@ export let booksWithPic = [{
     'year': 1924
 },
 {
-    'id': '63',
+    'id': 63,
     'author': 'Herman Melville',
     'country': 'United States',
     'genre': 'Classic',
@@ -757,7 +757,7 @@ export let booksWithPic = [{
     'year': 1851
 },
 {
-    'id': '64',
+    'id': 64,
     'author': 'Michel de Montaigne',
     'country': 'France',
     'genre': 'Classic',
@@ -769,7 +769,7 @@ export let booksWithPic = [{
     'year': 1595
 },
 {
-    'id': '65',
+    'id': 65,
     'author': 'Elsa Morante',
     'country': 'Italy',
     'genre': 'Classic',
@@ -781,7 +781,7 @@ export let booksWithPic = [{
     'year': 1974
 },
 {
-    'id': '66',
+    'id': 66,
     'author': 'Toni Morrison',
     'country': 'United States',
     'genre': 'Classic',
@@ -793,7 +793,7 @@ export let booksWithPic = [{
     'year': 1987
 },
 {
-    'id': '67',
+    'id': 67,
     'author': 'Murasaki Shikibu',
     'country': 'Japan',
     'genre': 'Classic',
@@ -805,7 +805,7 @@ export let booksWithPic = [{
     'year': 1006
 },
 {
-    'id': '68',
+    'id': 68,
     'author': 'Robert Musil',
     'country': 'Austria',
     'genre': 'Classic',
@@ -817,7 +817,7 @@ export let booksWithPic = [{
     'year': 1931
 },
 {
-    'id': '69',
+    'id': 69,
     'author': 'Vladimir Nabokov',
     'country': 'Russia/United States',
     'genre': 'Classic',
@@ -829,7 +829,7 @@ export let booksWithPic = [{
     'year': 1955
 },
 {
-    'id': '70',
+    'id': 70,
     'author': 'George Orwell',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -841,7 +841,7 @@ export let booksWithPic = [{
     'year': 1949
 },
 {
-    'id': '71',
+    'id': 71,
     'author': 'Ovid',
     'country': 'Roman Empire',
     'genre': 'Classic',
@@ -853,7 +853,7 @@ export let booksWithPic = [{
     'year': 100
 },
 {
-    'id': '72',
+    'id': 72,
     'author': 'Fernando Pessoa',
     'country': 'Portugal',
     'genre': 'Classic',
@@ -865,7 +865,7 @@ export let booksWithPic = [{
     'year': 1928
 },
 {
-    'id': '73',
+    'id': 73,
     'author': 'Edgar Allan Poe',
     'country': 'United States',
     'genre': 'Classic',
@@ -877,7 +877,7 @@ export let booksWithPic = [{
     'year': 1950
 },
 {
-    'id': '74',
+    'id': 74,
     'author': 'Marcel Proust',
     'country': 'France',
     'genre': 'Classic',
@@ -889,7 +889,7 @@ export let booksWithPic = [{
     'year': 1920
 },
 {
-    'id': '75',
+    'id': 75,
     'author': 'Fran\u00e7ois Rabelais',
     'country': 'France',
     'genre': 'Classic',
@@ -901,7 +901,7 @@ export let booksWithPic = [{
     'year': 1533
 },
 {
-    'id': '76',
+    'id': 76,
     'author': 'Juan Rulfo',
     'country': 'Mexico',
     'genre': 'Classic',
@@ -913,7 +913,7 @@ export let booksWithPic = [{
     'year': 1955
 },
 {
-    'id': '77',
+    'id': 77,
     'author': 'Rumi',
     'country': 'Sultanate of Rum',
     'genre': 'Classic',
@@ -925,7 +925,7 @@ export let booksWithPic = [{
     'year': 1236
 },
 {
-    'id': '78',
+    'id': 78,
     'author': 'Salman Rushdie',
     'country': 'United Kingdom, India',
     'genre': 'Classic',
@@ -937,7 +937,7 @@ export let booksWithPic = [{
     'year': 1981
 },
 {
-    'id': '79',
+    'id': 79,
     'author': 'Saadi',
     'country': 'Persia, Persian Empire',
     'genre': 'Classic',
@@ -949,7 +949,7 @@ export let booksWithPic = [{
     'year': 1257
 },
 {
-    'id': '80',
+    'id': 80,
     'author': 'Tayeb Salih',
     'country': 'Sudan',
     'genre': 'Classic',
@@ -961,7 +961,7 @@ export let booksWithPic = [{
     'year': 1966
 },
 {
-    'id': '81',
+    'id': 81,
     'author': 'Jos\u00e9 Saramago',
     'country': 'Portugal',
     'genre': 'Classic',
@@ -973,7 +973,7 @@ export let booksWithPic = [{
     'year': 1995
 },
 {
-    'id': '82',
+    'id': 82,
     'author': 'William Shakespeare',
     'country': 'England',
     'genre': 'Classic',
@@ -985,7 +985,7 @@ export let booksWithPic = [{
     'year': 1603
 },
 {
-    'id': '83',
+    'id': 83,
     'author': 'William Shakespeare',
     'country': 'England',
     'genre': 'Classic',
@@ -997,7 +997,7 @@ export let booksWithPic = [{
     'year': 1608
 },
 {
-    'id': '84',
+    'id': 84,
     'author': 'William Shakespeare',
     'country': 'England',
     'genre': 'Classic',
@@ -1009,7 +1009,7 @@ export let booksWithPic = [{
     'year': 1609
 },
 {
-    'id': '85',
+    'id': 85,
     'author': 'Sophocles',
     'country': 'Greece',
     'genre': 'Classic',
@@ -1021,7 +1021,7 @@ export let booksWithPic = [{
     'year': -430
 },
 {
-    'id': '86',
+    'id': 86,
     'author': 'Stendhal',
     'country': 'France',
     'genre': 'Classic',
@@ -1033,7 +1033,7 @@ export let booksWithPic = [{
     'year': 1830
 },
 {
-    'id': '87',
+    'id': 87,
     'author': 'Laurence Sterne',
     'country': 'England',
     'genre': 'Classic',
@@ -1045,7 +1045,7 @@ export let booksWithPic = [{
     'year': 1760
 },
 {
-    'id': '88',
+    'id': 88,
     'author': 'Italo Svevo',
     'country': 'Italy',
     'genre': 'Classic',
@@ -1057,7 +1057,7 @@ export let booksWithPic = [{
     'year': 1923
 },
 {
-    'id': '89',
+    'id': 89,
     'author': 'Jonathan Swift',
     'country': 'Ireland',
     'genre': 'Classic',
@@ -1069,7 +1069,7 @@ export let booksWithPic = [{
     'year': 1726
 },
 {
-    'id': '90',
+    'id': 90,
     'author': 'Leo Tolstoy',
     'country': 'Russia',
     'genre': 'Classic',
@@ -1081,7 +1081,7 @@ export let booksWithPic = [{
     'year': 1867
 },
 {
-    'id': '91',
+    'id': 91,
     'author': 'Leo Tolstoy',
     'country': 'Russia',
     'genre': 'Classic',
@@ -1093,7 +1093,7 @@ export let booksWithPic = [{
     'year': 1877
 },
 {
-    'id': '92',
+    'id': 92,
     'author': 'Leo Tolstoy',
     'country': 'Russia',
     'genre': 'Classic',
@@ -1105,7 +1105,7 @@ export let booksWithPic = [{
     'year': 1886
 },
 {
-    'id': '93',
+    'id': 93,
     'author': 'Mark Twain',
     'country': 'United States',
     'genre': 'Classic',
@@ -1117,7 +1117,7 @@ export let booksWithPic = [{
     'year': 1884
 },
 {
-    'id': '94',
+    'id': 94,
     'author': 'Valmiki',
     'country': 'India',
     'genre': 'Classic',
@@ -1129,7 +1129,7 @@ export let booksWithPic = [{
     'year': -450
 },
 {
-    'id': '95',
+    'id': 95,
     'author': 'Virgil',
     'country': 'Roman Empire',
     'genre': 'Classic',
@@ -1141,7 +1141,7 @@ export let booksWithPic = [{
     'year': -23
 },
 {
-    'id': '96',
+    'id': 96,
     'author': 'Vyasa',
     'country': 'India',
     'genre': 'Classic',
@@ -1153,7 +1153,7 @@ export let booksWithPic = [{
     'year': -700
 },
 {
-    'id': '97',
+    'id': 97,
     'author': 'Walt Whitman',
     'country': 'United States',
     'genre': 'Classic',
@@ -1165,7 +1165,7 @@ export let booksWithPic = [{
     'year': 1855
 },
 {
-    'id': '98',
+    'id': 98,
     'author': 'Virginia Woolf',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -1177,7 +1177,7 @@ export let booksWithPic = [{
     'year': 1925
 },
 {
-    'id': '99',
+    'id': 99,
     'author': 'Virginia Woolf',
     'country': 'United Kingdom',
     'genre': 'Classic',
@@ -1189,7 +1189,7 @@ export let booksWithPic = [{
     'year': 1927
 },
 {
-    'id': '100',
+    'id': 100,
     'author': 'Marguerite Yourcenar',
     'country': 'France/Belgium',
     'genre': 'Classic',
@@ -1208,6 +1208,7 @@ export let bookData = [
 
     {
         'id': 111,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Half-Blood Prince (Harry Potter  #6)',
         'authors': 'J.K. Rowling/Mary GrandPré',
@@ -1215,15 +1216,16 @@ export let bookData = [
         'isbn': 439785960,
         'isbn13': 9780439785969,
         'language_code': 'eng',
-        'num_pages': 652,
+        'pages': 652,
         'ratings_count': 2095690,
         'text_reviews_count': 27591,
-        'publication_date': '9/16/2006',
+        'year': 2006,
         'publisher': 'Scholastic Inc.',
         '': ''
     },
     {
         'id': 112,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Order of the Phoenix (Harry Potter  #5)',
         'authors': 'J.K. Rowling/Mary GrandPré',
@@ -1231,15 +1233,16 @@ export let bookData = [
         'isbn': 439358078,
         'isbn13': 9780439358071,
         'language_code': 'eng',
-        'num_pages': 870,
+        'pages': 870,
         'ratings_count': 2153167,
         'text_reviews_count': 29221,
-        'publication_date': '9/1/2004',
+        'year': 2004,
         'publisher': 'Scholastic Inc.',
         '': ''
     },
     {
         'id': 114,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Chamber of Secrets (Harry Potter  #2)',
         'authors': 'J.K. Rowling',
@@ -1247,15 +1250,16 @@ export let bookData = [
         'isbn': 439554896,
         'isbn13': 9780439554893,
         'language_code': 'eng',
-        'num_pages': 352,
+        'pages': 352,
         'ratings_count': 6333,
         'text_reviews_count': 244,
-        'publication_date': '11/1/2003',
+        'year': 2003,
         'publisher': 'Scholastic',
         '': ''
     },
     {
         'id': 115,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Prisoner of Azkaban (Harry Potter  #3)',
         'authors': 'J.K. Rowling/Mary GrandPré',
@@ -1263,15 +1267,16 @@ export let bookData = [
         'isbn': '043965548X',
         'isbn13': 9780439655484,
         'language_code': 'eng',
-        'num_pages': 435,
+        'pages': 435,
         'ratings_count': 2339585,
         'text_reviews_count': 36325,
-        'publication_date': '5/1/2004',
+        'year': 2004,
         'publisher': 'Scholastic Inc.',
         '': ''
     },
     {
         'id': 118,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5)',
         'authors': 'J.K. Rowling/Mary GrandPré',
@@ -1279,31 +1284,17 @@ export let bookData = [
         'isbn': 439682584,
         'isbn13': 9780439682589,
         'language_code': 'eng',
-        'num_pages': 2690,
+        'pages': 2690,
         'ratings_count': 41428,
         'text_reviews_count': 164,
-        'publication_date': '9/13/2004',
+        'year': 2004,
         'publisher': 'Scholastic',
         '': ''
     },
-    {
-        'id': 119,
-        'imageLink': 'images/ramayana.jpg',
-        'title': 'Unauthorized Harry Potter Book Seven News: "Half-Blood Prince" Analysis and Speculation',
-        'authors': 'W. Frederick Zimmerman',
-        'average_rating': 3.74,
-        'isbn': 976540606,
-        'isbn13': 9780976540601,
-        'language_code': 'en-US',
-        'num_pages': 152,
-        'ratings_count': 19,
-        'text_reviews_count': 1,
-        'publication_date': '4/26/2005',
-        'publisher': 'Nimble Books',
-        '': ''
-    },
+  
     {
         'id': 110,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter Collection (Harry Potter  #1-6)',
         'authors': 'J.K. Rowling',
@@ -1311,15 +1302,16 @@ export let bookData = [
         'isbn': 439827604,
         'isbn13': 9780439827607,
         'language_code': 'eng',
-        'num_pages': 3342,
+        'pages': 3342,
         'ratings_count': 28242,
         'text_reviews_count': 808,
-        'publication_date': '9/12/2005',
+        'year': 2005,
         'publisher': 'Scholastic',
         '': ''
     },
     {
         'id': 102,
+        'genre': 'Science Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': "The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy  #1-5)",
         'authors': 'Douglas Adams',
@@ -1327,79 +1319,18 @@ export let bookData = [
         'isbn': 517226952,
         'isbn13': 9780517226957,
         'language_code': 'eng',
-        'num_pages': 815,
+        'pages': 815,
         'ratings_count': 3628,
         'text_reviews_count': 254,
-        'publication_date': '11/1/2005',
+        'year': 2005,
         'publisher': 'Gramercy Books',
         '': ''
     },
-    {
-        'id': 103,
-        'imageLink': 'images/ramayana.jpg',
-        'title': "The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5)",
-        'authors': 'Douglas Adams',
-        'average_rating': 4.38,
-        'isbn': 345453743,
-        'isbn13': 9780345453747,
-        'language_code': 'eng',
-        'num_pages': 815,
-        'ratings_count': 249558,
-        'text_reviews_count': 4080,
-        'publication_date': '4/30/2002',
-        'publisher': 'Del Rey Books',
-        '': ''
-    },
-    {
-        'id': 104,
-        'imageLink': 'images/ramayana.jpg',
-        'title': "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1)",
-        'authors': 'Douglas Adams',
-        'average_rating': 4.22,
-        'isbn': 1400052920,
-        'isbn13': 9781400052929,
-        'language_code': 'eng',
-        'num_pages': 215,
-        'ratings_count': 4930,
-        'text_reviews_count': 460,
-        'publication_date': '8/3/2004',
-        'publisher': 'Crown',
-        '': ''
-    },
-    {
-        'id': 106,
-        'imageLink': 'images/ramayana.jpg',
-        'title': "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1)",
-        'authors': 'Douglas Adams/Stephen Fry',
-        'average_rating': 4.22,
-        'isbn': 739322206,
-        'isbn13': 9780739322208,
-        'language_code': 'eng',
-        'num_pages': 6,
-        'ratings_count': 1266,
-        'text_reviews_count': 253,
-        'publication_date': '3/23/2005',
-        'publisher': 'Random House Audio',
-        '': ''
-    },
-    {
-        'id': 108,
-        'imageLink': 'images/ramayana.jpg',
-        'title': "The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy  #1-5)",
-        'authors': 'Douglas Adams',
-        'average_rating': 4.38,
-        'isbn': 517149257,
-        'isbn13': 9780517149256,
-        'language_code': 'eng',
-        'num_pages': 815,
-        'ratings_count': 2877,
-        'text_reviews_count': 195,
-        'publication_date': '1/17/1996',
-        'publisher': 'Wings Books',
-        '': ''
-    },
+    
+
     {
         'id': 121,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'A Short History of Nearly Everything',
         'authors': 'Bill Bryson',
@@ -1407,15 +1338,16 @@ export let bookData = [
         'isbn': '076790818X',
         'isbn13': 9780767908184,
         'language_code': 'eng',
-        'num_pages': 544,
+        'pages': 544,
         'ratings_count': 248558,
         'text_reviews_count': 9396,
-        'publication_date': '9/14/2004',
+        'year': 2004,
         'publisher': 'Broadway Books',
         '': ''
     },
     {
-        'id': 122,
+        'id' : 122,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': "Bill Bryson's African Diary",
         'authors': 'Bill Bryson',
@@ -1423,15 +1355,16 @@ export let bookData = [
         'isbn': 767915062,
         'isbn13': 9780767915069,
         'language_code': 'eng',
-        'num_pages': 55,
+        'pages': 55,
         'ratings_count': 7270,
         'text_reviews_count': 499,
-        'publication_date': '12/3/2002',
+        'year': 2002,
         'publisher': 'Broadway Books',
         '': ''
     },
     {
         'id': 123,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': "Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right",
         'authors': 'Bill Bryson',
@@ -1439,15 +1372,16 @@ export let bookData = [
         'isbn': 767910435,
         'isbn13': 9780767910439,
         'language_code': 'eng',
-        'num_pages': 256,
+        'pages': 256,
         'ratings_count': 2088,
         'text_reviews_count': 131,
-        'publication_date': '9/14/2004',
+        'year': 2004,
         'publisher': 'Broadway Books',
         '': ''
     },
     {
         'id': 124,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'In a Sunburned Country',
         'authors': 'Bill Bryson',
@@ -1455,15 +1389,16 @@ export let bookData = [
         'isbn': 767903862,
         'isbn13': 9780767903868,
         'language_code': 'eng',
-        'num_pages': 335,
+        'pages': 335,
         'ratings_count': 72451,
         'text_reviews_count': 4245,
-        'publication_date': '5/15/2001',
+        'year': 2001,
         'publisher': 'Broadway Books',
         '': ''
     },
     {
         'id': 125,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': "I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away",
         'authors': 'Bill Bryson',
@@ -1471,15 +1406,16 @@ export let bookData = [
         'isbn': '076790382X',
         'isbn13': 9780767903820,
         'language_code': 'eng',
-        'num_pages': 304,
+        'pages': 304,
         'ratings_count': 49240,
         'text_reviews_count': 2211,
-        'publication_date': '6/28/2000',
+        'year': 2000,
         'publisher': 'Broadway Books',
         '': ''
     },
     {
         'id': 126,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lost Continent: Travels in Small Town America',
         'authors': 'Bill Bryson',
@@ -1487,15 +1423,16 @@ export let bookData = [
         'isbn': 60920084,
         'isbn13': 9780060920081,
         'language_code': 'eng',
-        'num_pages': 299,
+        'pages': 299,
         'ratings_count': 45712,
         'text_reviews_count': 2257,
-        'publication_date': '8/28/1990',
+        'year': 1990,
         'publisher': 'William Morrow Paperbacks',
         '': ''
     },
     {
         'id': 127,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Neither Here nor There: Travels in Europe',
         'authors': 'Bill Bryson',
@@ -1503,15 +1440,16 @@ export let bookData = [
         'isbn': 380713802,
         'isbn13': 9780380713806,
         'language_code': 'eng',
-        'num_pages': 254,
+        'pages': 254,
         'ratings_count': 48701,
         'text_reviews_count': 2238,
-        'publication_date': '3/28/1993',
+        'year': 1993,
         'publisher': 'William Morrow Paperbacks',
         '': ''
     },
     {
         'id': 128,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Notes from a Small Island',
         'authors': 'Bill Bryson',
@@ -1519,15 +1457,16 @@ export let bookData = [
         'isbn': 380727501,
         'isbn13': 9780380727506,
         'language_code': 'eng',
-        'num_pages': 324,
+        'pages': 324,
         'ratings_count': 80609,
         'text_reviews_count': 3301,
-        'publication_date': '5/28/1997',
+        'year': 1997,
         'publisher': 'William Morrow Paperbacks',
         '': ''
     },
     {
         'id': 129,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Mother Tongue: English and How It Got That Way',
         'authors': 'Bill Bryson',
@@ -1535,15 +1474,16 @@ export let bookData = [
         'isbn': 380715430,
         'isbn13': 9780380715435,
         'language_code': 'eng',
-        'num_pages': 270,
+        'pages': 270,
         'ratings_count': 28489,
         'text_reviews_count': 2085,
-        'publication_date': '9/28/1991',
+        'year': 1991,
         'publisher': 'William Morrow Paperbacks',
         '': ''
     },
     {
         'id': 130,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings',
         'authors': 'J.R.R. Tolkien',
@@ -1551,15 +1491,16 @@ export let bookData = [
         'isbn': 345538374,
         'isbn13': 9780345538376,
         'language_code': 'eng',
-        'num_pages': 1728,
+        'pages': 1728,
         'ratings_count': 101233,
         'text_reviews_count': 1550,
-        'publication_date': '9/25/2012',
+        'year': 2012,
         'publisher': 'Ballantine Books',
         '': ''
     },
     {
         'id': 131,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings (The Lord of the Rings  #1-3)',
         'authors': 'J.R.R. Tolkien',
@@ -1567,15 +1508,16 @@ export let bookData = [
         'isbn': 618517650,
         'isbn13': 9780618517657,
         'language_code': 'eng',
-        'num_pages': 1184,
+        'pages': 1184,
         'ratings_count': 1710,
         'text_reviews_count': 91,
-        'publication_date': '10/21/2004',
+        'year': 2004,
         'publisher': 'Houghton Mifflin Harcourt',
         '': ''
     },
     {
         'id': 134,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Fellowship of the Ring (The Lord of the Rings  #1)',
         'authors': 'J.R.R. Tolkien',
@@ -1583,15 +1525,16 @@ export let bookData = [
         'isbn': 618346252,
         'isbn13': 9780618346257,
         'language_code': 'eng',
-        'num_pages': 398,
+        'pages': 398,
         'ratings_count': 2128944,
         'text_reviews_count': 13670,
-        'publication_date': '9/5/2003',
+        'year': 2003,
         'publisher': 'Houghton Mifflin Harcourt',
         '': ''
     },
     {
         'id': 135,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings (The Lord of the Rings  #1-3)',
         'authors': 'J.R.R. Tolkien/Alan  Lee',
@@ -1599,15 +1542,16 @@ export let bookData = [
         'isbn': 618260587,
         'isbn13': 9780618260584,
         'language_code': 'en-US',
-        'num_pages': 1216,
+        'pages': 1216,
         'ratings_count': 1618,
         'text_reviews_count': 140,
-        'publication_date': '10/1/2002',
+        'year': 2002,
         'publisher': 'Houghton Mifflin Harcourt',
         '': ''
     },
     {
         'id': 136,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: Weapons and Warfare',
         'authors': 'Chris   Smith/Christopher  Lee/Richard Taylor',
@@ -1615,15 +1559,16 @@ export let bookData = [
         'isbn': 618391002,
         'isbn13': 9780618391004,
         'language_code': 'eng',
-        'num_pages': 218,
+        'pages': 218,
         'ratings_count': 19822,
         'text_reviews_count': 46,
-        'publication_date': '11/5/2003',
+        'year': 2003,
         'publisher': 'Houghton Mifflin Harcourt',
         '': ''
     },
     {
         'id': 137,
+        'genre': 'Fantasy',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: Complete Visual Companion',
         'authors': 'Jude Fisher',
@@ -1631,31 +1576,17 @@ export let bookData = [
         'isbn': 618510826,
         'isbn13': 9780618510825,
         'language_code': 'eng',
-        'num_pages': 224,
+        'pages': 224,
         'ratings_count': 359,
         'text_reviews_count': 6,
-        'publication_date': '11/15/2004',
+        'year': 2004,
         'publisher': 'Houghton Mifflin Harcourt',
         '': ''
     },
-    {
-        'id': 145,
-        'imageLink': 'images/ramayana.jpg',
-        'title': 'Agile Web Development with Rails: A Pragmatic Guide',
-        'authors': 'Dave Thomas/David Heinemeier Hansson/Leon Breedt/Mike Clark/Thomas  Fuchs/Andreas  Schwarz',
-        'average_rating': 3.84,
-        'isbn': '097669400X',
-        'isbn13': 9780976694007,
-        'language_code': 'eng',
-        'num_pages': 558,
-        'ratings_count': 1430,
-        'text_reviews_count': 59,
-        'publication_date': '7/28/2005',
-        'publisher': 'Pragmatic Bookshelf',
-        '': ''
-    },
+    
     {
         'id': 150,
+        'genre': 'Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': "Hatchet (Brian's Saga  #1)",
         'authors': 'Gary Paulsen',
@@ -1663,15 +1594,16 @@ export let bookData = [
         'isbn': 689840926,
         'isbn13': 9780689840920,
         'language_code': 'eng',
-        'num_pages': 208,
+        'pages': 208,
         'ratings_count': 270244,
         'text_reviews_count': 12017,
-        'publication_date': '4/1/2000',
+        'year': 2000,
         'publisher': 'Atheneum Books for Young Readers: Richard Jackson Books',
         '': ''
     },
     {
         'id': 151,
+        'genre': 'Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Hatchet: A Guide for Using "Hatchet" in the Classroom',
         'authors': 'Donna Ickes/Edward Sciranko/Keith Vasconcelles',
@@ -1679,15 +1611,16 @@ export let bookData = [
         'isbn': 1557344493,
         'isbn13': 9781557344496,
         'language_code': 'eng',
-        'num_pages': 48,
+        'pages': 48,
         'ratings_count': 36,
         'text_reviews_count': 2,
-        'publication_date': '8/28/1994',
+        'year': 1994,
         'publisher': 'Teacher Created Resources',
         '': ''
     },
     {
         'id': 153,
+        'genre': 'Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Guts: The True Stories behind Hatchet and the Brian Books',
         'authors': 'Gary Paulsen',
@@ -1695,15 +1628,16 @@ export let bookData = [
         'isbn': 385326505,
         'isbn13': 9780385326506,
         'language_code': 'eng',
-        'num_pages': 144,
+        'pages': 144,
         'ratings_count': 2067,
         'text_reviews_count': 334,
-        'publication_date': '1/23/2001',
+        'year': 2001,
         'publisher': 'Delacorte Press',
         '': ''
     },
     {
         'id': 154,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Molly Hatchet - 5 of the Best',
         'authors': 'Molly Hatchet',
@@ -1711,15 +1645,16 @@ export let bookData = [
         'isbn': 1575606240,
         'isbn13': 9781575606248,
         'language_code': 'eng',
-        'num_pages': 56,
+        'pages': 56,
         'ratings_count': 6,
         'text_reviews_count': 0,
-        'publication_date': '6/10/2003',
+        'year': 2003,
         'publisher': 'Cherry Lane Music Company',
         '': ''
     },
     {
         'id': 155,
+        'genre': 'Non-Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Hatchet Jobs: Writings on Contemporary Fiction',
         'authors': 'Dale Peck',
@@ -1727,15 +1662,16 @@ export let bookData = [
         'isbn': 1595580271,
         'isbn13': 9781595580276,
         'language_code': 'en-US',
-        'num_pages': 228,
+        'pages': 228,
         'ratings_count': 99,
         'text_reviews_count': 16,
-        'publication_date': '11/1/2005',
+        'year': 2005,
         'publisher': 'The New Press',
         '': ''
     },
     {
         'id': 157,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'A Changeling for All Seasons (Changeling Seasons #1)',
         'authors': 'Angela Knight/Sahara Kelly/Judy Mays/Marteeka Karland/Kate Douglas/Shelby Morgen/Lacey Savage/Kate Hill/Willa Okati',
@@ -1743,15 +1679,16 @@ export let bookData = [
         'isbn': 1595962808,
         'isbn13': 9781595962805,
         'language_code': 'eng',
-        'num_pages': 304,
+        'pages': 304,
         'ratings_count': 167,
         'text_reviews_count': 4,
-        'publication_date': '11/1/2005',
+        'year': 2005,
         'publisher': 'Changeling Press',
         '': ''
     },
     {
         'id': 158,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Changeling (Changeling  #1)',
         'authors': 'Delia Sherman',
@@ -1759,15 +1696,16 @@ export let bookData = [
         'isbn': 670059676,
         'isbn13': 9780670059676,
         'language_code': 'eng',
-        'num_pages': 256,
+        'pages': 256,
         'ratings_count': 978,
         'text_reviews_count': 111,
-        'publication_date': '8/17/2006',
+        'year': 2006,
         'publisher': 'Viking Juvenile',
         '': ''
     },
     {
         'id': 159,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling Sea',
         'authors': 'Patricia A. McKillip',
@@ -1775,15 +1713,16 @@ export let bookData = [
         'isbn': 141312629,
         'isbn13': 9780141312620,
         'language_code': 'eng',
-        'num_pages': 137,
+        'pages': 137,
         'ratings_count': 4454,
         'text_reviews_count': 302,
-        'publication_date': '4/14/2003',
+        'year': 2003,
         'publisher': 'Firebird',
         '': ''
     },
     {
         'id': 161,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling',
         'authors': 'Zilpha Keatley Snyder',
@@ -1791,15 +1730,16 @@ export let bookData = [
         'isbn': 595321801,
         'isbn13': 9780595321803,
         'language_code': 'eng',
-        'num_pages': 228,
+        'pages': 228,
         'ratings_count': 1176,
         'text_reviews_count': 96,
-        'publication_date': '6/8/2004',
+        'year': 2004,
         'publisher': 'iUniverse',
         '': ''
     },
     {
         'id': 163,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling',
         'authors': 'Kate Horsley',
@@ -1807,15 +1747,16 @@ export let bookData = [
         'isbn': 1590301943,
         'isbn13': 9781590301944,
         'language_code': 'eng',
-        'num_pages': 339,
+        'pages': 339,
         'ratings_count': 301,
         'text_reviews_count': 43,
-        'publication_date': '4/12/2005',
+        'year': 2005,
         'publisher': 'Shambhala',
         '': ''
     },
     {
         'id': 166,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling (Daughters of England  #15)',
         'authors': 'Philippa Carr',
@@ -1823,15 +1764,16 @@ export let bookData = [
         'isbn': 449146979,
         'isbn13': 9780449146972,
         'language_code': 'eng',
-        'num_pages': 369,
+        'pages': 369,
         'ratings_count': 345,
         'text_reviews_count': 12,
-        'publication_date': '8/28/1990',
+        'year': 1990,
         'publisher': 'Ivy Books',
         '': ''
     },
     {
         'id': 167,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Known World',
         'authors': 'Edward P. Jones',
@@ -1839,31 +1781,17 @@ export let bookData = [
         'isbn': 61159174,
         'isbn13': 9780061159176,
         'language_code': 'eng',
-        'num_pages': 388,
+        'pages': 388,
         'ratings_count': 29686,
         'text_reviews_count': 2626,
-        'publication_date': '8/29/2006',
+        'year': 2006,
         'publisher': 'Amistad',
         '': ''
     },
-    {
-        'id': 168,
-        'imageLink': 'images/ramayana.jpg',
-        'title': 'The Known World',
-        'authors': 'Edward P. Jones/Kevin R. Free',
-        'average_rating': 3.83,
-        'isbn': '006076273X',
-        'isbn13': 9780060762735,
-        'language_code': 'en-US',
-        'num_pages': 14,
-        'ratings_count': 55,
-        'text_reviews_count': 12,
-        'publication_date': '6/15/2004',
-        'publisher': 'HarperAudio',
-        '': ''
-    },
+    
     {
         'id': 169,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Known World',
         'authors': 'Edward P. Jones',
@@ -1871,15 +1799,16 @@ export let bookData = [
         'isbn': 60749911,
         'isbn13': 9780060749910,
         'language_code': 'eng',
-        'num_pages': 576,
+        'pages': 576,
         'ratings_count': 22,
         'text_reviews_count': 3,
-        'publication_date': '6/15/2004',
+        'year': 2004,
         'publisher': 'Harper',
         '': ''
     },
     {
         'id': 171,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Traders  Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives',
         'authors': 'Satyajit Das',
@@ -1887,15 +1816,16 @@ export let bookData = [
         'isbn': 273704745,
         'isbn13': 9780273704744,
         'language_code': 'eng',
-        'num_pages': 334,
+        'pages': 334,
         'ratings_count': 1456,
         'text_reviews_count': 82,
-        'publication_date': '5/15/2006',
+        'year': 2006,
         'publisher': 'FT Press',
         '': ''
     },
     {
         'id': 172,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Artesia: Adventures in the Known World',
         'authors': 'Mark Smylie',
@@ -1903,15 +1833,16 @@ export let bookData = [
         'isbn': 1932386106,
         'isbn13': 9781932386103,
         'language_code': 'eng',
-        'num_pages': 352,
+        'pages': 352,
         'ratings_count': 52,
         'text_reviews_count': 4,
-        'publication_date': '12/14/2005',
+        'year': 2005,
         'publisher': 'Archaia',
         '': ''
     },
     {
         'id': 174,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The John McPhee Reader (John McPhee Reader  #1)',
         'authors': 'John McPhee/William Howarth',
@@ -1919,15 +1850,16 @@ export let bookData = [
         'isbn': 374517193,
         'isbn13': 9780374517199,
         'language_code': 'eng',
-        'num_pages': 416,
+        'pages': 416,
         'ratings_count': 562,
         'text_reviews_count': 37,
-        'publication_date': '6/1/1982',
+        'year': 982,
         'publisher': 'Farrar  Straus and Giroux',
         '': ''
     },
     {
         'id': 175,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Uncommon Carriers',
         'authors': 'John McPhee',
@@ -1935,15 +1867,16 @@ export let bookData = [
         'isbn': 374280398,
         'isbn13': 9780374280390,
         'language_code': 'en-US',
-        'num_pages': 248,
+        'pages': 248,
         'ratings_count': 1630,
         'text_reviews_count': 203,
-        'publication_date': '5/16/2006',
+        'year': 2006,
         'publisher': 'Farrar Straus Giroux',
         '': ''
     },
     {
         'id': 176,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Heirs of General Practice',
         'authors': 'John McPhee',
@@ -1951,15 +1884,16 @@ export let bookData = [
         'isbn': 374519749,
         'isbn13': 9780374519742,
         'language_code': 'eng',
-        'num_pages': 128,
+        'pages': 128,
         'ratings_count': 268,
         'text_reviews_count': 22,
-        'publication_date': '4/1/1986',
+        'year': 1986,
         'publisher': 'Farrar  Straus and Giroux',
         '': ''
     },
     {
         'id': 177,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Control of Nature',
         'authors': 'John McPhee',
@@ -1967,15 +1901,16 @@ export let bookData = [
         'isbn': 374522596,
         'isbn13': 9780374522599,
         'language_code': 'en-US',
-        'num_pages': 288,
+        'pages': 288,
         'ratings_count': 3498,
         'text_reviews_count': 305,
-        'publication_date': '9/1/1990',
+        'year': 1990,
         'publisher': 'Farrar  Straus and Giroux',
         '': ''
     },
     {
         'id': 178,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Annals of the Former World',
         'authors': 'John McPhee',
@@ -1983,15 +1918,16 @@ export let bookData = [
         'isbn': 374518734,
         'isbn13': 9780374518738,
         'language_code': 'eng',
-        'num_pages': 720,
+        'pages': 720,
         'ratings_count': 3115,
         'text_reviews_count': 228,
-        'publication_date': '1/6/1999',
+        'year': 1999,
         'publisher': 'Farrar  Straus and Giroux',
         '': ''
     },
     {
         'id': 179,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Coming Into the Country',
         'authors': 'John McPhee',
@@ -1999,15 +1935,16 @@ export let bookData = [
         'isbn': 374522871,
         'isbn13': 9780374522872,
         'language_code': 'eng',
-        'num_pages': 448,
+        'pages': 448,
         'ratings_count': 5704,
         'text_reviews_count': 261,
-        'publication_date': '4/1/1991',
+        'year': 1991,
         'publisher': 'Farrar  Straus and Giroux',
         '': ''
     },
     {
         'id': 180,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'La Place de la Concorde Suisse',
         'authors': 'John McPhee',
@@ -2015,15 +1952,16 @@ export let bookData = [
         'isbn': 374519323,
         'isbn13': 9780374519322,
         'language_code': 'fre',
-        'num_pages': 160,
+        'pages': 160,
         'ratings_count': 698,
         'text_reviews_count': 52,
-        'publication_date': '4/1/1994',
+        'year': 1994,
         'publisher': 'Farrar  Straus and Giroux',
         '': ''
     },
     {
         'id': 181,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Giving Good Weight',
         'authors': 'John McPhee',
@@ -2031,15 +1969,16 @@ export let bookData = [
         'isbn': 374516006,
         'isbn13': 9780374516000,
         'language_code': 'eng',
-        'num_pages': 288,
+        'pages': 288,
         'ratings_count': 542,
         'text_reviews_count': 36,
-        'publication_date': '4/1/1994',
+        'year': 1994,
         'publisher': 'Farrar  Straus and Giroux',
         '': ''
     },
     {
         'id': 183,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Rising from the Plains',
         'authors': 'John McPhee',
@@ -2047,15 +1986,16 @@ export let bookData = [
         'isbn': 374520658,
         'isbn13': 9780374520656,
         'language_code': 'eng',
-        'num_pages': 208,
+        'pages': 208,
         'ratings_count': 1341,
         'text_reviews_count': 98,
-        'publication_date': '11/1/1987',
+        'year': 1987,
         'publisher': 'Farrar  Straus and Giroux',
         '': ''
     },
     {
         'id': 185,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Heidi Chronicles',
         'authors': 'Wendy Wasserstein',
@@ -2063,15 +2003,16 @@ export let bookData = [
         'isbn': 822205106,
         'isbn13': 9780822205104,
         'language_code': 'eng',
-        'num_pages': 81,
+        'pages': 81,
         'ratings_count': 1423,
         'text_reviews_count': 70,
-        'publication_date': '3/1/2002',
+        'year': 2002,
         'publisher': 'Dramatists Play Service',
         '': ''
     },
     {
         'id': 186,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': "The Heidi Chronicles: Uncommon Women and Others & Isn't It Romantic",
         'authors': 'Wendy Wasserstein',
@@ -2079,15 +2020,16 @@ export let bookData = [
         'isbn': 679734996,
         'isbn13': 9780679734994,
         'language_code': 'eng',
-        'num_pages': 249,
+        'pages': 249,
         'ratings_count': 2766,
         'text_reviews_count': 64,
-        'publication_date': '7/2/1991',
+        'year': 1991,
         'publisher': 'Vintage',
         '': ''
     },
     {
         'id': 189,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Active Literacy Across the Curriculum: Strategies for Reading  Writing  Speaking  and Listening',
         'authors': 'Heidi Hayes Jacobs',
@@ -2095,15 +2037,16 @@ export let bookData = [
         'isbn': 1596670231,
         'isbn13': 9781596670235,
         'language_code': 'eng',
-        'num_pages': 138,
+        'pages': 138,
         'ratings_count': 31,
         'text_reviews_count': 1,
-        'publication_date': '3/29/2006',
+        'year': 2006,
         'publisher': 'Routledge',
         '': ''
     },
     {
         'id': 190,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Simply Beautiful Beaded Jewelry',
         'authors': 'Heidi Boyd',
@@ -2111,15 +2054,16 @@ export let bookData = [
         'isbn': 1581807740,
         'isbn13': 9781581807745,
         'language_code': 'en-US',
-        'num_pages': 128,
+        'pages': 128,
         'ratings_count': 62,
         'text_reviews_count': 4,
-        'publication_date': '3/14/2006',
+        'year': 2006,
         'publisher': 'North Light Books',
         '': ''
     },
     {
         'id': 191,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': "Always Enough: God's Miraculous Provision Among the Poorest Children on Earth",
         'authors': 'Heidi Baker/Rolland Baker',
@@ -2127,15 +2071,16 @@ export let bookData = [
         'isbn': 800793617,
         'isbn13': 9780800793616,
         'language_code': 'eng',
-        'num_pages': 192,
+        'pages': 192,
         'ratings_count': 860,
         'text_reviews_count': 53,
-        'publication_date': '9/1/2003',
+        'year': 2003,
         'publisher': 'Chosen Books',
         '': ''
     },
     {
         'id': 192,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Mapping the Big Picture: Integrating Curriculum & Assessment K-12',
         'authors': 'Heidi Hayes Jacobs',
@@ -2143,15 +2088,16 @@ export let bookData = [
         'isbn': 871202867,
         'isbn13': 9780871202864,
         'language_code': 'en-US',
-        'num_pages': 108,
+        'pages': 108,
         'ratings_count': 77,
         'text_reviews_count': 2,
-        'publication_date': '1/28/1997',
+        'year': 1997,
         'publisher': 'Association for Supervision & Curriculum Development',
         '': ''
     },
     {
         'id': 193,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Heidi (Heidi  #1-2)',
         'authors': 'Johanna Spyri/Beverly Cleary/Angelo  Rinaldi',
@@ -2159,15 +2105,16 @@ export let bookData = [
         'isbn': 753454947,
         'isbn13': 9780753454947,
         'language_code': 'eng',
-        'num_pages': 352,
+        'pages': 352,
         'ratings_count': 153317,
         'text_reviews_count': 2257,
-        'publication_date': '11/15/2002',
+        'year': 2002,
         'publisher': 'Kingfisher',
         '': ''
     },
     {
         'id': 194,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Getting Results with Curriculum Mapping',
         'authors': 'Heidi Hayes Jacobs',
@@ -2175,15 +2122,16 @@ export let bookData = [
         'isbn': 871209993,
         'isbn13': 9780871209993,
         'language_code': 'eng',
-        'num_pages': 192,
+        'pages': 192,
         'ratings_count': 55,
         'text_reviews_count': 5,
-        'publication_date': '11/15/2004',
+        'year': 2004,
         'publisher': 'ASCD',
         '': ''
     },
     {
         'id': 196,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': "There's Always Enough: The Miraculous Move of God in Mozambique",
         'authors': 'Rolland Baker/Heidi Baker',
@@ -2191,15 +2139,16 @@ export let bookData = [
         'isbn': 1852402873,
         'isbn13': 9781852402877,
         'language_code': 'eng',
-        'num_pages': 192,
+        'pages': 192,
         'ratings_count': 34,
         'text_reviews_count': 6,
-        'publication_date': '4/28/2003',
+        'year': 2003,
         'publisher': 'Sovereign World',
         '': ''
     },
     {
         'id': 198,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'What to Expect the First Year (What to Expect)',
         'authors': 'Heidi Murkoff/Sharon Mazel/Arlene Eisenberg/Sandee Hathaway/Mark D. Widome',
@@ -2207,15 +2156,16 @@ export let bookData = [
         'isbn': 761129588,
         'isbn13': 9780761129585,
         'language_code': 'eng',
-        'num_pages': 832,
+        'pages': 832,
         'ratings_count': 11797,
         'text_reviews_count': 659,
-        'publication_date': '10/16/2003',
+        'year': 2003,
         'publisher': 'Workman Publishing Company',
         '': ''
     },
     {
         'id': 199,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': "The Player's Handbook: The Ultimate Guide on Dating and Relationships",
         'authors': 'Heidi Fleiss/Libby Keatinge',
@@ -2223,15 +2173,16 @@ export let bookData = [
         'isbn': 972016414,
         'isbn13': 9780972016414,
         'language_code': 'eng',
-        'num_pages': 123,
+        'pages': 123,
         'ratings_count': 34,
         'text_reviews_count': 8,
-        'publication_date': '5/10/2004',
+        'year': 2004,
         'publisher': 'One Hour Entertainment',
         '': ''
     },
     {
         'id': 1100,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Simply Beautiful Beading: 53 Quick and Easy Projects',
         'authors': 'Heidi Boyd',
@@ -2239,15 +2190,16 @@ export let bookData = [
         'isbn': 1581805632,
         'isbn13': 9781581805635,
         'language_code': 'en-US',
-        'num_pages': 128,
+        'pages': 128,
         'ratings_count': 78,
         'text_reviews_count': 4,
-        'publication_date': '8/19/2004',
+        'year': 2004,
         'publisher': 'North Light Books',
         '': ''
     },
     {
         'id': 1103,
+        'genre': 'Science Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'God Emperor of Dune (Dune Chronicles  #4)',
         'authors': 'Frank Herbert',
@@ -2255,15 +2207,16 @@ export let bookData = [
         'isbn': 441294677,
         'isbn13': 9780441294671,
         'language_code': 'eng',
-        'num_pages': 423,
+        'pages': 423,
         'ratings_count': 2785,
         'text_reviews_count': 166,
-        'publication_date': '6/15/1987',
+        'year': 1987,
         'publisher': 'Ace Books',
         '': ''
     },
     {
         'id': 1105,
+        'genre': 'Science Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Chapterhouse: Dune (Dune Chronicles #6)',
         'authors': 'Frank Herbert',
@@ -2271,15 +2224,16 @@ export let bookData = [
         'isbn': 441102670,
         'isbn13': 9780441102679,
         'language_code': 'eng',
-        'num_pages': 436,
+        'pages': 436,
         'ratings_count': 38778,
         'text_reviews_count': 568,
-        'publication_date': '7/1/1987',
+        'year': 1987,
         'publisher': 'Ace Books',
         '': ''
     },
     {
         'id': 1106,
+        'genre': 'Science Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Dune Messiah (Dune Chronicles #2)',
         'authors': 'Frank Herbert',
@@ -2287,15 +2241,16 @@ export let bookData = [
         'isbn': 441172695,
         'isbn13': 9780441172696,
         'language_code': 'eng',
-        'num_pages': 331,
+        'pages': 331,
         'ratings_count': 97494,
         'text_reviews_count': 2359,
-        'publication_date': '7/15/1987',
+        'year': 1987,
         'publisher': 'Ace Books',
         '': ''
     },
     {
         'id': 1107,
+        'genre': 'Science Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Dreamer of Dune: The Biography of Frank Herbert',
         'authors': 'Brian Herbert',
@@ -2303,15 +2258,16 @@ export let bookData = [
         'isbn': 765306476,
         'isbn13': 9780765306470,
         'language_code': 'en-US',
-        'num_pages': 592,
+        'pages': 592,
         'ratings_count': 784,
         'text_reviews_count': 21,
-        'publication_date': '7/1/2004',
+        'year': 2004,
         'publisher': 'Tor Books',
         '': ''
     },
     {
         'id': 1109,
+        'genre': 'Science Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Heretics of Dune (Dune Chronicles  #5)',
         'authors': 'Frank Herbert',
@@ -2319,15 +2275,16 @@ export let bookData = [
         'isbn': 399128980,
         'isbn13': 9780399128981,
         'language_code': 'eng',
-        'num_pages': 480,
+        'pages': 480,
         'ratings_count': 272,
         'text_reviews_count': 20,
-        'publication_date': '4/16/1984',
+        'year': 1984,
         'publisher': 'Putnam',
         '': ''
     },
     {
         'id': 1110,
+        'genre': 'Science Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Road to Dune',
         'authors': 'Frank Herbert/Brian Herbert/Kevin J. Anderson',
@@ -2335,15 +2292,16 @@ export let bookData = [
         'isbn': 765353709,
         'isbn13': 9780765353702,
         'language_code': 'eng',
-        'num_pages': 426,
+        'pages': 426,
         'ratings_count': 4789,
         'text_reviews_count': 83,
-        'publication_date': '8/29/2006',
+        'year': 2006,
         'publisher': 'Tor Science Fiction',
         '': ''
     },
     {
         'id': 1117,
+        'genre': 'Science Fiction',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Heretics of Dune (Dune Chronicles #5)',
         'authors': 'Frank Herbert',
@@ -2351,15 +2309,16 @@ export let bookData = [
         'isbn': 441328008,
         'isbn13': 9780441328000,
         'language_code': 'eng',
-        'num_pages': 471,
+        'pages': 471,
         'ratings_count': 45388,
         'text_reviews_count': 644,
-        'publication_date': '8/15/1987',
+        'year': 1987,
         'publisher': 'Ace Books',
         '': ''
     },
     {
         'id': 1119,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: The Art of the Fellowship of the Ring',
         'authors': 'Gary Russell',
@@ -2367,15 +2326,16 @@ export let bookData = [
         'isbn': 618212906,
         'isbn13': 9780618212903,
         'language_code': 'eng',
-        'num_pages': 192,
+        'pages': 192,
         'ratings_count': 26153,
         'text_reviews_count': 102,
-        'publication_date': '6/12/2002',
+        'year': 2002,
         'publisher': 'Houghton Mifflin Harcourt',
         '': ''
     },
     {
         'id': 1122,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One (The Power of One  #1)',
         'authors': 'Bryce Courtenay',
@@ -2383,15 +2343,16 @@ export let bookData = [
         'isbn': '034541005X',
         'isbn13': 9780345410054,
         'language_code': 'eng',
-        'num_pages': 544,
+        'pages': 544,
         'ratings_count': 69167,
         'text_reviews_count': 4551,
-        'publication_date': '9/29/1996',
+        'year': 1996,
         'publisher': 'Ballantine Books',
         '': ''
     },
     {
         'id': 1123,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One (The Power of One  #1)',
         'authors': 'Bryce Courtenay',
@@ -2399,15 +2360,16 @@ export let bookData = [
         'isbn': 385732546,
         'isbn13': 9780385732543,
         'language_code': 'eng',
-        'num_pages': 291,
+        'pages': 291,
         'ratings_count': 45,
         'text_reviews_count': 13,
-        'publication_date': '9/13/2005',
+        'year': 2005,
         'publisher': 'Delacorte Books for Young Readers',
         '': ''
     },
     {
         'id': 1129,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One: One Person  One Rule  One Month',
         'authors': 'John C. Maxwell/Stephen R. Graves/Thomas G. Addington',
@@ -2415,15 +2377,16 @@ export let bookData = [
         'isbn': 785260056,
         'isbn13': 9780785260059,
         'language_code': 'en-US',
-        'num_pages': 256,
+        'pages': 256,
         'ratings_count': 16,
         'text_reviews_count': 1,
-        'publication_date': '11/1/2004',
+        'year': 2004,
         'publisher': 'Thomas Nelson',
         '': ''
     },
     {
         'id': 1130,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Power of an Hour: Business and Life Mastery in One Hour a Week',
         'authors': 'Dave Lakhani',
@@ -2431,15 +2394,16 @@ export let bookData = [
         'isbn': 471780936,
         'isbn13': 9780471780939,
         'language_code': 'eng',
-        'num_pages': 205,
+        'pages': 205,
         'ratings_count': 174,
         'text_reviews_count': 16,
-        'publication_date': '5/19/2006',
+        'year': 2006,
         'publisher': 'Wiley',
         '': ''
     },
     {
         'id': 1131,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One: The Solo Play for Playwrights  Actors  and Directors',
         'authors': 'Louis E. Catron',
@@ -2447,63 +2411,17 @@ export let bookData = [
         'isbn': 325001537,
         'isbn13': 9780325001531,
         'language_code': 'eng',
-        'num_pages': 240,
+        'pages': 240,
         'ratings_count': 10,
         'text_reviews_count': 0,
-        'publication_date': '2/7/2000',
+        'year': 2000,
         'publisher': 'Heinemann Drama',
         '': ''
     },
-    {
-        'id': 1132,
-        'imageLink': 'images/ramayana.jpg',
-        'title': 'How to Buy  Sell & Profit on eBay: Kick-Start Your Home-Based Business in Just Thirty Days',
-        'authors': 'Adam Ginsberg',
-        'average_rating': 3.48,
-        'isbn': '006076287X',
-        'isbn13': 9780060762872,
-        'language_code': 'eng',
-        'num_pages': 336,
-        'ratings_count': 76,
-        'text_reviews_count': 9,
-        'publication_date': '5/3/2005',
-        'publisher': 'William Morrow Paperbacks',
-        '': ''
-    },
-    {
-        'id': 1133,
-        'imageLink': 'images/ramayana.jpg',
-        'title': 'eBay for Dummies',
-        'authors': 'Marsha Collier',
-        'average_rating': 3.5,
-        'isbn': 470045299,
-        'isbn13': 9780470045299,
-        'language_code': 'eng',
-        'num_pages': 386,
-        'ratings_count': 111,
-        'text_reviews_count': 9,
-        'publication_date': '10/30/2006',
-        'publisher': 'Wiley',
-        '': ''
-    },
-    {
-        'id': 1135,
-        'imageLink': 'images/ramayana.jpg',
-        'title': 'What to Sell on ebay and Where to Get It: The Definitive Guide to Product Sourcing for eBay and Beyond',
-        'authors': 'Chris Malta/Lisa Suttora',
-        'average_rating': 3.62,
-        'isbn': 72262788,
-        'isbn13': 9780072262780,
-        'language_code': 'eng',
-        'num_pages': 260,
-        'ratings_count': 24,
-        'text_reviews_count': 0,
-        'publication_date': '1/24/2006',
-        'publisher': 'McGraw-Hill',
-        '': ''
-    },
+    
     {
         'id': 1137,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Starting an eBay Business for Dummies',
         'authors': 'Marsha Collier',
@@ -2511,15 +2429,16 @@ export let bookData = [
         'isbn': 764569244,
         'isbn13': 9780764569241,
         'language_code': 'eng',
-        'num_pages': 384,
+        'pages': 384,
         'ratings_count': 55,
         'text_reviews_count': 4,
-        'publication_date': '9/17/2004',
+        'year': 2004,
         'publisher': 'Wiley',
         '': ''
     },
     {
         'id': 1138,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'eBay: Top 100 Simplified Tips & Tricks',
         'authors': 'Julia Wilkinson',
@@ -2527,15 +2446,16 @@ export let bookData = [
         'isbn': 471933821,
         'isbn13': 9780471933823,
         'language_code': 'eng',
-        'num_pages': 260,
+        'pages': 260,
         'ratings_count': 9,
         'text_reviews_count': 0,
-        'publication_date': '6/6/2006',
+        'year': 2006,
         'publisher': 'Wiley',
         '': ''
     },
     {
         'id': 1139,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'ebay Timesaving Techniques for Dummies',
         'authors': 'Marsha Collier',
@@ -2543,15 +2463,16 @@ export let bookData = [
         'isbn': 764559915,
         'isbn13': 9780764559914,
         'language_code': 'en-US',
-        'num_pages': 391,
+        'pages': 391,
         'ratings_count': 22,
         'text_reviews_count': 1,
-        'publication_date': '5/31/2004',
+        'year': 2004,
         'publisher': 'Wiley',
         '': ''
     },
     {
         'id': 1140,
+        'genre': 'Business',
         'imageLink': 'images/ramayana.jpg',
         'title': 'eBay Business All-in-One Desk Reference for Dummies',
         'authors': 'Marsha Collier',
@@ -2559,15 +2480,16 @@ export let bookData = [
         'isbn': 764584383,
         'isbn13': 9780764584381,
         'language_code': 'en-US',
-        'num_pages': 864,
+        'pages': 864,
         'ratings_count': 17,
         'text_reviews_count': 3,
-        'publication_date': '4/25/2005',
+        'year': 2005,
         'publisher': 'Wiley',
         '': ''
     },
     {
         'id': 1141,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': 'Ruby Cookbook',
         'authors': 'Lucas Carlson/Leonard Richardson',
@@ -2575,15 +2497,16 @@ export let bookData = [
         'isbn': 596523696,
         'isbn13': 9780596523695,
         'language_code': 'eng',
-        'num_pages': 873,
+        'pages': 873,
         'ratings_count': 166,
         'text_reviews_count': 4,
-        'publication_date': '7/29/2006',
+        'year': 2006,
         'publisher': "O'Reilly Media",
         '': ''
     },
     {
         'id': 1142,
+        'genre': 'Classic',
         'imageLink': 'images/ramayana.jpg',
         'title': "Ruby Ann's Down Home Trailer Park Cookbook",
         'authors': 'Ruby Ann Boxcar',
@@ -2591,10 +2514,10 @@ export let bookData = [
         'isbn': 806523492,
         'isbn13': 9780806523491,
         'language_code': 'eng',
-        'num_pages': 240,
+        'pages': 240,
         'ratings_count': 50,
         'text_reviews_count': 5,
-        'publication_date': '5/3/2005',
+        'year': 2005,
         'publisher': 'Citadel',
         '': ''
     },
