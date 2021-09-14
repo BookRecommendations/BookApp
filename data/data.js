@@ -1,1034 +1,1214 @@
+export let booksWithPic = [{
+    'id': '1',
+    'author': 'Chinua Achebe',
+    'country': 'Nigeria',
+    'genre': 'Classic',
+    'imageLink': '/data/images/things-fall-apart.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Things_Fall_Apart\n',
+    'pages': 209,
+    'title': 'Things Fall Apart',
+    'year': 1958
+},
+{
+    'id': '2',
+    'author': 'Hans Christian Andersen',
+    'country': 'Denmark',
+    'genre': 'Classic',
+    'imageLink': '../assets/images/bookimages/fairy-tales.jpg',
+    'language': 'Danish',
+    'link': 'https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n',
+    'pages': 784,
+    'title': 'Fairy tales',
+    'year': 1836
+},
+{
+    'id': '3',
+    'author': 'Dante Alighieri',
+    'country': 'Italy',
+    'genre': 'Classic',
+    'imageLink': '/data/images/the-divine-comedy.jpg',
+    'language': 'Italian',
+    'link': 'https://en.wikipedia.org/wiki/Divine_Comedy\n',
+    'pages': 928,
+    'title': 'The Divine Comedy',
+    'year': 1315
+},
+{
+    'id': '4',
+    'author': 'Unknown',
+    'country': 'Sumer and Akkadian Empire',
+    'genre': 'Historical Fiction',
+    'imageLink': '/data/images/the-epic-of-gilgamesh.jpg',
+    'language': 'Akkadian',
+    'link': 'https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n',
+    'pages': 160,
+    'title': 'The Epic Of Gilgamesh',
+    'year': -1700
+},
+{
+    'id': '5',
+    'author': 'Unknown',
+    'country': 'Achaemenid Empire',
+    'genre': 'Historical Fiction',
+    'imageLink': 'images/the-book-of-job.jpg',
+    'language': 'Hebrew',
+    'link': 'https://en.wikipedia.org/wiki/Book_of_Job\n',
+    'pages': 176,
+    'title': 'The Book Of Job',
+    'year': -600
+},
+{
+    'id': '6',
+    'author': 'Unknown',
+    'country': 'India/Iran/Iraq/Egypt/Tajikistan',
+    'genre': 'Historical Fiction',
+    'imageLink': 'images/one-thousand-and-one-nights.jpg',
+    'language': 'Arabic',
+    'link': 'https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n',
+    'pages': 288,
+    'title': 'One Thousand and One Nights',
+    'year': 1200
+},
+{
+    'id': '7',
+    'author': 'Unknown',
+    'country': 'Iceland',
+    'genre': 'Historical Fiction',
+    'imageLink': 'images/njals-saga.jpg',
+    'language': 'Old Norse',
+    'link': 'https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n',
+    'pages': 384,
+    'title': "Nj\u00e1l's Saga",
+    'year': 1350
+},
+{
+    'id': '8',
+    'author': 'Jane Austen',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/pride-and-prejudice.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Pride_and_Prejudice\n',
+    'pages': 226,
+    'title': 'Pride and Prejudice',
+    'year': 1813
+},
+{
+    'id': '9',
+    'author': 'Honor\u00e9 de Balzac',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/le-pere-goriot.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n',
+    'pages': 443,
+    'title': 'Le P\u00e8re Goriot',
+    'year': 1835
+},
+{
+    'id': '10',
+    'author': 'Samuel Beckett',
+    'country': 'Republic of Ireland',
+    'genre': 'Classic',
+    'imageLink': 'images/molloy-malone-dies-the-unnamable.jpg',
+    'language': 'French, English',
+    'link': 'https://en.wikipedia.org/wiki/Molloy_(novel)\n',
+    'pages': 256,
+    'title': 'Molloy, Malone Dies, The Unnamable, the trilogy',
+    'year': 1952
+},
+{
+    'id': '11',
+    'author': 'Giovanni Boccaccio',
+    'country': 'Italy',
+    'genre': 'Historical Fiction',
+    'imageLink': 'images/the-decameron.jpg',
+    'language': 'Italian',
+    'link': 'https://en.wikipedia.org/wiki/The_Decameron\n',
+    'pages': 1024,
+    'title': 'The Decameron',
+    'year': 1351
+},
+{
+    'id': '12',
+    'author': 'Jorge Luis Borges',
+    'country': 'Argentina',
+    'genre': 'Classic',
+    'imageLink': 'images/ficciones.jpg',
+    'language': 'Spanish',
+    'link': 'https://en.wikipedia.org/wiki/Ficciones\n',
+    'pages': 224,
+    'title': 'Ficciones',
+    'year': 1965
+},
+{
+    'id': '13',
+    'author': 'Emily Bront\u00eb',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/wuthering-heights.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Wuthering_Heights\n',
+    'pages': 342,
+    'title': 'Wuthering Heights',
+    'year': 1847
+},
+{
 
+    'id': '14',
+    'author': 'Albert Camus',
+    'country': 'Algeria, French Empire',
+    'genre': 'Classic',
+    'imageLink': 'images/l-etranger.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/The_Stranger_(novel)\n',
+    'pages': 185,
+    'title': 'The Stranger',
+    'year': 1942
+},
+{
 
+    'id': '15',
+    'author': 'Paul Celan',
+    'country': 'Romania, France',
+    'genre': 'Classic',
+    'imageLink': 'images/poems-paul-celan.jpg',
+    'language': 'German',
+    'link': '\n',
+    'pages': 320,
+    'title': 'Poems',
+    'year': 1952
+},
+{
+    'id': '16',
+    'author': 'Louis-Ferdinand C\u00e9line',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/voyage-au-bout-de-la-nuit.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n',
+    'pages': 505,
+    'title': 'Journey to the End of the Night',
+    'year': 1932
+},
+{
+    'id': '17',
+    'author': 'Miguel de Cervantes',
+    'country': 'Spain',
+    'genre': 'Classic',
+    'imageLink': 'images/don-quijote-de-la-mancha.jpg',
+    'language': 'Spanish',
+    'link': 'https://en.wikipedia.org/wiki/Don_Quixote\n',
+    'pages': 1056,
+    'title': 'Don Quijote De La Mancha',
+    'year': 1610
+},
+{
+    'id': '18',
+    'author': 'Geoffrey Chaucer',
+    'country': 'England',
+    'genre': 'Classic',
+    'imageLink': 'images/the-canterbury-tales.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/The_Canterbury_Tales\n',
+    'pages': 544,
+    'title': 'The Canterbury Tales',
+    'year': 1450
+},
+{
+    'id': '19',
+    'author': 'Anton Chekhov',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/stories-of-anton-chekhov.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n',
+    'pages': 194,
+    'title': 'Stories',
+    'year': 1886
+},
+{
+    'id': '20',
+    'author': 'Joseph Conrad',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/nostromo.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Nostromo\n',
+    'pages': 320,
+    'title': 'Nostromo',
+    'year': 1904
+},
+{
+    'id': '21',
+    'author': 'Charles Dickens',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/great-expectations.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Great_Expectations\n',
+    'pages': 194,
+    'title': 'Great Expectations',
+    'year': 1861
+},
+{
+    'id': '22',
+    'author': 'Denis Diderot',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/jacques-the-fatalist.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n',
+    'pages': 596,
+    'title': 'Jacques the Fatalist',
+    'year': 1796
+},
+{
+    'id': '23',
+    'author': 'Alfred D\u00f6blin',
+    'country': 'Germany',
+    'genre': 'Classic',
+    'imageLink': 'images/berlin-alexanderplatz.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n',
+    'pages': 600,
+    'title': 'Berlin Alexanderplatz',
+    'year': 1929
+},
+{
+    'id': '24',
+    'author': 'Fyodor Dostoevsky',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/crime-and-punishment.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/Crime_and_Punishment\n',
+    'pages': 551,
+    'title': 'Crime and Punishment',
+    'year': 1866
+},
+{
+    'id': '25',
+    'author': 'Fyodor Dostoevsky',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/the-idiot.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/The_Idiot\n',
+    'pages': 656,
+    'title': 'The Idiot',
+    'year': 1869
+},
+{
+    'id': '26',
+    'author': 'Fyodor Dostoevsky',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/the-possessed.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n',
+    'pages': 768,
+    'title': 'The Possessed',
+    'year': 1872
+},
+{
+    'id': '27',
+    'author': 'Fyodor Dostoevsky',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/the-brothers-karamazov.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n',
+    'pages': 824,
+    'title': 'The Brothers Karamazov',
+    'year': 1880
+},
+{
+    'id': '28',
+    'author': 'George Eliot',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/middlemarch.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Middlemarch\n',
+    'pages': 800,
+    'title': 'Middlemarch',
+    'year': 1871
+},
+{
+    'id': '29',
+    'author': 'Ralph Ellison',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/invisible-man.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Invisible_Man\n',
+    'pages': 581,
+    'title': 'Invisible Man',
+    'year': 1952
+},
+{
+    'id': '30',
+    'author': 'Euripides',
+    'country': 'Greece',
+    'genre': 'Classic',
+    'imageLink': 'images/medea.jpg',
+    'language': 'Greek',
+    'link': 'https://en.wikipedia.org/wiki/Medea_(play)\n',
+    'pages': 104,
+    'title': 'Medea',
+    'year': -431
+},
+{
+    'id': '31',
+    'author': 'William Faulkner',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/absalom-absalom.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Absalom,_Absalom!\n',
+    'pages': 313,
+    'title': 'Absalom, Absalom!',
+    'year': 1936
+},
+{
+    'id': '32',
+    'author': 'William Faulkner',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/the-sound-and-the-fury.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n',
+    'pages': 326,
+    'title': 'The Sound and the Fury',
+    'year': 1929
+},
+{
+    'id': '33',
+    'author': 'Gustave Flaubert',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/madame-bovary.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/Madame_Bovary\n',
+    'pages': 528,
+    'title': 'Madame Bovary',
+    'year': 1857
+},
+{
+    'id': '34',
+    'author': 'Gustave Flaubert',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/l-education-sentimentale.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/Sentimental_Education\n',
+    'pages': 606,
+    'title': 'Sentimental Education',
+    'year': 1869
+},
+{
+    'id': '35',
+    'author': 'Federico Garc\u00eda Lorca',
+    'country': 'Spain',
+    'genre': 'Classic',
+    'imageLink': 'images/gypsy-ballads.jpg',
+    'language': 'Spanish',
+    'link': 'https://en.wikipedia.org/wiki/Gypsy_Ballads\n',
+    'pages': 218,
+    'title': 'Gypsy Ballads',
+    'year': 1928
+},
+{
+    'id': '36',
+    'author': 'Gabriel Garc\u00eda M\u00e1rquez',
+    'country': 'Colombia',
+    'genre': 'Classic',
+    'imageLink': 'images/one-hundred-years-of-solitude.jpg',
+    'language': 'Spanish',
+    'link': 'https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n',
+    'pages': 417,
+    'title': 'One Hundred Years of Solitude',
+    'year': 1967
+},
+{
 
-export let booksWithPic = [
-    {  
-        'id': '1',
-        'author': 'Chinua Achebe',
-        'country': 'Nigeria',
-        'genre': 'Classic',
-        'imageLink': 'images/things-fall-apart.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Things_Fall_Apart\n',
-        'pages': 209,
-        'title': 'Things Fall Apart',
-        'year': 1958
-    },
-    {   
-        'id': '2',
-        'author': 'Hans Christian Andersen',
-        'country': 'Denmark',
-        'genre': 'Classic',
-        'imageLink': 'images/fairy-tales.jpg',
-        'language': 'Danish',
-        'link': 'https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n',
-        'pages': 784,
-        'title': 'Fairy tales',
-        'year': 1836
-    },
-    {
-        'id': '3',
-        'author': 'Dante Alighieri',
-        'country': 'Italy',
-        'genre': 'Classic',
-        'imageLink': 'images/the-divine-comedy.jpg',
-        'language': 'Italian',
-        'link': 'https://en.wikipedia.org/wiki/Divine_Comedy\n',
-        'pages': 928,
-        'title': 'The Divine Comedy',
-        'year': 1315
-    },
-    { 'id': '4',
-        'author': 'Unknown',
-        'country': 'Sumer and Akkadian Empire',
-        'genre': 'Classic',
-        'imageLink': 'images/the-epic-of-gilgamesh.jpg',
-        'language': 'Akkadian',
-        'link': 'https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n',
-        'pages': 160,
-        'title': 'The Epic Of Gilgamesh',
-        'year': -1700
-    },
-    {
-        'id': '5',
-        'author': 'Unknown',
-        'country': 'Achaemenid Empire',
-        'genre': 'Classic',
-        'imageLink': 'images/the-book-of-job.jpg',
-        'language': 'Hebrew',
-        'link': 'https://en.wikipedia.org/wiki/Book_of_Job\n',
-        'pages': 176,
-        'title': 'The Book Of Job',
-        'year': -600
-    },
-    { 'id': '6',
-        'author': 'Unknown',
-        'country': 'India/Iran/Iraq/Egypt/Tajikistan',
-        'genre': 'Classic',
-        'imageLink': 'images/one-thousand-and-one-nights.jpg',
-        'language': 'Arabic',
-        'link': 'https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n',
-        'pages': 288,
-        'title': 'One Thousand and One Nights',
-        'year': 1200
-    },
-    {
-        'id': '7',
-        'author': 'Unknown',
-        'country': 'Iceland',
-        'genre': 'Classic',
-        'imageLink': 'images/njals-saga.jpg',
-        'language': 'Old Norse',
-        'link': 'https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n',
-        'pages': 384,
-        'title': "Nj\u00e1l's Saga",
-        'year': 1350
-    },
-    {
-        'id': '8',
-        'author': 'Jane Austen',
-        'country': 'United Kingdom',
-        'genre': 'Classic',
-        'imageLink': 'images/pride-and-prejudice.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Pride_and_Prejudice\n',
-        'pages': 226,
-        'title': 'Pride and Prejudice',
-        'year': 1813
-    },
-    {
-        'id': '9',
-        'author': 'Honor\u00e9 de Balzac',
-        'country': 'France',
-        'genre': 'Classic',
-        'imageLink': 'images/le-pere-goriot.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n',
-        'pages': 443,
-        'title': 'Le P\u00e8re Goriot',
-        'year': 1835
-    },
-    { 'id': '10',
-        'author': 'Samuel Beckett',
-        'country': 'Republic of Ireland',
-        'genre': 'Classic',
-        'imageLink': 'images/molloy-malone-dies-the-unnamable.jpg',
-        'language': 'French, English',
-        'link': 'https://en.wikipedia.org/wiki/Molloy_(novel)\n',
-        'pages': 256,
-        'title': 'Molloy, Malone Dies, The Unnamable, the trilogy',
-        'year': 1952
-    },
-    {
-        'id': '11',
-        'author': 'Giovanni Boccaccio',
-        'country': 'Italy',
-        'genre': 'Classic',
-        'imageLink': 'images/the-decameron.jpg',
-        'language': 'Italian',
-        'link': 'https://en.wikipedia.org/wiki/The_Decameron\n',
-        'pages': 1024,
-        'title': 'The Decameron',
-        'year': 1351
-    },
-    { 'id': '12',
-        'author': 'Jorge Luis Borges',
-        'country': 'Argentina',
-        'imageLink': 'images/ficciones.jpg',
-        'language': 'Spanish',
-        'link': 'https://en.wikipedia.org/wiki/Ficciones\n',
-        'pages': 224,
-        'title': 'Ficciones',
-        'year': 1965
-    },
-    {
-        'author': 'Emily Bront\u00eb',
-        'country': 'United Kingdom',
-        'imageLink': 'images/wuthering-heights.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Wuthering_Heights\n',
-        'pages': 342,
-        'title': 'Wuthering Heights',
-        'year': 1847
-    },
-    {
-        'author': 'Albert Camus',
-        'country': 'Algeria, French Empire',
-        'imageLink': 'images/l-etranger.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/The_Stranger_(novel)\n',
-        'pages': 185,
-        'title': 'The Stranger',
-        'year': 1942
-    },
-    {
-        'author': 'Paul Celan',
-        'country': 'Romania, France',
-        'imageLink': 'images/poems-paul-celan.jpg',
-        'language': 'German',
-        'link': '\n',
-        'pages': 320,
-        'title': 'Poems',
-        'year': 1952
-    },
-    {
-        'author': 'Louis-Ferdinand C\u00e9line',
-        'country': 'France',
-        'imageLink': 'images/voyage-au-bout-de-la-nuit.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n',
-        'pages': 505,
-        'title': 'Journey to the End of the Night',
-        'year': 1932
-    },
-    {
-        'author': 'Miguel de Cervantes',
-        'country': 'Spain',
-        'imageLink': 'images/don-quijote-de-la-mancha.jpg',
-        'language': 'Spanish',
-        'link': 'https://en.wikipedia.org/wiki/Don_Quixote\n',
-        'pages': 1056,
-        'title': 'Don Quijote De La Mancha',
-        'year': 1610
-    },
-    {
-        'author': 'Geoffrey Chaucer',
-        'country': 'England',
-        'imageLink': 'images/the-canterbury-tales.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/The_Canterbury_Tales\n',
-        'pages': 544,
-        'title': 'The Canterbury Tales',
-        'year': 1450
-    },
-    {
-        'author': 'Anton Chekhov',
-        'country': 'Russia',
-        'imageLink': 'images/stories-of-anton-chekhov.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n',
-        'pages': 194,
-        'title': 'Stories',
-        'year': 1886
-    },
-    {
-        'author': 'Joseph Conrad',
-        'country': 'United Kingdom',
-        'imageLink': 'images/nostromo.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Nostromo\n',
-        'pages': 320,
-        'title': 'Nostromo',
-        'year': 1904
-    },
-    {
-        'author': 'Charles Dickens',
-        'country': 'United Kingdom',
-        'imageLink': 'images/great-expectations.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Great_Expectations\n',
-        'pages': 194,
-        'title': 'Great Expectations',
-        'year': 1861
-    },
-    {
-        'author': 'Denis Diderot',
-        'country': 'France',
-        'imageLink': 'images/jacques-the-fatalist.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n',
-        'pages': 596,
-        'title': 'Jacques the Fatalist',
-        'year': 1796
-    },
-    {
-        'author': 'Alfred D\u00f6blin',
-        'country': 'Germany',
-        'imageLink': 'images/berlin-alexanderplatz.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n',
-        'pages': 600,
-        'title': 'Berlin Alexanderplatz',
-        'year': 1929
-    },
-    {
-        'author': 'Fyodor Dostoevsky',
-        'country': 'Russia',
-        'imageLink': 'images/crime-and-punishment.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/Crime_and_Punishment\n',
-        'pages': 551,
-        'title': 'Crime and Punishment',
-        'year': 1866
-    },
-    {
-        'author': 'Fyodor Dostoevsky',
-        'country': 'Russia',
-        'imageLink': 'images/the-idiot.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/The_Idiot\n',
-        'pages': 656,
-        'title': 'The Idiot',
-        'year': 1869
-    },
-    {
-        'author': 'Fyodor Dostoevsky',
-        'country': 'Russia',
-        'imageLink': 'images/the-possessed.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n',
-        'pages': 768,
-        'title': 'The Possessed',
-        'year': 1872
-    },
-    {
-        'author': 'Fyodor Dostoevsky',
-        'country': 'Russia',
-        'imageLink': 'images/the-brothers-karamazov.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n',
-        'pages': 824,
-        'title': 'The Brothers Karamazov',
-        'year': 1880
-    },
-    {
-        'author': 'George Eliot',
-        'country': 'United Kingdom',
-        'imageLink': 'images/middlemarch.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Middlemarch\n',
-        'pages': 800,
-        'title': 'Middlemarch',
-        'year': 1871
-    },
-    {
-        'author': 'Ralph Ellison',
-        'country': 'United States',
-        'imageLink': 'images/invisible-man.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Invisible_Man\n',
-        'pages': 581,
-        'title': 'Invisible Man',
-        'year': 1952
-    },
-    {
-        'author': 'Euripides',
-        'country': 'Greece',
-        'imageLink': 'images/medea.jpg',
-        'language': 'Greek',
-        'link': 'https://en.wikipedia.org/wiki/Medea_(play)\n',
-        'pages': 104,
-        'title': 'Medea',
-        'year': -431
-    },
-    {
-        'author': 'William Faulkner',
-        'country': 'United States',
-        'imageLink': 'images/absalom-absalom.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Absalom,_Absalom!\n',
-        'pages': 313,
-        'title': 'Absalom, Absalom!',
-        'year': 1936
-    },
-    {
-        'author': 'William Faulkner',
-        'country': 'United States',
-        'imageLink': 'images/the-sound-and-the-fury.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n',
-        'pages': 326,
-        'title': 'The Sound and the Fury',
-        'year': 1929
-    },
-    {
-        'author': 'Gustave Flaubert',
-        'country': 'France',
-        'imageLink': 'images/madame-bovary.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/Madame_Bovary\n',
-        'pages': 528,
-        'title': 'Madame Bovary',
-        'year': 1857
-    },
-    {
-        'author': 'Gustave Flaubert',
-        'country': 'France',
-        'imageLink': 'images/l-education-sentimentale.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/Sentimental_Education\n',
-        'pages': 606,
-        'title': 'Sentimental Education',
-        'year': 1869
-    },
-    {
-        'author': 'Federico Garc\u00eda Lorca',
-        'country': 'Spain',
-        'imageLink': 'images/gypsy-ballads.jpg',
-        'language': 'Spanish',
-        'link': 'https://en.wikipedia.org/wiki/Gypsy_Ballads\n',
-        'pages': 218,
-        'title': 'Gypsy Ballads',
-        'year': 1928
-    },
-    {
-        'author': 'Gabriel Garc\u00eda M\u00e1rquez',
-        'country': 'Colombia',
-        'imageLink': 'images/one-hundred-years-of-solitude.jpg',
-        'language': 'Spanish',
-        'link': 'https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n',
-        'pages': 417,
-        'title': 'One Hundred Years of Solitude',
-        'year': 1967
-    },
-    {
-        'author': 'Gabriel Garc\u00eda M\u00e1rquez',
-        'country': 'Colombia',
-        'imageLink': 'images/love-in-the-time-of-cholera.jpg',
-        'language': 'Spanish',
-        'link': 'https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n',
-        'pages': 368,
-        'title': 'Love in the Time of Cholera',
-        'year': 1985
-    },
-    {
-        'author': 'Johann Wolfgang von Goethe',
-        'country': 'Saxe-Weimar',
-        'imageLink': 'images/faust.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/Goethe%27s_Faust\n',
-        'pages': 158,
-        'title': 'Faust',
-        'year': 1832
-    },
-    {
-        'author': 'Nikolai Gogol',
-        'country': 'Russia',
-        'imageLink': 'images/dead-souls.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/Dead_Souls\n',
-        'pages': 432,
-        'title': 'Dead Souls',
-        'year': 1842
-    },
-    {
-        'author': 'G\u00fcnter Grass',
-        'country': 'Germany',
-        'imageLink': 'images/the-tin-drum.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/The_Tin_Drum\n',
-        'pages': 600,
-        'title': 'The Tin Drum',
-        'year': 1959
-    },
-    {
-        'author': 'Jo\u00e3o Guimar\u00e3es Rosa',
-        'country': 'Brazil',
-        'imageLink': 'images/the-devil-to-pay-in-the-backlands.jpg',
-        'language': 'Portuguese',
-        'link': 'https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n',
-        'pages': 494,
-        'title': 'The Devil to Pay in the Backlands',
-        'year': 1956
-    },
-    {
-        'author': 'Knut Hamsun',
-        'country': 'Norway',
-        'imageLink': 'images/hunger.jpg',
-        'language': 'Norwegian',
-        'link': 'https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n',
-        'pages': 176,
-        'title': 'Hunger',
-        'year': 1890
-    },
-    {
-        'author': 'Ernest Hemingway',
-        'country': 'United States',
-        'imageLink': 'images/the-old-man-and-the-sea.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n',
-        'pages': 128,
-        'title': 'The Old Man and the Sea',
-        'year': 1952
-    },
-    {
-        'author': 'Homer',
-        'country': 'Greece',
-        'imageLink': 'images/the-iliad-of-homer.jpg',
-        'language': 'Greek',
-        'link': 'https://en.wikipedia.org/wiki/Iliad\n',
-        'pages': 608,
-        'title': 'Iliad',
-        'year': -735
-    },
-    {
-        'author': 'Homer',
-        'country': 'Greece',
-        'imageLink': 'images/the-odyssey-of-homer.jpg',
-        'language': 'Greek',
-        'link': 'https://en.wikipedia.org/wiki/Odyssey\n',
-        'pages': 374,
-        'title': 'Odyssey',
-        'year': -800
-    },
-    {
-        'author': 'Henrik Ibsen',
-        'country': 'Norway',
-        'imageLink': 'images/a-Dolls-house.jpg',
-        'language': 'Norwegian',
-        'link': 'https://en.wikipedia.org/wiki/A_Doll%27s_House\n',
-        'pages': 68,
-        'title': "A Doll's House",
-        'year': 1879
-    },
-    {
-        'author': 'James Joyce',
-        'country': 'Irish Free State',
-        'imageLink': 'images/ulysses.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Ulysses_(novel)\n',
-        'pages': 228,
-        'title': 'Ulysses',
-        'year': 1922
-    },
-    {
-        'author': 'Franz Kafka',
-        'country': 'Czechoslovakia',
-        'imageLink': 'images/stories-of-franz-kafka.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n',
-        'pages': 488,
-        'title': 'Stories',
-        'year': 1924
-    },
-    {
-        'author': 'Franz Kafka',
-        'country': 'Czechoslovakia',
-        'imageLink': 'images/the-trial.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/The_Trial\n',
-        'pages': 160,
-        'title': 'The Trial',
-        'year': 1925
-    },
-    {
-        'author': 'Franz Kafka',
-        'country': 'Czechoslovakia',
-        'imageLink': 'images/the-castle.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/The_Castle_(novel)\n',
-        'pages': 352,
-        'title': 'The Castle',
-        'year': 1926
-    },
-    {
-        'author': 'K\u0101lid\u0101sa',
-        'country': 'India',
-        'imageLink': 'images/the-recognition-of-shakuntala.jpg',
-        'language': 'Sanskrit',
-        'link': 'https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n',
-        'pages': 147,
-        'title': 'The recognition of Shakuntala',
-        'year': 150
-    },
-    {
-        'author': 'Yasunari Kawabata',
-        'country': 'Japan',
-        'imageLink': 'images/the-sound-of-the-mountain.jpg',
-        'language': 'Japanese',
-        'link': 'https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n',
-        'pages': 288,
-        'title': 'The Sound of the Mountain',
-        'year': 1954
-    },
-    {
-        'author': 'Nikos Kazantzakis',
-        'country': 'Greece',
-        'imageLink': 'images/zorba-the-greek.jpg',
-        'language': 'Greek',
-        'link': 'https://en.wikipedia.org/wiki/Zorba_the_Greek\n',
-        'pages': 368,
-        'title': 'Zorba the Greek',
-        'year': 1946
-    },
-    {
-        'author': 'D. H. Lawrence',
-        'country': 'United Kingdom',
-        'imageLink': 'images/sons-and-lovers.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Sons_and_Lovers\n',
-        'pages': 432,
-        'title': 'Sons and Lovers',
-        'year': 1913
-    },
-    {
-        'author': 'Halld\u00f3r Laxness',
-        'country': 'Iceland',
-        'imageLink': 'images/independent-people.jpg',
-        'language': 'Icelandic',
-        'link': 'https://en.wikipedia.org/wiki/Independent_People\n',
-        'pages': 470,
-        'title': 'Independent People',
-        'year': 1934
-    },
-    {
-        'author': 'Giacomo Leopardi',
-        'country': 'Italy',
-        'imageLink': 'images/poems-giacomo-leopardi.jpg',
-        'language': 'Italian',
-        'link': '\n',
-        'pages': 184,
-        'title': 'Poems',
-        'year': 1818
-    },
-    {
-        'author': 'Doris Lessing',
-        'country': 'United Kingdom',
-        'imageLink': 'images/the-golden-notebook.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/The_Golden_Notebook\n',
-        'pages': 688,
-        'title': 'The Golden Notebook',
-        'year': 1962
-    },
-    {
-        'author': 'Astrid Lindgren',
-        'country': 'Sweden',
-        'imageLink': 'images/pippi-longstocking.jpg',
-        'language': 'Swedish',
-        'link': 'https://en.wikipedia.org/wiki/Pippi_Longstocking\n',
-        'pages': 160,
-        'title': 'Pippi Longstocking',
-        'year': 1945
-    },
-    {
-        'author': 'Lu Xun',
-        'country': 'China',
-        'imageLink': 'images/diary-of-a-madman.jpg',
-        'language': 'Chinese',
-        'link': 'https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n',
-        'pages': 389,
-        'title': 'Diary of a Madman',
-        'year': 1918
-    },
-    {
-        'author': 'Naguib Mahfouz',
-        'country': 'Egypt',
-        'imageLink': 'images/children-of-gebelawi.jpg',
-        'language': 'Arabic',
-        'link': 'https://en.wikipedia.org/wiki/Children_of_Gebelawi\n',
-        'pages': 355,
-        'title': 'Children of Gebelawi',
-        'year': 1959
-    },
-    {
-        'author': 'Thomas Mann',
-        'country': 'Germany',
-        'imageLink': 'images/buddenbrooks.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/Buddenbrooks\n',
-        'pages': 736,
-        'title': 'Buddenbrooks',
-        'year': 1901
-    },
-    {
-        'author': 'Thomas Mann',
-        'country': 'Germany',
-        'imageLink': 'images/the-magic-mountain.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/The_Magic_Mountain\n',
-        'pages': 720,
-        'title': 'The Magic Mountain',
-        'year': 1924
-    },
-    {
-        'author': 'Herman Melville',
-        'country': 'United States',
-        'imageLink': 'images/moby-dick.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Moby-Dick\n',
-        'pages': 378,
-        'title': 'Moby Dick',
-        'year': 1851
-    },
-    {
-        'author': 'Michel de Montaigne',
-        'country': 'France',
-        'imageLink': 'images/essais.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/Essays_(Montaigne)\n',
-        'pages': 404,
-        'title': 'Essays',
-        'year': 1595
-    },
-    {
-        'author': 'Elsa Morante',
-        'country': 'Italy',
-        'imageLink': 'images/history.jpg',
-        'language': 'Italian',
-        'link': 'https://en.wikipedia.org/wiki/History_(novel)\n',
-        'pages': 600,
-        'title': 'History',
-        'year': 1974
-    },
-    {
-        'author': 'Toni Morrison',
-        'country': 'United States',
-        'imageLink': 'images/beloved.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Beloved_(novel)\n',
-        'pages': 321,
-        'title': 'Beloved',
-        'year': 1987
-    },
-    {
-        'author': 'Murasaki Shikibu',
-        'country': 'Japan',
-        'imageLink': 'images/the-tale-of-genji.jpg',
-        'language': 'Japanese',
-        'link': 'https://en.wikipedia.org/wiki/The_Tale_of_Genji\n',
-        'pages': 1360,
-        'title': 'The Tale of Genji',
-        'year': 1006
-    },
-    {
-        'author': 'Robert Musil',
-        'country': 'Austria',
-        'imageLink': 'images/the-man-without-qualities.jpg',
-        'language': 'German',
-        'link': 'https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n',
-        'pages': 365,
-        'title': 'The Man Without Qualities',
-        'year': 1931
-    },
-    {
-        'author': 'Vladimir Nabokov',
-        'country': 'Russia/United States',
-        'imageLink': 'images/lolita.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Lolita\n',
-        'pages': 317,
-        'title': 'Lolita',
-        'year': 1955
-    },
-    {
-        'author': 'George Orwell',
-        'country': 'United Kingdom',
-        'imageLink': 'images/nineteen-eighty-four.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n',
-        'pages': 272,
-        'title': 'Nineteen Eighty-Four',
-        'year': 1949
-    },
-    {
-        'author': 'Ovid',
-        'country': 'Roman Empire',
-        'imageLink': 'images/the-metamorphoses-of-ovid.jpg',
-        'language': 'Classical Latin',
-        'link': 'https://en.wikipedia.org/wiki/Metamorphoses\n',
-        'pages': 576,
-        'title': 'Metamorphoses',
-        'year': 100
-    },
-    {
-        'author': 'Fernando Pessoa',
-        'country': 'Portugal',
-        'imageLink': 'images/the-book-of-disquiet.jpg',
-        'language': 'Portuguese',
-        'link': 'https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n',
-        'pages': 272,
-        'title': 'The Book of Disquiet',
-        'year': 1928
-    },
-    {
-        'author': 'Edgar Allan Poe',
-        'country': 'United States',
-        'imageLink': 'images/tales-and-poems-of-edgar-allan-poe.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n',
-        'pages': 842,
-        'title': 'Tales',
-        'year': 1950
-    },
-    {
-        'author': 'Marcel Proust',
-        'country': 'France',
-        'imageLink': 'images/a-la-recherche-du-temps-perdu.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n',
-        'pages': 2408,
-        'title': 'In Search of Lost Time',
-        'year': 1920
-    },
-    {
-        'author': 'Fran\u00e7ois Rabelais',
-        'country': 'France',
-        'imageLink': 'images/gargantua-and-pantagruel.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n',
-        'pages': 623,
-        'title': 'Gargantua and Pantagruel',
-        'year': 1533
-    },
-    {
-        'author': 'Juan Rulfo',
-        'country': 'Mexico',
-        'imageLink': 'images/pedro-paramo.jpg',
-        'language': 'Spanish',
-        'link': 'https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n',
-        'pages': 124,
-        'title': 'Pedro P\u00e1ramo',
-        'year': 1955
-    },
-    {
-        'author': 'Rumi',
-        'country': 'Sultanate of Rum',
-        'imageLink': 'images/the-masnavi.jpg',
-        'language': 'Persian',
-        'link': 'https://en.wikipedia.org/wiki/Masnavi\n',
-        'pages': 438,
-        'title': 'The Masnavi',
-        'year': 1236
-    },
-    {
-        'author': 'Salman Rushdie',
-        'country': 'United Kingdom, India',
-        'imageLink': 'images/midnights-children.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Midnight%27s_Children\n',
-        'pages': 536,
-        'title': "Midnight's Children",
-        'year': 1981
-    },
-    {
-        'author': 'Saadi',
-        'country': 'Persia, Persian Empire',
-        'imageLink': 'images/bostan.jpg',
-        'language': 'Persian',
-        'link': 'https://en.wikipedia.org/wiki/Bustan_(book)\n',
-        'pages': 298,
-        'title': 'Bostan',
-        'year': 1257
-    },
-    {
-        'author': 'Tayeb Salih',
-        'country': 'Sudan',
-        'imageLink': 'images/season-of-migration-to-the-north.jpg',
-        'language': 'Arabic',
-        'link': 'https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n',
-        'pages': 139,
-        'title': 'Season of Migration to the North',
-        'year': 1966
-    },
-    {
-        'author': 'Jos\u00e9 Saramago',
-        'country': 'Portugal',
-        'imageLink': 'images/blindness.jpg',
-        'language': 'Portuguese',
-        'link': 'https://en.wikipedia.org/wiki/Blindness_(novel)\n',
-        'pages': 352,
-        'title': 'Blindness',
-        'year': 1995
-    },
-    {
-        'author': 'William Shakespeare',
-        'country': 'England',
-        'imageLink': 'images/hamlet.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Hamlet\n',
-        'pages': 432,
-        'title': 'Hamlet',
-        'year': 1603
-    },
-    {
-        'author': 'William Shakespeare',
-        'country': 'England',
-        'imageLink': 'images/king-lear.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/King_Lear\n',
-        'pages': 384,
-        'title': 'King Lear',
-        'year': 1608
-    },
-    {
-        'author': 'William Shakespeare',
-        'country': 'England',
-        'imageLink': 'images/othello.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Othello\n',
-        'pages': 314,
-        'title': 'Othello',
-        'year': 1609
-    },
-    {
-        'author': 'Sophocles',
-        'country': 'Greece',
-        'imageLink': 'images/oedipus-the-king.jpg',
-        'language': 'Greek',
-        'link': 'https://en.wikipedia.org/wiki/Oedipus_the_King\n',
-        'pages': 88,
-        'title': 'Oedipus the King',
-        'year': -430
-    },
-    {
-        'author': 'Stendhal',
-        'country': 'France',
-        'imageLink': 'images/le-rouge-et-le-noir.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/The_Red_and_the_Black\n',
-        'pages': 576,
-        'title': 'The Red and the Black',
-        'year': 1830
-    },
-    {
-        'author': 'Laurence Sterne',
-        'country': 'England',
-        'imageLink': 'images/the-life-and-opinions-of-tristram-shandy.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n',
-        'pages': 640,
-        'title': 'The Life And Opinions of Tristram Shandy',
-        'year': 1760
-    },
-    {
-        'author': 'Italo Svevo',
-        'country': 'Italy',
-        'imageLink': 'images/confessions-of-zeno.jpg',
-        'language': 'Italian',
-        'link': 'https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n',
-        'pages': 412,
-        'title': 'Confessions of Zeno',
-        'year': 1923
-    },
-    {
-        'author': 'Jonathan Swift',
-        'country': 'Ireland',
-        'imageLink': 'images/gullivers-travels.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n',
-        'pages': 178,
-        'title': "Gulliver's Travels",
-        'year': 1726
-    },
-    {
-        'author': 'Leo Tolstoy',
-        'country': 'Russia',
-        'imageLink': 'images/war-and-peace.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/War_and_Peace\n',
-        'pages': 1296,
-        'title': 'War and Peace',
-        'year': 1867
-    },
-    {
-        'author': 'Leo Tolstoy',
-        'country': 'Russia',
-        'imageLink': 'images/anna-karenina.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/Anna_Karenina\n',
-        'pages': 864,
-        'title': 'Anna Karenina',
-        'year': 1877
-    },
-    {
-        'author': 'Leo Tolstoy',
-        'country': 'Russia',
-        'imageLink': 'images/the-death-of-ivan-ilyich.jpg',
-        'language': 'Russian',
-        'link': 'https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n',
-        'pages': 92,
-        'title': 'The Death of Ivan Ilyich',
-        'year': 1886
-    },
-    {
-        'author': 'Mark Twain',
-        'country': 'United States',
-        'imageLink': 'images/the-adventures-of-huckleberry-finn.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n',
-        'pages': 224,
-        'title': 'The Adventures of Huckleberry Finn',
-        'year': 1884
-    },
-    {
-        'author': 'Valmiki',
-        'country': 'India',
-        'imageLink': 'images/ramayana.jpg',
-        'language': 'Sanskrit',
-        'link': 'https://en.wikipedia.org/wiki/Ramayana\n',
-        'pages': 152,
-        'title': 'Ramayana',
-        'year': -450
-    },
-    {
-        'author': 'Virgil',
-        'country': 'Roman Empire',
-        'imageLink': 'images/the-aeneid.jpg',
-        'language': 'Classical Latin',
-        'link': 'https://en.wikipedia.org/wiki/Aeneid\n',
-        'pages': 442,
-        'title': 'The Aeneid',
-        'year': -23
-    },
-    {
-        'author': 'Vyasa',
-        'country': 'India',
-        'imageLink': 'images/the-mahab-harata.jpg',
-        'language': 'Sanskrit',
-        'link': 'https://en.wikipedia.org/wiki/Mahabharata\n',
-        'pages': 276,
-        'title': 'Mahabharata',
-        'year': -700
-    },
-    {
-        'author': 'Walt Whitman',
-        'country': 'United States',
-        'imageLink': 'images/leaves-of-grass.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Leaves_of_Grass\n',
-        'pages': 152,
-        'title': 'Leaves of Grass',
-        'year': 1855
-    },
-    {
-        'author': 'Virginia Woolf',
-        'country': 'United Kingdom',
-        'imageLink': 'images/mrs-dalloway.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/Mrs_Dalloway\n',
-        'pages': 216,
-        'title': 'Mrs Dalloway',
-        'year': 1925
-    },
-    {
-        'author': 'Virginia Woolf',
-        'country': 'United Kingdom',
-        'imageLink': 'images/to-the-lighthouse.jpg',
-        'language': 'English',
-        'link': 'https://en.wikipedia.org/wiki/To_the_Lighthouse\n',
-        'pages': 209,
-        'title': 'To the Lighthouse',
-        'year': 1927
-    },
-    {
-        'author': 'Marguerite Yourcenar',
-        'country': 'France/Belgium',
-        'imageLink': 'images/memoirs-of-hadrian.jpg',
-        'language': 'French',
-        'link': 'https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n',
-        'pages': 408,
-        'title': 'Memoirs of Hadrian',
-        'year': 1951
-    },
+    'id': '37',
+    'author': 'Gabriel Garc\u00eda M\u00e1rquez',
+    'country': 'Colombia',
+    'genre': 'Classic',
+    'imageLink': 'images/love-in-the-time-of-cholera.jpg',
+    'language': 'Spanish',
+    'link': 'https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n',
+    'pages': 368,
+    'title': 'Love in the Time of Cholera',
+    'year': 1985
+},
+{
+    'id': '38',
+    'author': 'Johann Wolfgang von Goethe',
+    'country': 'Saxe-Weimar',
+    'genre': 'Classic',
+    'imageLink': 'images/faust.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/Goethe%27s_Faust\n',
+    'pages': 158,
+    'title': 'Faust',
+    'year': 1832
+},
+{
+    'id': '39',
+    'author': 'Nikolai Gogol',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/dead-souls.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/Dead_Souls\n',
+    'pages': 432,
+    'title': 'Dead Souls',
+    'year': 1842
+},
+{
+    'id': '40',
+    'author': 'G\u00fcnter Grass',
+    'country': 'Germany',
+    'genre': 'Classic',
+    'imageLink': 'images/the-tin-drum.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/The_Tin_Drum\n',
+    'pages': 600,
+    'title': 'The Tin Drum',
+    'year': 1959
+},
+{
+    'id': '41',
+    'author': 'Jo\u00e3o Guimar\u00e3es Rosa',
+    'country': 'Brazil',
+    'genre': 'Classic',
+    'imageLink': 'images/the-devil-to-pay-in-the-backlands.jpg',
+    'language': 'Portuguese',
+    'link': 'https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n',
+    'pages': 494,
+    'title': 'The Devil to Pay in the Backlands',
+    'year': 1956
+},
+{
+    'id': '42',
+    'author': 'Knut Hamsun',
+    'country': 'Norway',
+    'genre': 'Classic',
+    'imageLink': 'images/hunger.jpg',
+    'language': 'Norwegian',
+    'link': 'https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n',
+    'pages': 176,
+    'title': 'Hunger',
+    'year': 1890
+},
+{
+    'id': '43',
+    'author': 'Ernest Hemingway',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/the-old-man-and-the-sea.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n',
+    'pages': 128,
+    'title': 'The Old Man and the Sea',
+    'year': 1952
+},
+{
+    'id': '44',
+    'author': 'Homer',
+    'country': 'Greece',
+    'genre': 'Classic',
+    'imageLink': 'images/the-iliad-of-homer.jpg',
+    'language': 'Greek',
+    'link': 'https://en.wikipedia.org/wiki/Iliad\n',
+    'pages': 608,
+    'title': 'Iliad',
+    'year': -735
+},
+{
+    'id': '45',
+    'author': 'Homer',
+    'country': 'Greece',
+    'genre': 'Classic',
+    'imageLink': 'images/the-odyssey-of-homer.jpg',
+    'language': 'Greek',
+    'link': 'https://en.wikipedia.org/wiki/Odyssey\n',
+    'pages': 374,
+    'title': 'Odyssey',
+    'year': -800
+},
+{
+    'id': '46',
+    'author': 'Henrik Ibsen',
+    'country': 'Norway',
+    'genre': 'Classic',
+    'imageLink': 'images/a-Dolls-house.jpg',
+    'language': 'Norwegian',
+    'link': 'https://en.wikipedia.org/wiki/A_Doll%27s_House\n',
+    'pages': 68,
+    'title': "A Doll's House",
+    'year': 1879
+},
+{
+    'id': '47',
+    'author': 'James Joyce',
+    'country': 'Irish Free State',
+    'genre': 'Classic',
+    'imageLink': 'images/ulysses.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Ulysses_(novel)\n',
+    'pages': 228,
+    'title': 'Ulysses',
+    'year': 1922
+},
+{
+    'id': '48',
+    'author': 'Franz Kafka',
+    'country': 'Czechoslovakia',
+    'genre': 'Classic',
+    'imageLink': 'images/stories-of-franz-kafka.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n',
+    'pages': 488,
+    'title': 'Stories',
+    'year': 1924
+},
+{
+    'id': '49',
+    'author': 'Franz Kafka',
+    'country': 'Czechoslovakia',
+    'genre': 'Classic',
+    'imageLink': 'images/the-trial.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/The_Trial\n',
+    'pages': 160,
+    'title': 'The Trial',
+    'year': 1925
+},
+{
+    'id': '50',
+    'author': 'Franz Kafka',
+    'country': 'Czechoslovakia',
+    'genre': 'Classic',
+    'imageLink': 'images/the-castle.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/The_Castle_(novel)\n',
+    'pages': 352,
+    'title': 'The Castle',
+    'year': 1926
+},
+{
+    'id': '51',
+    'author': 'K\u0101lid\u0101sa',
+    'country': 'India',
+    'genre': 'Classic',
+    'imageLink': 'images/the-recognition-of-shakuntala.jpg',
+    'language': 'Sanskrit',
+    'link': 'https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n',
+    'pages': 147,
+    'title': 'The recognition of Shakuntala',
+    'year': 150
+},
+{
+    'id': '52',
+    'author': 'Yasunari Kawabata',
+    'country': 'Japan',
+    'genre': 'Classic',
+    'imageLink': 'images/the-sound-of-the-mountain.jpg',
+    'language': 'Japanese',
+    'link': 'https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n',
+    'pages': 288,
+    'title': 'The Sound of the Mountain',
+    'year': 1954
+},
+{
+    'id': '53',
+    'author': 'Nikos Kazantzakis',
+    'country': 'Greece',
+    'genre': 'Classic',
+    'imageLink': 'images/zorba-the-greek.jpg',
+    'language': 'Greek',
+    'link': 'https://en.wikipedia.org/wiki/Zorba_the_Greek\n',
+    'pages': 368,
+    'title': 'Zorba the Greek',
+    'year': 1946
+},
+{
+    'id': '54',
+    'author': 'D. H. Lawrence',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/sons-and-lovers.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Sons_and_Lovers\n',
+    'pages': 432,
+    'title': 'Sons and Lovers',
+    'year': 1913
+},
+{
+    'id': '55',
+    'author': 'Halld\u00f3r Laxness',
+    'country': 'Iceland',
+    'genre': 'Classic',
+    'imageLink': 'images/independent-people.jpg',
+    'language': 'Icelandic',
+    'link': 'https://en.wikipedia.org/wiki/Independent_People\n',
+    'pages': 470,
+    'title': 'Independent People',
+    'year': 1934
+},
+{
+    'id': '56',
+    'author': 'Giacomo Leopardi',
+    'country': 'Italy',
+    'genre': 'Classic',
+    'imageLink': 'images/poems-giacomo-leopardi.jpg',
+    'language': 'Italian',
+    'link': '\n',
+    'pages': 184,
+    'title': 'Poems',
+    'year': 1818
+},
+{
+    'id': '57',
+    'author': 'Doris Lessing',
+    'country': 'United Kingdom',
+    'imageLink': 'images/the-golden-notebook.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/The_Golden_Notebook\n',
+    'pages': 688,
+    'title': 'The Golden Notebook',
+    'year': 1962
+},
+{
+    'id': '58',
+    'author': 'Astrid Lindgren',
+    'country': 'Sweden',
+    'genre': 'Classic',
+    'imageLink': 'images/pippi-longstocking.jpg',
+    'language': 'Swedish',
+    'link': 'https://en.wikipedia.org/wiki/Pippi_Longstocking\n',
+    'pages': 160,
+    'title': 'Pippi Longstocking',
+    'year': 1945
+},
+{
+    'id': '59',
+    'author': 'Lu Xun',
+    'country': 'China',
+    'genre': 'Classic',
+    'imageLink': 'images/diary-of-a-madman.jpg',
+    'language': 'Chinese',
+    'link': 'https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n',
+    'pages': 389,
+    'title': 'Diary of a Madman',
+    'year': 1918
+},
+{
+    'id': '60',
+    'author': 'Naguib Mahfouz',
+    'country': 'Egypt',
+    'genre': 'Classic',
+    'imageLink': 'images/children-of-gebelawi.jpg',
+    'language': 'Arabic',
+    'link': 'https://en.wikipedia.org/wiki/Children_of_Gebelawi\n',
+    'pages': 355,
+    'title': 'Children of Gebelawi',
+    'year': 1959
+},
+{
+    'id': '61',
+    'author': 'Thomas Mann',
+    'country': 'Germany',
+    'genre': 'Classic',
+    'imageLink': 'images/buddenbrooks.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/Buddenbrooks\n',
+    'pages': 736,
+    'title': 'Buddenbrooks',
+    'year': 1901
+},
+{
+    'id': '62',
+    'author': 'Thomas Mann',
+    'country': 'Germany',
+    'genre': 'Classic',
+    'imageLink': 'images/the-magic-mountain.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/The_Magic_Mountain\n',
+    'pages': 720,
+    'title': 'The Magic Mountain',
+    'year': 1924
+},
+{
+    'id': '63',
+    'author': 'Herman Melville',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/moby-dick.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Moby-Dick\n',
+    'pages': 378,
+    'title': 'Moby Dick',
+    'year': 1851
+},
+{
+    'id': '64',
+    'author': 'Michel de Montaigne',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/essais.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/Essays_(Montaigne)\n',
+    'pages': 404,
+    'title': 'Essays',
+    'year': 1595
+},
+{
+    'id': '65',
+    'author': 'Elsa Morante',
+    'country': 'Italy',
+    'genre': 'Classic',
+    'imageLink': 'images/history.jpg',
+    'language': 'Italian',
+    'link': 'https://en.wikipedia.org/wiki/History_(novel)\n',
+    'pages': 600,
+    'title': 'History',
+    'year': 1974
+},
+{
+    'id': '66',
+    'author': 'Toni Morrison',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/beloved.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Beloved_(novel)\n',
+    'pages': 321,
+    'title': 'Beloved',
+    'year': 1987
+},
+{
+    'id': '67',
+    'author': 'Murasaki Shikibu',
+    'country': 'Japan',
+    'genre': 'Classic',
+    'imageLink': 'images/the-tale-of-genji.jpg',
+    'language': 'Japanese',
+    'link': 'https://en.wikipedia.org/wiki/The_Tale_of_Genji\n',
+    'pages': 1360,
+    'title': 'The Tale of Genji',
+    'year': 1006
+},
+{
+    'id': '68',
+    'author': 'Robert Musil',
+    'country': 'Austria',
+    'genre': 'Classic',
+    'imageLink': 'images/the-man-without-qualities.jpg',
+    'language': 'German',
+    'link': 'https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n',
+    'pages': 365,
+    'title': 'The Man Without Qualities',
+    'year': 1931
+},
+{
+    'id': '69',
+    'author': 'Vladimir Nabokov',
+    'country': 'Russia/United States',
+    'genre': 'Classic',
+    'imageLink': 'images/lolita.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Lolita\n',
+    'pages': 317,
+    'title': 'Lolita',
+    'year': 1955
+},
+{
+    'id': '70',
+    'author': 'George Orwell',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/nineteen-eighty-four.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n',
+    'pages': 272,
+    'title': 'Nineteen Eighty-Four',
+    'year': 1949
+},
+{
+    'id': '71',
+    'author': 'Ovid',
+    'country': 'Roman Empire',
+    'genre': 'Classic',
+    'imageLink': 'images/the-metamorphoses-of-ovid.jpg',
+    'language': 'Classical Latin',
+    'link': 'https://en.wikipedia.org/wiki/Metamorphoses\n',
+    'pages': 576,
+    'title': 'Metamorphoses',
+    'year': 100
+},
+{
+    'id': '72',
+    'author': 'Fernando Pessoa',
+    'country': 'Portugal',
+    'genre': 'Classic',
+    'imageLink': 'images/the-book-of-disquiet.jpg',
+    'language': 'Portuguese',
+    'link': 'https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n',
+    'pages': 272,
+    'title': 'The Book of Disquiet',
+    'year': 1928
+},
+{
+    'id': '73',
+    'author': 'Edgar Allan Poe',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/tales-and-poems-of-edgar-allan-poe.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n',
+    'pages': 842,
+    'title': 'Tales',
+    'year': 1950
+},
+{
+    'id': '74',
+    'author': 'Marcel Proust',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/a-la-recherche-du-temps-perdu.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n',
+    'pages': 2408,
+    'title': 'In Search of Lost Time',
+    'year': 1920
+},
+{
+    'id': '75',
+    'author': 'Fran\u00e7ois Rabelais',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/gargantua-and-pantagruel.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n',
+    'pages': 623,
+    'title': 'Gargantua and Pantagruel',
+    'year': 1533
+},
+{
+    'id': '76',
+    'author': 'Juan Rulfo',
+    'country': 'Mexico',
+    'genre': 'Classic',
+    'imageLink': 'images/pedro-paramo.jpg',
+    'language': 'Spanish',
+    'link': 'https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n',
+    'pages': 124,
+    'title': 'Pedro P\u00e1ramo',
+    'year': 1955
+},
+{
+    'id': '77',
+    'author': 'Rumi',
+    'country': 'Sultanate of Rum',
+    'genre': 'Classic',
+    'imageLink': 'images/the-masnavi.jpg',
+    'language': 'Persian',
+    'link': 'https://en.wikipedia.org/wiki/Masnavi\n',
+    'pages': 438,
+    'title': 'The Masnavi',
+    'year': 1236
+},
+{
+    'id': '78',
+    'author': 'Salman Rushdie',
+    'country': 'United Kingdom, India',
+    'genre': 'Classic',
+    'imageLink': 'images/midnights-children.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Midnight%27s_Children\n',
+    'pages': 536,
+    'title': "Midnight's Children",
+    'year': 1981
+},
+{
+    'id': '79',
+    'author': 'Saadi',
+    'country': 'Persia, Persian Empire',
+    'genre': 'Classic',
+    'imageLink': 'images/bostan.jpg',
+    'language': 'Persian',
+    'link': 'https://en.wikipedia.org/wiki/Bustan_(book)\n',
+    'pages': 298,
+    'title': 'Bostan',
+    'year': 1257
+},
+{
+    'id': '80',
+    'author': 'Tayeb Salih',
+    'country': 'Sudan',
+    'genre': 'Classic',
+    'imageLink': 'images/season-of-migration-to-the-north.jpg',
+    'language': 'Arabic',
+    'link': 'https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n',
+    'pages': 139,
+    'title': 'Season of Migration to the North',
+    'year': 1966
+},
+{
+    'id': '81',
+    'author': 'Jos\u00e9 Saramago',
+    'country': 'Portugal',
+    'genre': 'Classic',
+    'imageLink': 'images/blindness.jpg',
+    'language': 'Portuguese',
+    'link': 'https://en.wikipedia.org/wiki/Blindness_(novel)\n',
+    'pages': 352,
+    'title': 'Blindness',
+    'year': 1995
+},
+{
+    'id': '82',
+    'author': 'William Shakespeare',
+    'country': 'England',
+    'genre': 'Classic',
+    'imageLink': 'images/hamlet.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Hamlet\n',
+    'pages': 432,
+    'title': 'Hamlet',
+    'year': 1603
+},
+{
+    'id': '83',
+    'author': 'William Shakespeare',
+    'country': 'England',
+    'genre': 'Classic',
+    'imageLink': 'images/king-lear.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/King_Lear\n',
+    'pages': 384,
+    'title': 'King Lear',
+    'year': 1608
+},
+{
+    'id': '84',
+    'author': 'William Shakespeare',
+    'country': 'England',
+    'genre': 'Classic',
+    'imageLink': 'images/othello.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Othello\n',
+    'pages': 314,
+    'title': 'Othello',
+    'year': 1609
+},
+{
+    'id': '85',
+    'author': 'Sophocles',
+    'country': 'Greece',
+    'genre': 'Classic',
+    'imageLink': 'images/oedipus-the-king.jpg',
+    'language': 'Greek',
+    'link': 'https://en.wikipedia.org/wiki/Oedipus_the_King\n',
+    'pages': 88,
+    'title': 'Oedipus the King',
+    'year': -430
+},
+{
+    'id': '86',
+    'author': 'Stendhal',
+    'country': 'France',
+    'genre': 'Classic',
+    'imageLink': 'images/le-rouge-et-le-noir.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/The_Red_and_the_Black\n',
+    'pages': 576,
+    'title': 'The Red and the Black',
+    'year': 1830
+},
+{
+    'id': '87',
+    'author': 'Laurence Sterne',
+    'country': 'England',
+    'genre': 'Classic',
+    'imageLink': 'images/the-life-and-opinions-of-tristram-shandy.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n',
+    'pages': 640,
+    'title': 'The Life And Opinions of Tristram Shandy',
+    'year': 1760
+},
+{
+    'id': '88',
+    'author': 'Italo Svevo',
+    'country': 'Italy',
+    'genre': 'Classic',
+    'imageLink': 'images/confessions-of-zeno.jpg',
+    'language': 'Italian',
+    'link': 'https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n',
+    'pages': 412,
+    'title': 'Confessions of Zeno',
+    'year': 1923
+},
+{
+    'id': '89',
+    'author': 'Jonathan Swift',
+    'country': 'Ireland',
+    'genre': 'Classic',
+    'imageLink': 'images/gullivers-travels.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n',
+    'pages': 178,
+    'title': "Gulliver's Travels",
+    'year': 1726
+},
+{
+    'id': '90',
+    'author': 'Leo Tolstoy',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/war-and-peace.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/War_and_Peace\n',
+    'pages': 1296,
+    'title': 'War and Peace',
+    'year': 1867
+},
+{
+    'id': '91',
+    'author': 'Leo Tolstoy',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/anna-karenina.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/Anna_Karenina\n',
+    'pages': 864,
+    'title': 'Anna Karenina',
+    'year': 1877
+},
+{
+    'id': '92',
+    'author': 'Leo Tolstoy',
+    'country': 'Russia',
+    'genre': 'Classic',
+    'imageLink': 'images/the-death-of-ivan-ilyich.jpg',
+    'language': 'Russian',
+    'link': 'https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n',
+    'pages': 92,
+    'title': 'The Death of Ivan Ilyich',
+    'year': 1886
+},
+{
+    'id': '93',
+    'author': 'Mark Twain',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/the-adventures-of-huckleberry-finn.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n',
+    'pages': 224,
+    'title': 'The Adventures of Huckleberry Finn',
+    'year': 1884
+},
+{
+    'id': '94',
+    'author': 'Valmiki',
+    'country': 'India',
+    'genre': 'Classic',
+    'imageLink': 'images/ramayana.jpg',
+    'language': 'Sanskrit',
+    'link': 'https://en.wikipedia.org/wiki/Ramayana\n',
+    'pages': 152,
+    'title': 'Ramayana',
+    'year': -450
+},
+{
+    'id': '95',
+    'author': 'Virgil',
+    'country': 'Roman Empire',
+    'genre': 'Classic',
+    'imageLink': 'images/the-aeneid.jpg',
+    'language': 'Classical Latin',
+    'link': 'https://en.wikipedia.org/wiki/Aeneid\n',
+    'pages': 442,
+    'title': 'The Aeneid',
+    'year': -23
+},
+{
+    'id': '96',
+    'author': 'Vyasa',
+    'country': 'India',
+    'genre': 'Classic',
+    'imageLink': 'images/the-mahab-harata.jpg',
+    'language': 'Sanskrit',
+    'link': 'https://en.wikipedia.org/wiki/Mahabharata\n',
+    'pages': 276,
+    'title': 'Mahabharata',
+    'year': -700
+},
+{
+    'id': '97',
+    'author': 'Walt Whitman',
+    'country': 'United States',
+    'genre': 'Classic',
+    'imageLink': 'images/leaves-of-grass.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Leaves_of_Grass\n',
+    'pages': 152,
+    'title': 'Leaves of Grass',
+    'year': 1855
+},
+{
+    'id': '98',
+    'author': 'Virginia Woolf',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/mrs-dalloway.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/Mrs_Dalloway\n',
+    'pages': 216,
+    'title': 'Mrs Dalloway',
+    'year': 1925
+},
+{
+    'id': '99',
+    'author': 'Virginia Woolf',
+    'country': 'United Kingdom',
+    'genre': 'Classic',
+    'imageLink': 'images/to-the-lighthouse.jpg',
+    'language': 'English',
+    'link': 'https://en.wikipedia.org/wiki/To_the_Lighthouse\n',
+    'pages': 209,
+    'title': 'To the Lighthouse',
+    'year': 1927
+},
+{
+    'id': '100',
+    'author': 'Marguerite Yourcenar',
+    'country': 'France/Belgium',
+    'genre': 'Classic',
+    'imageLink': 'images/memoirs-of-hadrian.jpg',
+    'language': 'French',
+    'link': 'https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n',
+    'pages': 408,
+    'title': 'Memoirs of Hadrian',
+    'year': 1951
+},
 
 ];
 
 
 export let bookData = [
-    
+
     {
-        'bookID': 1,
+        'id': 111,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Half-Blood Prince (Harry Potter  #6)',
         'authors': 'J.K. Rowling/Mary GrandPré',
         'average_rating': 4.57,
@@ -1043,7 +1223,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 2,
+        'id': 112,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Order of the Phoenix (Harry Potter  #5)',
         'authors': 'J.K. Rowling/Mary GrandPré',
         'average_rating': 4.49,
@@ -1058,7 +1239,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 4,
+        'id': 114,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Chamber of Secrets (Harry Potter  #2)',
         'authors': 'J.K. Rowling',
         'average_rating': 4.42,
@@ -1073,7 +1255,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 5,
+        'id': 115,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Prisoner of Azkaban (Harry Potter  #3)',
         'authors': 'J.K. Rowling/Mary GrandPré',
         'average_rating': 4.56,
@@ -1088,7 +1271,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 8,
+        'id': 118,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5)',
         'authors': 'J.K. Rowling/Mary GrandPré',
         'average_rating': 4.78,
@@ -1103,7 +1287,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 9,
+        'id': 119,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Unauthorized Harry Potter Book Seven News: "Half-Blood Prince" Analysis and Speculation',
         'authors': 'W. Frederick Zimmerman',
         'average_rating': 3.74,
@@ -1118,7 +1303,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 10,
+        'id': 110,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter Collection (Harry Potter  #1-6)',
         'authors': 'J.K. Rowling',
         'average_rating': 4.73,
@@ -1133,7 +1319,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 12,
+        'id': 102,
+        'imageLink': 'images/ramayana.jpg',
         'title': "The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy  #1-5)",
         'authors': 'Douglas Adams',
         'average_rating': 4.38,
@@ -1148,7 +1335,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 13,
+        'id': 103,
+        'imageLink': 'images/ramayana.jpg',
         'title': "The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5)",
         'authors': 'Douglas Adams',
         'average_rating': 4.38,
@@ -1163,7 +1351,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 14,
+        'id': 104,
+        'imageLink': 'images/ramayana.jpg',
         'title': "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1)",
         'authors': 'Douglas Adams',
         'average_rating': 4.22,
@@ -1178,7 +1367,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 16,
+        'id': 106,
+        'imageLink': 'images/ramayana.jpg',
         'title': "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1)",
         'authors': 'Douglas Adams/Stephen Fry',
         'average_rating': 4.22,
@@ -1193,7 +1383,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 18,
+        'id': 108,
+        'imageLink': 'images/ramayana.jpg',
         'title': "The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy  #1-5)",
         'authors': 'Douglas Adams',
         'average_rating': 4.38,
@@ -1208,7 +1399,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 21,
+        'id': 121,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'A Short History of Nearly Everything',
         'authors': 'Bill Bryson',
         'average_rating': 4.21,
@@ -1223,7 +1415,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 22,
+        'id': 122,
+        'imageLink': 'images/ramayana.jpg',
         'title': "Bill Bryson's African Diary",
         'authors': 'Bill Bryson',
         'average_rating': 3.44,
@@ -1238,7 +1431,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 23,
+        'id': 123,
+        'imageLink': 'images/ramayana.jpg',
         'title': "Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right",
         'authors': 'Bill Bryson',
         'average_rating': 3.87,
@@ -1253,7 +1447,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 24,
+        'id': 124,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'In a Sunburned Country',
         'authors': 'Bill Bryson',
         'average_rating': 4.07,
@@ -1268,7 +1463,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 25,
+        'id': 125,
+        'imageLink': 'images/ramayana.jpg',
         'title': "I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away",
         'authors': 'Bill Bryson',
         'average_rating': 3.9,
@@ -1283,7 +1479,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 26,
+        'id': 126,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Lost Continent: Travels in Small Town America',
         'authors': 'Bill Bryson',
         'average_rating': 3.83,
@@ -1298,7 +1495,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 27,
+        'id': 127,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Neither Here nor There: Travels in Europe',
         'authors': 'Bill Bryson',
         'average_rating': 3.86,
@@ -1313,7 +1511,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 28,
+        'id': 128,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Notes from a Small Island',
         'authors': 'Bill Bryson',
         'average_rating': 3.91,
@@ -1328,7 +1527,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 29,
+        'id': 129,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Mother Tongue: English and How It Got That Way',
         'authors': 'Bill Bryson',
         'average_rating': 3.93,
@@ -1343,7 +1543,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 30,
+        'id': 130,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings',
         'authors': 'J.R.R. Tolkien',
         'average_rating': 4.59,
@@ -1358,7 +1559,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 31,
+        'id': 131,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings (The Lord of the Rings  #1-3)',
         'authors': 'J.R.R. Tolkien',
         'average_rating': 4.5,
@@ -1373,7 +1575,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 34,
+        'id': 134,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Fellowship of the Ring (The Lord of the Rings  #1)',
         'authors': 'J.R.R. Tolkien',
         'average_rating': 4.36,
@@ -1388,7 +1591,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 35,
+        'id': 135,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings (The Lord of the Rings  #1-3)',
         'authors': 'J.R.R. Tolkien/Alan  Lee',
         'average_rating': 4.5,
@@ -1403,7 +1607,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 36,
+        'id': 136,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: Weapons and Warfare',
         'authors': 'Chris   Smith/Christopher  Lee/Richard Taylor',
         'average_rating': 4.53,
@@ -1418,7 +1623,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 37,
+        'id': 137,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: Complete Visual Companion',
         'authors': 'Jude Fisher',
         'average_rating': 4.5,
@@ -1433,7 +1639,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 45,
+        'id': 145,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Agile Web Development with Rails: A Pragmatic Guide',
         'authors': 'Dave Thomas/David Heinemeier Hansson/Leon Breedt/Mike Clark/Thomas  Fuchs/Andreas  Schwarz',
         'average_rating': 3.84,
@@ -1448,7 +1655,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 50,
+        'id': 150,
+        'imageLink': 'images/ramayana.jpg',
         'title': "Hatchet (Brian's Saga  #1)",
         'authors': 'Gary Paulsen',
         'average_rating': 3.72,
@@ -1463,7 +1671,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 51,
+        'id': 151,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Hatchet: A Guide for Using "Hatchet" in the Classroom',
         'authors': 'Donna Ickes/Edward Sciranko/Keith Vasconcelles',
         'average_rating': 4,
@@ -1478,7 +1687,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 53,
+        'id': 153,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Guts: The True Stories behind Hatchet and the Brian Books',
         'authors': 'Gary Paulsen',
         'average_rating': 3.88,
@@ -1493,7 +1703,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 54,
+        'id': 154,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Molly Hatchet - 5 of the Best',
         'authors': 'Molly Hatchet',
         'average_rating': 4.33,
@@ -1508,7 +1719,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 55,
+        'id': 155,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Hatchet Jobs: Writings on Contemporary Fiction',
         'authors': 'Dale Peck',
         'average_rating': 3.45,
@@ -1523,7 +1735,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 57,
+        'id': 157,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'A Changeling for All Seasons (Changeling Seasons #1)',
         'authors': 'Angela Knight/Sahara Kelly/Judy Mays/Marteeka Karland/Kate Douglas/Shelby Morgen/Lacey Savage/Kate Hill/Willa Okati',
         'average_rating': 3.76,
@@ -1538,7 +1751,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 58,
+        'id': 158,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Changeling (Changeling  #1)',
         'authors': 'Delia Sherman',
         'average_rating': 3.6,
@@ -1553,7 +1767,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 59,
+        'id': 159,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling Sea',
         'authors': 'Patricia A. McKillip',
         'average_rating': 4.06,
@@ -1568,7 +1783,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 61,
+        'id': 161,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling',
         'authors': 'Zilpha Keatley Snyder',
         'average_rating': 4.17,
@@ -1583,7 +1799,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 63,
+        'id': 163,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling',
         'authors': 'Kate Horsley',
         'average_rating': 3.55,
@@ -1598,7 +1815,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 66,
+        'id': 166,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling (Daughters of England  #15)',
         'authors': 'Philippa Carr',
         'average_rating': 3.98,
@@ -1613,7 +1831,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 67,
+        'id': 167,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Known World',
         'authors': 'Edward P. Jones',
         'average_rating': 3.83,
@@ -1628,7 +1847,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 68,
+        'id': 168,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Known World',
         'authors': 'Edward P. Jones/Kevin R. Free',
         'average_rating': 3.83,
@@ -1643,7 +1863,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 69,
+        'id': 169,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Known World',
         'authors': 'Edward P. Jones',
         'average_rating': 3.83,
@@ -1658,7 +1879,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 71,
+        'id': 171,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Traders  Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives',
         'authors': 'Satyajit Das',
         'average_rating': 3.83,
@@ -1673,7 +1895,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 72,
+        'id': 172,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Artesia: Adventures in the Known World',
         'authors': 'Mark Smylie',
         'average_rating': 4.13,
@@ -1688,7 +1911,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 74,
+        'id': 174,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The John McPhee Reader (John McPhee Reader  #1)',
         'authors': 'John McPhee/William Howarth',
         'average_rating': 4.42,
@@ -1703,7 +1927,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 75,
+        'id': 175,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Uncommon Carriers',
         'authors': 'John McPhee',
         'average_rating': 3.95,
@@ -1718,7 +1943,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 76,
+        'id': 176,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Heirs of General Practice',
         'authors': 'John McPhee',
         'average_rating': 4.17,
@@ -1733,7 +1959,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 77,
+        'id': 177,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Control of Nature',
         'authors': 'John McPhee',
         'average_rating': 4.24,
@@ -1748,7 +1975,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 78,
+        'id': 178,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Annals of the Former World',
         'authors': 'John McPhee',
         'average_rating': 4.34,
@@ -1763,7 +1991,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 79,
+        'id': 179,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Coming Into the Country',
         'authors': 'John McPhee',
         'average_rating': 4.22,
@@ -1778,7 +2007,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 80,
+        'id': 180,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'La Place de la Concorde Suisse',
         'authors': 'John McPhee',
         'average_rating': 3.92,
@@ -1793,7 +2023,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 81,
+        'id': 181,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Giving Good Weight',
         'authors': 'John McPhee',
         'average_rating': 4.23,
@@ -1808,7 +2039,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 83,
+        'id': 183,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Rising from the Plains',
         'authors': 'John McPhee',
         'average_rating': 4.23,
@@ -1823,7 +2055,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 85,
+        'id': 185,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Heidi Chronicles',
         'authors': 'Wendy Wasserstein',
         'average_rating': 3.75,
@@ -1838,7 +2071,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 86,
+        'id': 186,
+        'imageLink': 'images/ramayana.jpg',
         'title': "The Heidi Chronicles: Uncommon Women and Others & Isn't It Romantic",
         'authors': 'Wendy Wasserstein',
         'average_rating': 3.84,
@@ -1853,7 +2087,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 89,
+        'id': 189,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Active Literacy Across the Curriculum: Strategies for Reading  Writing  Speaking  and Listening',
         'authors': 'Heidi Hayes Jacobs',
         'average_rating': 3.94,
@@ -1868,7 +2103,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 90,
+        'id': 190,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Simply Beautiful Beaded Jewelry',
         'authors': 'Heidi Boyd',
         'average_rating': 3.77,
@@ -1883,7 +2119,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 91,
+        'id': 191,
+        'imageLink': 'images/ramayana.jpg',
         'title': "Always Enough: God's Miraculous Provision Among the Poorest Children on Earth",
         'authors': 'Heidi Baker/Rolland Baker',
         'average_rating': 4.46,
@@ -1898,7 +2135,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 92,
+        'id': 192,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Mapping the Big Picture: Integrating Curriculum & Assessment K-12',
         'authors': 'Heidi Hayes Jacobs',
         'average_rating': 3.68,
@@ -1913,7 +2151,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 93,
+        'id': 193,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Heidi (Heidi  #1-2)',
         'authors': 'Johanna Spyri/Beverly Cleary/Angelo  Rinaldi',
         'average_rating': 3.99,
@@ -1928,7 +2167,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 94,
+        'id': 194,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Getting Results with Curriculum Mapping',
         'authors': 'Heidi Hayes Jacobs',
         'average_rating': 3.25,
@@ -1943,7 +2183,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 96,
+        'id': 196,
+        'imageLink': 'images/ramayana.jpg',
         'title': "There's Always Enough: The Miraculous Move of God in Mozambique",
         'authors': 'Rolland Baker/Heidi Baker',
         'average_rating': 4.46,
@@ -1958,7 +2199,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 98,
+        'id': 198,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'What to Expect the First Year (What to Expect)',
         'authors': 'Heidi Murkoff/Sharon Mazel/Arlene Eisenberg/Sandee Hathaway/Mark D. Widome',
         'average_rating': 3.89,
@@ -1973,7 +2215,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 99,
+        'id': 199,
+        'imageLink': 'images/ramayana.jpg',
         'title': "The Player's Handbook: The Ultimate Guide on Dating and Relationships",
         'authors': 'Heidi Fleiss/Libby Keatinge',
         'average_rating': 3.82,
@@ -1988,7 +2231,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 100,
+        'id': 1100,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Simply Beautiful Beading: 53 Quick and Easy Projects',
         'authors': 'Heidi Boyd',
         'average_rating': 3.78,
@@ -2003,7 +2247,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 103,
+        'id': 1103,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'God Emperor of Dune (Dune Chronicles  #4)',
         'authors': 'Frank Herbert',
         'average_rating': 3.84,
@@ -2018,7 +2263,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 105,
+        'id': 1105,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Chapterhouse: Dune (Dune Chronicles #6)',
         'authors': 'Frank Herbert',
         'average_rating': 3.91,
@@ -2033,7 +2279,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 106,
+        'id': 1106,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Dune Messiah (Dune Chronicles #2)',
         'authors': 'Frank Herbert',
         'average_rating': 3.88,
@@ -2048,7 +2295,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 107,
+        'id': 1107,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Dreamer of Dune: The Biography of Frank Herbert',
         'authors': 'Brian Herbert',
         'average_rating': 4.01,
@@ -2063,7 +2311,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 109,
+        'id': 1109,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Heretics of Dune (Dune Chronicles  #5)',
         'authors': 'Frank Herbert',
         'average_rating': 3.86,
@@ -2078,7 +2327,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 110,
+        'id': 1110,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Road to Dune',
         'authors': 'Frank Herbert/Brian Herbert/Kevin J. Anderson',
         'average_rating': 3.88,
@@ -2093,7 +2343,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 117,
+        'id': 1117,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Heretics of Dune (Dune Chronicles #5)',
         'authors': 'Frank Herbert',
         'average_rating': 3.86,
@@ -2108,7 +2359,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 119,
+        'id': 1119,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: The Art of the Fellowship of the Ring',
         'authors': 'Gary Russell',
         'average_rating': 4.59,
@@ -2123,7 +2375,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 122,
+        'id': 1122,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One (The Power of One  #1)',
         'authors': 'Bryce Courtenay',
         'average_rating': 4.35,
@@ -2138,7 +2391,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 123,
+        'id': 1123,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One (The Power of One  #1)',
         'authors': 'Bryce Courtenay',
         'average_rating': 4.35,
@@ -2153,7 +2407,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 129,
+        'id': 1129,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One: One Person  One Rule  One Month',
         'authors': 'John C. Maxwell/Stephen R. Graves/Thomas G. Addington',
         'average_rating': 4.28,
@@ -2168,7 +2423,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 130,
+        'id': 1130,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Power of an Hour: Business and Life Mastery in One Hour a Week',
         'authors': 'Dave Lakhani',
         'average_rating': 3.34,
@@ -2183,7 +2439,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 131,
+        'id': 1131,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One: The Solo Play for Playwrights  Actors  and Directors',
         'authors': 'Louis E. Catron',
         'average_rating': 3.67,
@@ -2198,7 +2455,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 132,
+        'id': 1132,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'How to Buy  Sell & Profit on eBay: Kick-Start Your Home-Based Business in Just Thirty Days',
         'authors': 'Adam Ginsberg',
         'average_rating': 3.48,
@@ -2213,7 +2471,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 133,
+        'id': 1133,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'eBay for Dummies',
         'authors': 'Marsha Collier',
         'average_rating': 3.5,
@@ -2228,7 +2487,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 135,
+        'id': 1135,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'What to Sell on ebay and Where to Get It: The Definitive Guide to Product Sourcing for eBay and Beyond',
         'authors': 'Chris Malta/Lisa Suttora',
         'average_rating': 3.62,
@@ -2243,7 +2503,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 137,
+        'id': 1137,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Starting an eBay Business for Dummies',
         'authors': 'Marsha Collier',
         'average_rating': 3.55,
@@ -2258,7 +2519,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 138,
+        'id': 1138,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'eBay: Top 100 Simplified Tips & Tricks',
         'authors': 'Julia Wilkinson',
         'average_rating': 4.27,
@@ -2273,7 +2535,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 139,
+        'id': 1139,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'ebay Timesaving Techniques for Dummies',
         'authors': 'Marsha Collier',
         'average_rating': 3.39,
@@ -2288,7 +2551,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 140,
+        'id': 1140,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'eBay Business All-in-One Desk Reference for Dummies',
         'authors': 'Marsha Collier',
         'average_rating': 3.89,
@@ -2303,7 +2567,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 141,
+        'id': 1141,
+        'imageLink': 'images/ramayana.jpg',
         'title': 'Ruby Cookbook',
         'authors': 'Lucas Carlson/Leonard Richardson',
         'average_rating': 3.84,
@@ -2318,7 +2583,8 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 142,
+        'id': 1142,
+        'imageLink': 'images/ramayana.jpg',
         'title': "Ruby Ann's Down Home Trailer Park Cookbook",
         'authors': 'Ruby Ann Boxcar',
         'average_rating': 4.12,
@@ -2333,3 +2599,4 @@ export let bookData = [
         '': ''
     },
 ];
+

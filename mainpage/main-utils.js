@@ -21,14 +21,14 @@ export function renderBookShelf(arrayResults) {
         const bookDiv = document.createElement('div');
         const bookImage = document.createElement('img');
         const shelfButton = document.createElement('button');
-        shelfButton.textContent = 'Add Book to Bookshelf';
+        shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
-            
+            user.booksread.push(bookObject);
         });
         const queueButton = document.createElement('button');
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
-
+            user.bookstoread.push(bookObject);
         });
 
         bookImage.src = `/data/${bookObject.imageLink}`;
@@ -50,4 +50,20 @@ export function renderBookShelf(arrayResults) {
     }
     
     return containerDiv;
+}
+
+export function renderBookshelf() {
+const user = getUser();
+const hasReadDiv = document.createElement('div');
+const queueDiv = document.createElement('div');
+
+for (let i = 0; i < user.booksread.length; i++){
+const readBookDiv = document.createElement('div');
+const readBookImg = document.createElement('img');
+readBookImg.src = `/data/${user.booksread[i].imageLink}`;
+}
+
+
+
+
 }
