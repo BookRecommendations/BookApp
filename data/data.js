@@ -38,7 +38,7 @@ export let booksWithPic = [{
     'id': '4',
     'author': 'Unknown',
     'country': 'Sumer and Akkadian Empire',
-    'genre': 'Classic',
+    'genre': 'Historical Fiction',
     'imageLink': '/data/images/the-epic-of-gilgamesh.jpg',
     'language': 'Akkadian',
     'link': 'https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n',
@@ -50,7 +50,7 @@ export let booksWithPic = [{
     'id': '5',
     'author': 'Unknown',
     'country': 'Achaemenid Empire',
-    'genre': 'Classic',
+    'genre': 'Historical Fiction',
     'imageLink': 'images/the-book-of-job.jpg',
     'language': 'Hebrew',
     'link': 'https://en.wikipedia.org/wiki/Book_of_Job\n',
@@ -62,7 +62,7 @@ export let booksWithPic = [{
     'id': '6',
     'author': 'Unknown',
     'country': 'India/Iran/Iraq/Egypt/Tajikistan',
-    'genre': 'Classic',
+    'genre': 'Historical Fiction',
     'imageLink': 'images/one-thousand-and-one-nights.jpg',
     'language': 'Arabic',
     'link': 'https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n',
@@ -74,7 +74,7 @@ export let booksWithPic = [{
     'id': '7',
     'author': 'Unknown',
     'country': 'Iceland',
-    'genre': 'Classic',
+    'genre': 'Historical Fiction',
     'imageLink': 'images/njals-saga.jpg',
     'language': 'Old Norse',
     'link': 'https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n',
@@ -122,7 +122,7 @@ export let booksWithPic = [{
     'id': '11',
     'author': 'Giovanni Boccaccio',
     'country': 'Italy',
-    'genre': 'Classic',
+    'genre': 'Historical Fiction',
     'imageLink': 'images/the-decameron.jpg',
     'language': 'Italian',
     'link': 'https://en.wikipedia.org/wiki/The_Decameron\n',
@@ -1207,7 +1207,7 @@ export let booksWithPic = [{
 export let bookData = [
 
     {
-        'bookID': 1,
+        'id': 111,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Half-Blood Prince (Harry Potter  #6)',
         'authors': 'J.K. Rowling/Mary GrandPré',
@@ -1223,7 +1223,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 2,
+        'id': 112,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Order of the Phoenix (Harry Potter  #5)',
         'authors': 'J.K. Rowling/Mary GrandPré',
@@ -1239,7 +1239,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 4,
+        'id': 114,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Chamber of Secrets (Harry Potter  #2)',
         'authors': 'J.K. Rowling',
@@ -1255,7 +1255,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 5,
+        'id': 115,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter and the Prisoner of Azkaban (Harry Potter  #3)',
         'authors': 'J.K. Rowling/Mary GrandPré',
@@ -1271,7 +1271,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 8,
+        'id': 118,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5)',
         'authors': 'J.K. Rowling/Mary GrandPré',
@@ -1287,7 +1287,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 9,
+        'id': 119,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Unauthorized Harry Potter Book Seven News: "Half-Blood Prince" Analysis and Speculation',
         'authors': 'W. Frederick Zimmerman',
@@ -1303,7 +1303,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 10,
+        'id': 110,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Harry Potter Collection (Harry Potter  #1-6)',
         'authors': 'J.K. Rowling',
@@ -1319,7 +1319,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 12,
+        'id': 102,
         'imageLink': 'images/ramayana.jpg',
         'title': "The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy  #1-5)",
         'authors': 'Douglas Adams',
@@ -1335,7 +1335,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 13,
+        'id': 103,
         'imageLink': 'images/ramayana.jpg',
         'title': "The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5)",
         'authors': 'Douglas Adams',
@@ -1351,7 +1351,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 14,
+        'id': 104,
         'imageLink': 'images/ramayana.jpg',
         'title': "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1)",
         'authors': 'Douglas Adams',
@@ -1367,7 +1367,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 16,
+        'id': 106,
         'imageLink': 'images/ramayana.jpg',
         'title': "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1)",
         'authors': 'Douglas Adams/Stephen Fry',
@@ -1383,7 +1383,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 18,
+        'id': 108,
         'imageLink': 'images/ramayana.jpg',
         'title': "The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy  #1-5)",
         'authors': 'Douglas Adams',
@@ -1399,7 +1399,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 21,
+        'id': 121,
         'imageLink': 'images/ramayana.jpg',
         'title': 'A Short History of Nearly Everything',
         'authors': 'Bill Bryson',
@@ -1415,7 +1415,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 22,
+        'id': 122,
         'imageLink': 'images/ramayana.jpg',
         'title': "Bill Bryson's African Diary",
         'authors': 'Bill Bryson',
@@ -1431,7 +1431,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 23,
+        'id': 123,
         'imageLink': 'images/ramayana.jpg',
         'title': "Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right",
         'authors': 'Bill Bryson',
@@ -1447,7 +1447,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 24,
+        'id': 124,
         'imageLink': 'images/ramayana.jpg',
         'title': 'In a Sunburned Country',
         'authors': 'Bill Bryson',
@@ -1463,7 +1463,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 25,
+        'id': 125,
         'imageLink': 'images/ramayana.jpg',
         'title': "I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away",
         'authors': 'Bill Bryson',
@@ -1479,7 +1479,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 26,
+        'id': 126,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lost Continent: Travels in Small Town America',
         'authors': 'Bill Bryson',
@@ -1495,7 +1495,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 27,
+        'id': 127,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Neither Here nor There: Travels in Europe',
         'authors': 'Bill Bryson',
@@ -1511,7 +1511,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 28,
+        'id': 128,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Notes from a Small Island',
         'authors': 'Bill Bryson',
@@ -1527,7 +1527,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 29,
+        'id': 129,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Mother Tongue: English and How It Got That Way',
         'authors': 'Bill Bryson',
@@ -1543,7 +1543,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 30,
+        'id': 130,
         'imageLink': 'images/ramayana.jpg',
         'title': 'J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings',
         'authors': 'J.R.R. Tolkien',
@@ -1559,7 +1559,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 31,
+        'id': 131,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings (The Lord of the Rings  #1-3)',
         'authors': 'J.R.R. Tolkien',
@@ -1575,7 +1575,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 34,
+        'id': 134,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Fellowship of the Ring (The Lord of the Rings  #1)',
         'authors': 'J.R.R. Tolkien',
@@ -1591,7 +1591,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 35,
+        'id': 135,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings (The Lord of the Rings  #1-3)',
         'authors': 'J.R.R. Tolkien/Alan  Lee',
@@ -1607,7 +1607,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 36,
+        'id': 136,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: Weapons and Warfare',
         'authors': 'Chris   Smith/Christopher  Lee/Richard Taylor',
@@ -1623,7 +1623,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 37,
+        'id': 137,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: Complete Visual Companion',
         'authors': 'Jude Fisher',
@@ -1639,7 +1639,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 45,
+        'id': 145,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Agile Web Development with Rails: A Pragmatic Guide',
         'authors': 'Dave Thomas/David Heinemeier Hansson/Leon Breedt/Mike Clark/Thomas  Fuchs/Andreas  Schwarz',
@@ -1655,7 +1655,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 50,
+        'id': 150,
         'imageLink': 'images/ramayana.jpg',
         'title': "Hatchet (Brian's Saga  #1)",
         'authors': 'Gary Paulsen',
@@ -1671,7 +1671,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 51,
+        'id': 151,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Hatchet: A Guide for Using "Hatchet" in the Classroom',
         'authors': 'Donna Ickes/Edward Sciranko/Keith Vasconcelles',
@@ -1687,7 +1687,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 53,
+        'id': 153,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Guts: The True Stories behind Hatchet and the Brian Books',
         'authors': 'Gary Paulsen',
@@ -1703,7 +1703,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 54,
+        'id': 154,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Molly Hatchet - 5 of the Best',
         'authors': 'Molly Hatchet',
@@ -1719,7 +1719,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 55,
+        'id': 155,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Hatchet Jobs: Writings on Contemporary Fiction',
         'authors': 'Dale Peck',
@@ -1735,7 +1735,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 57,
+        'id': 157,
         'imageLink': 'images/ramayana.jpg',
         'title': 'A Changeling for All Seasons (Changeling Seasons #1)',
         'authors': 'Angela Knight/Sahara Kelly/Judy Mays/Marteeka Karland/Kate Douglas/Shelby Morgen/Lacey Savage/Kate Hill/Willa Okati',
@@ -1751,7 +1751,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 58,
+        'id': 158,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Changeling (Changeling  #1)',
         'authors': 'Delia Sherman',
@@ -1767,7 +1767,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 59,
+        'id': 159,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling Sea',
         'authors': 'Patricia A. McKillip',
@@ -1783,7 +1783,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 61,
+        'id': 161,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling',
         'authors': 'Zilpha Keatley Snyder',
@@ -1799,7 +1799,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 63,
+        'id': 163,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling',
         'authors': 'Kate Horsley',
@@ -1815,7 +1815,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 66,
+        'id': 166,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Changeling (Daughters of England  #15)',
         'authors': 'Philippa Carr',
@@ -1831,7 +1831,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 67,
+        'id': 167,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Known World',
         'authors': 'Edward P. Jones',
@@ -1847,7 +1847,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 68,
+        'id': 168,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Known World',
         'authors': 'Edward P. Jones/Kevin R. Free',
@@ -1863,7 +1863,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 69,
+        'id': 169,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Known World',
         'authors': 'Edward P. Jones',
@@ -1879,7 +1879,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 71,
+        'id': 171,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Traders  Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives',
         'authors': 'Satyajit Das',
@@ -1895,7 +1895,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 72,
+        'id': 172,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Artesia: Adventures in the Known World',
         'authors': 'Mark Smylie',
@@ -1911,7 +1911,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 74,
+        'id': 174,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The John McPhee Reader (John McPhee Reader  #1)',
         'authors': 'John McPhee/William Howarth',
@@ -1927,7 +1927,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 75,
+        'id': 175,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Uncommon Carriers',
         'authors': 'John McPhee',
@@ -1943,7 +1943,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 76,
+        'id': 176,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Heirs of General Practice',
         'authors': 'John McPhee',
@@ -1959,7 +1959,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 77,
+        'id': 177,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Control of Nature',
         'authors': 'John McPhee',
@@ -1975,7 +1975,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 78,
+        'id': 178,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Annals of the Former World',
         'authors': 'John McPhee',
@@ -1991,7 +1991,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 79,
+        'id': 179,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Coming Into the Country',
         'authors': 'John McPhee',
@@ -2007,7 +2007,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 80,
+        'id': 180,
         'imageLink': 'images/ramayana.jpg',
         'title': 'La Place de la Concorde Suisse',
         'authors': 'John McPhee',
@@ -2023,7 +2023,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 81,
+        'id': 181,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Giving Good Weight',
         'authors': 'John McPhee',
@@ -2039,7 +2039,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 83,
+        'id': 183,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Rising from the Plains',
         'authors': 'John McPhee',
@@ -2055,7 +2055,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 85,
+        'id': 185,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Heidi Chronicles',
         'authors': 'Wendy Wasserstein',
@@ -2071,7 +2071,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 86,
+        'id': 186,
         'imageLink': 'images/ramayana.jpg',
         'title': "The Heidi Chronicles: Uncommon Women and Others & Isn't It Romantic",
         'authors': 'Wendy Wasserstein',
@@ -2087,7 +2087,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 89,
+        'id': 189,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Active Literacy Across the Curriculum: Strategies for Reading  Writing  Speaking  and Listening',
         'authors': 'Heidi Hayes Jacobs',
@@ -2103,7 +2103,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 90,
+        'id': 190,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Simply Beautiful Beaded Jewelry',
         'authors': 'Heidi Boyd',
@@ -2119,7 +2119,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 91,
+        'id': 191,
         'imageLink': 'images/ramayana.jpg',
         'title': "Always Enough: God's Miraculous Provision Among the Poorest Children on Earth",
         'authors': 'Heidi Baker/Rolland Baker',
@@ -2135,7 +2135,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 92,
+        'id': 192,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Mapping the Big Picture: Integrating Curriculum & Assessment K-12',
         'authors': 'Heidi Hayes Jacobs',
@@ -2151,7 +2151,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 93,
+        'id': 193,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Heidi (Heidi  #1-2)',
         'authors': 'Johanna Spyri/Beverly Cleary/Angelo  Rinaldi',
@@ -2167,7 +2167,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 94,
+        'id': 194,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Getting Results with Curriculum Mapping',
         'authors': 'Heidi Hayes Jacobs',
@@ -2183,7 +2183,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 96,
+        'id': 196,
         'imageLink': 'images/ramayana.jpg',
         'title': "There's Always Enough: The Miraculous Move of God in Mozambique",
         'authors': 'Rolland Baker/Heidi Baker',
@@ -2199,7 +2199,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 98,
+        'id': 198,
         'imageLink': 'images/ramayana.jpg',
         'title': 'What to Expect the First Year (What to Expect)',
         'authors': 'Heidi Murkoff/Sharon Mazel/Arlene Eisenberg/Sandee Hathaway/Mark D. Widome',
@@ -2215,7 +2215,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 99,
+        'id': 199,
         'imageLink': 'images/ramayana.jpg',
         'title': "The Player's Handbook: The Ultimate Guide on Dating and Relationships",
         'authors': 'Heidi Fleiss/Libby Keatinge',
@@ -2231,7 +2231,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 100,
+        'id': 1100,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Simply Beautiful Beading: 53 Quick and Easy Projects',
         'authors': 'Heidi Boyd',
@@ -2247,7 +2247,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 103,
+        'id': 1103,
         'imageLink': 'images/ramayana.jpg',
         'title': 'God Emperor of Dune (Dune Chronicles  #4)',
         'authors': 'Frank Herbert',
@@ -2263,7 +2263,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 105,
+        'id': 1105,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Chapterhouse: Dune (Dune Chronicles #6)',
         'authors': 'Frank Herbert',
@@ -2279,7 +2279,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 106,
+        'id': 1106,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Dune Messiah (Dune Chronicles #2)',
         'authors': 'Frank Herbert',
@@ -2295,7 +2295,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 107,
+        'id': 1107,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Dreamer of Dune: The Biography of Frank Herbert',
         'authors': 'Brian Herbert',
@@ -2311,7 +2311,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 109,
+        'id': 1109,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Heretics of Dune (Dune Chronicles  #5)',
         'authors': 'Frank Herbert',
@@ -2327,7 +2327,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 110,
+        'id': 1110,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Road to Dune',
         'authors': 'Frank Herbert/Brian Herbert/Kevin J. Anderson',
@@ -2343,7 +2343,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 117,
+        'id': 1117,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Heretics of Dune (Dune Chronicles #5)',
         'authors': 'Frank Herbert',
@@ -2359,7 +2359,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 119,
+        'id': 1119,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Lord of the Rings: The Art of the Fellowship of the Ring',
         'authors': 'Gary Russell',
@@ -2375,7 +2375,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 122,
+        'id': 1122,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One (The Power of One  #1)',
         'authors': 'Bryce Courtenay',
@@ -2391,7 +2391,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 123,
+        'id': 1123,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One (The Power of One  #1)',
         'authors': 'Bryce Courtenay',
@@ -2407,7 +2407,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 129,
+        'id': 1129,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One: One Person  One Rule  One Month',
         'authors': 'John C. Maxwell/Stephen R. Graves/Thomas G. Addington',
@@ -2423,7 +2423,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 130,
+        'id': 1130,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Power of an Hour: Business and Life Mastery in One Hour a Week',
         'authors': 'Dave Lakhani',
@@ -2439,7 +2439,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 131,
+        'id': 1131,
         'imageLink': 'images/ramayana.jpg',
         'title': 'The Power of One: The Solo Play for Playwrights  Actors  and Directors',
         'authors': 'Louis E. Catron',
@@ -2455,7 +2455,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 132,
+        'id': 1132,
         'imageLink': 'images/ramayana.jpg',
         'title': 'How to Buy  Sell & Profit on eBay: Kick-Start Your Home-Based Business in Just Thirty Days',
         'authors': 'Adam Ginsberg',
@@ -2471,7 +2471,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 133,
+        'id': 1133,
         'imageLink': 'images/ramayana.jpg',
         'title': 'eBay for Dummies',
         'authors': 'Marsha Collier',
@@ -2487,7 +2487,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 135,
+        'id': 1135,
         'imageLink': 'images/ramayana.jpg',
         'title': 'What to Sell on ebay and Where to Get It: The Definitive Guide to Product Sourcing for eBay and Beyond',
         'authors': 'Chris Malta/Lisa Suttora',
@@ -2503,7 +2503,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 137,
+        'id': 1137,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Starting an eBay Business for Dummies',
         'authors': 'Marsha Collier',
@@ -2519,7 +2519,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 138,
+        'id': 1138,
         'imageLink': 'images/ramayana.jpg',
         'title': 'eBay: Top 100 Simplified Tips & Tricks',
         'authors': 'Julia Wilkinson',
@@ -2535,7 +2535,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 139,
+        'id': 1139,
         'imageLink': 'images/ramayana.jpg',
         'title': 'ebay Timesaving Techniques for Dummies',
         'authors': 'Marsha Collier',
@@ -2551,7 +2551,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 140,
+        'id': 1140,
         'imageLink': 'images/ramayana.jpg',
         'title': 'eBay Business All-in-One Desk Reference for Dummies',
         'authors': 'Marsha Collier',
@@ -2567,7 +2567,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 141,
+        'id': 1141,
         'imageLink': 'images/ramayana.jpg',
         'title': 'Ruby Cookbook',
         'authors': 'Lucas Carlson/Leonard Richardson',
@@ -2583,7 +2583,7 @@ export let bookData = [
         '': ''
     },
     {
-        'bookID': 142,
+        'id': 1142,
         'imageLink': 'images/ramayana.jpg',
         'title': "Ruby Ann's Down Home Trailer Park Cookbook",
         'authors': 'Ruby Ann Boxcar',
