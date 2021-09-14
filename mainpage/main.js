@@ -10,27 +10,30 @@ console.log(user);
 const booksReturned = [booksWithPic[0], booksWithPic[1], booksWithPic[3]];
 
 
-if (!user.newUser) {
-    console.log(user.Genre);
+if (user.newUser) {
+    console.log(user);
     formEl.style.display = 'block';
 }
 
 formEl.addEventListener('submit', (event) => {
+    if (resultsDiv.childNodes[0]) {
+        resultsDiv.removeChild(resultsDiv.childNodes[0]);
+    }
     event.preventDefault();
     const userData = new FormData(formEl);
-    addToUserObject(userData);
-    const user = getUser;
+    const user = getUser();
+    addToUserObject(user, userData);
     console.log(user);
     formEl.style.display = 'none';
     
     const returnedDiv = renderBookShelf(booksReturned);
-    resultsDiv.append(booksReturned);
+    resultsDiv.append(returnedDiv);
     
 });
 
-if (user.newUser) {
+if (!user.newUser) {
+    console.log(user);
     formEl.style.display = 'none';
-    resultsDiv.append(renderBookShelf(booksReturned));
 }
 
 const formButton = document.createElement('button');

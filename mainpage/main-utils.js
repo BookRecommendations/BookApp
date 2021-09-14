@@ -2,14 +2,11 @@ import { setUser, getUser, findById } from '../utils.js';
 import { booksWithPic } from '../data/data.js';
 
 
-export function addToUserObject(userData){
-    const user = getUser();
-    console.log(userData);
+export function addToUserObject(user, userData){
     user.Genre = userData.get('genre');
-    user.Theme = userData.get('theme');
     user.BookLength = userData.get('length');
     user.ReadingLevel = userData.get('level');
-    user.newUser = true;
+    user.newUser = false;
     setUser(user);
     console.log(user);
 }
@@ -34,7 +31,7 @@ export function renderBookShelf(arrayResults) {
 
         });
 
-        bookImage.src = bookObject.imageLink;
+        bookImage.src = `/data/${bookObject.imageLink}`;
         const bookDescription = document.createElement('div');
         bookDescription.textContent = 
         `Title: ${bookObject.title}

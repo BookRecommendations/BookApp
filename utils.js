@@ -36,7 +36,7 @@ export function createUser(formData) {
         booksread: [],
         bookstoread: [],
         totalpgsrd: [],
-        newUser: false,
+        newUser: true,
         Genre:'',
         Theme:'',
         BookLength:'',
