@@ -102,7 +102,7 @@ export function renderBookshelf() {
         const queueBookImg = document.createElement('img');
         queueBookDiv.classList.add('queuebookdiv');
         queueBookImg.classList.add('queuebookimg');
-        queueBookImg.src = `/data/${user.bookstoread[j].imageLink}`;
+        queueBookImg.src = `../data/${user.bookstoread[j].imageLink}`;
         queueBookDiv.textContent = `Title: ${user.bookstoread[j].title},
         Author: ${user.bookstoread[j].author}
         Genre: ${user.bookstoread[j].genre}
