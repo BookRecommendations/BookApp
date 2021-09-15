@@ -57,3 +57,61 @@ body {
     background-color: ivory;
     cursor: pointer;
 }
+.main-header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    background-color: antiquewhite;
+    height: fit-content;
+    color: black;
+}
+nav {
+    background-color: antiquewhite;
+    border: ridge 2px black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.title-mp {
+    font-size: 3.5rem;
+    text-align: center;
+    background-color: rgba(100, 150, 250, 1);
+    align-items: center;
+}
+.stats-tp {
+    display: flex;
+    justify-content: center;
+
+}
+.buttondiv {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+}
+.buttondiv > button {
+    width: 100%;
+    height: fit-content;
+    font-size: auto;
+    transition: ease-in-out 1000ms;
+    border-radius: 5px;
+    
+}
+.buttondiv > button:hover { 
+    cursor: pointer;
+    background-color: black ;
+    color: antiquewhite;
+    transform: scale(110%);
+}
+
+li > a {
+    transition: ease-in-out 500ms;
+    text-decoration: none;
+    padding: 4px;
+    
+    
+}
+li > a:hover {
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 20px;
+}

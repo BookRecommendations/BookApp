@@ -12,41 +12,54 @@
     <title>Recommendations</title>
 
 </head>
-<body>
-    <header>Main Page Header for future navigation</header>
-    <main>
-    <div class='formcontainer'>
-        <form class='userform'>
-            <label for='genre'>Genre:</label>
-            <select id='genre' name='genre'>
-                <option value="Classic">Classic</option>
-                <option value="Business">Business</option>
-                <option value="Fantasy">Fantasy</option>
-                <option value="Science Fiction">Science Fiction</option>
-                <option value="Non-Fiction">Non-Fiction</option>
-                <option value="Fiction">Fiction</option>
-                <option value="Historical Fiction">Historical Fiction</option>
-            </select>
-            <label for='length'>Length:</label>
-            <select id='length' name='length'>
-                <option value="short">Short</option>
-                <option value="medium">Medium</option>
-                <option value="long">Long</option>
-            </select>
-            <label for='average-rating'> average rating:</label>
-            <select id='average-rating' name='average-rating'>
-                <option value="3">3+ stars</option>
-                <option value="4">4+ stars</option>
-                <option value="4.5">4.5+ stars</option>
-            </select>
-            <button type='submit' id='submitform' name='submitform'>Get Recommendations</button>
-        </form>
-    </div><br>
-    <div class='resultsdiv'></div><br>
-    <div class='buttondiv'></div>
 
-    <script type="module" src="main.js"></script>
-</main>
+<body>
+    <header class="main-header">
+        <nav>
+            <ul>
+                <li class="one"><a href="../index.html">Sign-Up</a></li>
+                <li><a href="../login/index.html">Login</a></li>
+                <li><a href="../mainpage/index.html">Main Page</a></li>
+                <li><a href="../bookshelf/index.html">Bookshelf</a></li>
+                <li><a href="./index.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="title-mp">Book finder</div>
+        <div class="stats-tp"><div class='buttondiv'></div></div>
+    </header>
+    <main>
+        <div class='formcontainer'>
+            <form class='userform'>
+                <label for='genre'>Genre:</label>
+                <select id='genre' name='genre'>
+                    <option value="Classic">Classic</option>
+                    <option value="Business">Business</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Science Fiction">Science Fiction</option>
+                    <option value="Non-Fiction">Non-Fiction</option>
+                    <option value="Fiction">Fiction</option>
+                    <option value="Historical Fiction">Historical Fiction</option>
+                </select>
+                <label for='length'>Length:</label>
+                <select id='length' name='length'>
+                    <option value="short">Short</option>
+                    <option value="medium">Medium</option>
+                    <option value="long">Long</option>
+                </select>
+                <label for='average-rating'> average rating:</label>
+                <select id='average-rating' name='average-rating'>
+                    <option value="3">3+ stars</option>
+                    <option value="4">4+ stars</option>
+                    <option value="4.5">4.5+ stars</option>
+                </select>
+                <button type='submit' id='submitform' name='submitform'>Get Recommendations</button>
+            </form>
+        </div><br>
+        <div class='resultsdiv'></div><br>
+        
+
+        <script type="module" src="main.js"></script>
+    </main>
 </body>
 
 </html>
