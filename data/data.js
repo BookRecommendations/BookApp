@@ -1306,7 +1306,7 @@ export let bookData = [{
     'id': 111,
     'average_rating': 4.0,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/harrypotterhalfbloodprince.jpg',
     'title': 'Harry Potter and the Half-Blood Prince (Harry Potter  #6)',
     'author': 'J.K. Rowling/Mary GrandPré',
     'isbn': 439785960,
@@ -1322,7 +1322,7 @@ export let bookData = [{
 {
     'id': 112,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/harrypotterorderofphoenix.jpg',
     'title': 'Harry Potter and the Order of the Phoenix (Harry Potter  #5)',
     'author': 'J.K. Rowling/Mary GrandPré',
     'average_rating': 4.49,
@@ -1339,7 +1339,7 @@ export let bookData = [{
 {
     'id': 114,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/harrypotterchamberofsecrets2.jpg',
     'title': 'Harry Potter and the Chamber of Secrets (Harry Potter  #2)',
     'author': 'J.K. Rowling',
     'average_rating': 4.42,
@@ -1356,7 +1356,7 @@ export let bookData = [{
 {
     'id': 115,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/harrypotterazkaban.jpg',
     'title': 'Harry Potter and the Prisoner of Azkaban (Harry Potter  #3)',
     'author': 'J.K. Rowling/Mary GrandPré',
     'average_rating': 4.56,
@@ -1408,7 +1408,7 @@ export let bookData = [{
 {
     'id': 102,
     'genre': 'Science Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/hitchhikers.jpg',
     'title': "The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy  #1-5)",
     'author': 'Douglas Adams',
     'average_rating': 4.38,
@@ -1427,7 +1427,7 @@ export let bookData = [{
 {
     'id': 121,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/shorteverything.jpg',
     'title': 'A Short History of Nearly Everything',
     'author': 'Bill Bryson',
     'average_rating': 4.21,
@@ -1444,7 +1444,7 @@ export let bookData = [{
 {
     'id' : 122,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/africandiary.jpg',
     'title': "Bill Bryson's African Diary",
     'author': 'Bill Bryson',
     'average_rating': 3.44,
@@ -1461,7 +1461,7 @@ export let bookData = [{
 {
     'id': 123,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/troublesomewords.jpg',
     'title': "Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right",
     'author': 'Bill Bryson',
     'average_rating': 3.87,
@@ -1478,7 +1478,7 @@ export let bookData = [{
 {
     'id': 124,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/sunburnedcountry.jpg',
     'title': 'In a Sunburned Country',
     'author': 'Bill Bryson',
     'average_rating': 4.07,
@@ -1580,7 +1580,7 @@ export let bookData = [{
 {
     'id': 130,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/tolkienboxedset.jpg',
     'title': 'J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings',
     'author': 'J.R.R. Tolkien',
     'average_rating': 4.59,
@@ -1597,7 +1597,7 @@ export let bookData = [{
 {
     'id': 131,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/lotr.jpg',
     'title': 'The Lord of the Rings (The Lord of the Rings  #1-3)',
     'author': 'J.R.R. Tolkien',
     'average_rating': 4.5,
@@ -1614,7 +1614,7 @@ export let bookData = [{
 {
     'id': 134,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/fellowship.jpg',
     'title': 'The Fellowship of the Ring (The Lord of the Rings  #1)',
     'author': 'J.R.R. Tolkien',
     'average_rating': 4.36,
@@ -1631,7 +1631,7 @@ export let bookData = [{
 {
     'id': 135,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/lotr.jpg',
     'title': 'The Lord of the Rings (The Lord of the Rings  #1-3)',
     'author': 'J.R.R. Tolkien/Alan  Lee',
     'average_rating': 4.5,
@@ -1648,7 +1648,7 @@ export let bookData = [{
 {
     'id': 136,
     'genre': 'Fantasy',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/warfarelotr.webp',
     'title': 'The Lord of the Rings: Weapons and Warfare',
     'author': 'Chris   Smith/Christopher  Lee/Richard Taylor',
     'average_rating': 4.53,
@@ -1683,7 +1683,7 @@ export let bookData = [{
 {
     'id': 150,
     'genre': 'Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/hatchet.webp',
     'title': "Hatchet (Brian's Saga  #1)",
     'author': 'Gary Paulsen',
     'average_rating': 3.72,
@@ -1734,7 +1734,7 @@ export let bookData = [{
 {
     'id': 154,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/mollyhatchet.jpg',
     'title': 'Molly Hatchet - 5 of the Best',
     'author': 'Molly Hatchet',
     'average_rating': 4.33,
@@ -1768,7 +1768,7 @@ export let bookData = [{
 {
     'id': 157,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/changelingseasons.jpg',
     'title': 'A Changeling for All Seasons (Changeling Seasons #1)',
     'author': 'Angela Knight/Sahara Kelly/Judy Mays/Marteeka Karland/Kate Douglas/Shelby Morgen/Lacey Savage/Kate Hill/Willa Okati',
     'average_rating': 3.76,
@@ -1785,7 +1785,7 @@ export let bookData = [{
 {
     'id': 158,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/changeling.webp',
     'title': 'Changeling (Changeling  #1)',
     'author': 'Delia Sherman',
     'average_rating': 3.6,
@@ -1802,7 +1802,7 @@ export let bookData = [{
 {
     'id': 159,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/changelingsea.jpg',
     'title': 'The Changeling Sea',
     'author': 'Patricia A. McKillip',
     'average_rating': 4.06,
@@ -1853,7 +1853,7 @@ export let bookData = [{
 {
     'id': 166,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/changelingengland.jpg',
     'title': 'The Changeling (Daughters of England  #15)',
     'author': 'Philippa Carr',
     'average_rating': 3.98,
@@ -1870,7 +1870,7 @@ export let bookData = [{
 {
     'id': 167,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/knownworld.jpg',
     'title': 'The Known World',
     'author': 'Edward P. Jones',
     'average_rating': 3.83,
@@ -1888,7 +1888,7 @@ export let bookData = [{
 {
     'id': 169,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/knownworld.jpg',
     'title': 'The Known World',
     'author': 'Edward P. Jones',
     'average_rating': 3.83,
@@ -1905,7 +1905,7 @@ export let bookData = [{
 {
     'id': 171,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/tradersmoney.jpg',
     'title': 'Traders  Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives',
     'author': 'Satyajit Das',
     'average_rating': 3.83,
@@ -1922,7 +1922,7 @@ export let bookData = [{
 {
     'id': 172,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/artesia.jpg',
     'title': 'Artesia: Adventures in the Known World',
     'author': 'Mark Smylie',
     'average_rating': 4.13,
@@ -1956,7 +1956,7 @@ export let bookData = [{
 {
     'id': 175,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/carriers.jpg',
     'title': 'Uncommon Carriers',
     'author': 'John McPhee',
     'average_rating': 3.95,
@@ -2007,7 +2007,7 @@ export let bookData = [{
 {
     'id': 178,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/annals.webp',
     'title': 'Annals of the Former World',
     'author': 'John McPhee',
     'average_rating': 4.34,
@@ -2024,7 +2024,7 @@ export let bookData = [{
 {
     'id': 179,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/comingcountry.jpg',
     'title': 'Coming Into the Country',
     'author': 'John McPhee',
     'average_rating': 4.22,
@@ -2075,7 +2075,7 @@ export let bookData = [{
 {
     'id': 183,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/risingplains.jpg',
     'title': 'Rising from the Plains',
     'author': 'John McPhee',
     'average_rating': 4.23,
@@ -2092,7 +2092,7 @@ export let bookData = [{
 {
     'id': 185,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/heidi.webp',
     'title': 'The Heidi Chronicles',
     'author': 'Wendy Wasserstein',
     'average_rating': 3.75,
@@ -2126,7 +2126,7 @@ export let bookData = [{
 {
     'id': 189,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/literacy.jpg',
     'title': 'Active Literacy Across the Curriculum: Strategies for Reading  Writing  Speaking  and Listening',
     'author': 'Heidi Hayes Jacobs',
     'average_rating': 3.94,
@@ -2143,7 +2143,7 @@ export let bookData = [{
 {
     'id': 190,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/beautifulj.jpg',
     'title': 'Simply Beautiful Beaded Jewelry',
     'author': 'Heidi Boyd',
     'average_rating': 3.77,
@@ -2228,7 +2228,7 @@ export let bookData = [{
 {
     'id': 196,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/alwaysenough.jpg',
     'title': "There's Always Enough: The Miraculous Move of God in Mozambique",
     'author': 'Rolland Baker/Heidi Baker',
     'average_rating': 4.46,
@@ -2245,7 +2245,7 @@ export let bookData = [{
 {
     'id': 198,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/expectyear.webp',
     'title': 'What to Expect the First Year (What to Expect)',
     'author': 'Heidi Murkoff/Sharon Mazel/Arlene Eisenberg/Sandee Hathaway/Mark D. Widome',
     'average_rating': 3.89,
@@ -2279,7 +2279,7 @@ export let bookData = [{
 {
     'id': 1100,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/beading.jpg',
     'title': 'Simply Beautiful Beading: 53 Quick and Easy Projects',
     'author': 'Heidi Boyd',
     'average_rating': 3.78,
@@ -2296,7 +2296,7 @@ export let bookData = [{
 {
     'id': 1103,
     'genre': 'Science Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/emporerdune.webp',
     'title': 'God Emperor of Dune (Dune Chronicles  #4)',
     'author': 'Frank Herbert',
     'average_rating': 3.84,
@@ -2381,7 +2381,7 @@ export let bookData = [{
 {
     'id': 1110,
     'genre': 'Science Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/roaddune.webp',
     'title': 'The Road to Dune',
     'author': 'Frank Herbert/Brian Herbert/Kevin J. Anderson',
     'average_rating': 3.88,
@@ -2398,7 +2398,7 @@ export let bookData = [{
 {
     'id': 1117,
     'genre': 'Science Fiction',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/hereticsdune.jpg',
     'title': 'Heretics of Dune (Dune Chronicles #5)',
     'author': 'Frank Herbert',
     'average_rating': 3.86,
@@ -2466,7 +2466,7 @@ export let bookData = [{
 {
     'id': 1129,
     'genre': 'Business',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/onerule.webp',
     'title': 'The Power of One: One Person  One Rule  One Month',
     'author': 'John C. Maxwell/Stephen R. Graves/Thomas G. Addington',
     'average_rating': 4.28,
@@ -2500,7 +2500,7 @@ export let bookData = [{
 {
     'id': 1131,
     'genre': 'Business',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/powerofone.webp',
     'title': 'The Power of One: The Solo Play for Playwrights  Actors  and Directors',
     'author': 'Louis E. Catron',
     'average_rating': 3.67,
@@ -2569,7 +2569,7 @@ export let bookData = [{
 {
     'id': 1140,
     'genre': 'Business',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/ebay.webp',
     'title': 'eBay Business All-in-One Desk Reference for Dummies',
     'author': 'Marsha Collier',
     'average_rating': 3.89,
@@ -2586,7 +2586,7 @@ export let bookData = [{
 {
     'id': 1141,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/rubycookbook.jpg',
     'title': 'Ruby Cookbook',
     'author': 'Lucas Carlson/Leonard Richardson',
     'average_rating': 3.84,
@@ -2603,7 +2603,7 @@ export let bookData = [{
 {
     'id': 1142,
     'genre': 'Classic',
-    'imageLink': 'images/ramayana.jpg',
+    'imageLink': 'images/rubyanne.jpg',
     'title': "Ruby Ann's Down Home Trailer Park Cookbook",
     'author': 'Ruby Ann Boxcar',
     'average_rating': 4.12,
