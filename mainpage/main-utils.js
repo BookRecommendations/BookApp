@@ -86,7 +86,7 @@ export function renderBookshelf() {
         const readBookImg = document.createElement('img');
         readBookDiv.classList.add('readbookdiv');
         readBookImg.classList.add('readbookimg');
-        readBookImg.src = `/data/${user.booksread[i].imageLink}`;
+        readBookImg.src = `../data/${user.booksread[i].imageLink}`;
         readBookDiv.textContent =
             `Title: ${user.booksread[i].title},
         Author: ${user.booksread[i].author}
