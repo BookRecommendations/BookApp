@@ -2,9 +2,9 @@
 
 **Estefani Baughman, Amit Sheth, Daniel Gilles** 
 
-This project focus is to recommend books based on user feedback instead of internet reviews. 
-Problem Domain: Book Recommendations tend to be too generic. 
-How we are addressing this: Recommendations based on user feedback. 
+This project focus is to recommend books based on user feedback instead of internet reviews. </br>
+Problem Domain: Book Recommendations tend to be too generic. </br>
+How we are addressing this: Recommendations based on user feedback. </br>
 </br>
 
 <img align="center" alt="Logo" style= "width: 100%;" src= "https://github.com/BookRecommendations/BookApp/blob/main/assets/images/bookpiles/photo-1578658544861-37dbf6d82ea3.jpeg" />
