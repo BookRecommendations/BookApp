@@ -5,7 +5,7 @@ import { addToUserObject, getRecommendations, renderResults } from './main-utils
 const formEl = document.querySelector('.userform');
 const resultsDiv = document.querySelector('.resultsdiv');
 const user = getUser();
-const booksReturned = getRecommendations();
+const booksReturned = [];
 console.log(booksReturned);
 
 if (user.newUser) {
@@ -23,7 +23,7 @@ formEl.addEventListener('submit', (event) => {
 
     formEl.style.display = 'none';
     
-    const returnedDiv = renderResults(booksReturned);
+    const returnedDiv = renderResults(getRecommendations());
     resultsDiv.append(returnedDiv);
     
 });

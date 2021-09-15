@@ -26,6 +26,7 @@ export function renderResults(arrayResults) {
         console.log(bookObject);
         const bookDiv = document.createElement('div');
         const bookImage = document.createElement('img');
+        
         const shelfButton = document.createElement('button');
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
@@ -37,6 +38,7 @@ export function renderResults(arrayResults) {
             console.log(user.booksread);
             renderBookshelf();
         });
+        
         const queueButton = document.createElement('button');
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
@@ -50,7 +52,6 @@ export function renderResults(arrayResults) {
         });
 
         bookImage.src = `/data/${bookObject.imageLink}`;
-
         const bookDescription = document.createElement('div');
         bookDescription.textContent =
             `Title: ${bookObject.title}
@@ -64,23 +65,20 @@ export function renderResults(arrayResults) {
         bookDiv.style.border = '5px solid brown';
         bookDiv.style.margin = '15px';
         bookDiv.style.padding = '10px';
-
-
     }
 
     return containerDiv;
 }
 
 export function renderBookshelf() {
-    const bookShelfDiv = document.querySelector('.bookshelf');
     const user = getUser();
+    const bookShelfDiv = document.querySelector('.bookshelf');
     const hasReadDiv = document.createElement('div');
     hasReadDiv.classList = 'readcontainer';
     const queueDiv = document.createElement('div');
     queueDiv.classList = 'queuecontainer';
 
     hasReadDiv.textContent = 'Books you have read:';
-
     queueDiv.textContent = 'Books you want to read next';
 
     for (let i = 0; i < user.booksread.length; i++) {
@@ -111,42 +109,42 @@ export function renderBookshelf() {
         Pages: ${user.bookstoread[j].pages}
         Year: ${user.bookstoread[j].year}`;
 
-
         queueBookDiv.append(queueBookImg);
         queueDiv.append(queueBookDiv);
     }
     bookShelfDiv.append(hasReadDiv, queueDiv);
-
-
 }
-export function bookLength() {
-    for (let book of bookData) {
-        if (book.pages < 200) {
-            return 'short';
-        } else if (book.pages > 200 && book.pages < 400) {
-            return 'medium';
-        } else return 'long';
-    }
 
+export function bookLength(book) {
+    if (book.pages < 200) {
+        return 'short';
+    } else if (book.pages > 200 && book.pages < 400) {
+        return 'medium';
+    } else return 'long';
 }
-export function bookRating() {
+
+
+export function bookRating(book) {
     
-    for (let book of bookData){
-        if (book.average_rating > 3 && book.average_rating < 3.9) {
-            return '3';
-        }
-        else if (book.average_rating > 3.9 && book.average_rating < 4.49) {
-            return '4';
-        } else return '4.5';
+    if (book.average_rating > 3 && book.average_rating < 3.9) {
+        return '3';
     }
+    else if (book.average_rating > 3.9 && book.average_rating < 4.49) {
+        return '4';
+    } else return '4.5';
 }
+
 export function getRecommendations() {
     const user = getUser();
-    let recArray;
+    let recArray = [];
     for (let book of bookData) {
-        if (book.genre === user.genre && bookLength() === user.length && bookRating() === user.rating) {
+        if (book.genre === user.Genre && (bookLength(book) === user.BookLength) && (bookRating(book) === user.AverageRating)) {
+           
             recArray.push(book);
         }
     }
+    console.log(user.Genre, user.BookLength, user.AverageRating);
+    console.log(recArray);
     return recArray;
 }
+
