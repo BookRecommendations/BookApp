@@ -1,7 +1,5 @@
 # BookApp
 
-Book App Title 
-
 **Estefani Baughman, Amit Sheth, Daniel Gilles** 
 
 This project focus is to recommend books based on user feedback instead of internet reviews. 
