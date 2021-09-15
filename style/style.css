@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 
 body, .login {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
@@ -25,6 +35,12 @@ body, .login {
     color: antiquewhite;
     display: flex;
     justify-content: center;
+
+}
+
+.signup-body{
+    display: block; 
+    height: 100%;
 }
 
 #login, body{
@@ -33,7 +49,6 @@ body, .login {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
     margin: 0;
 }
 
@@ -101,9 +116,8 @@ h4{
 }
 
 .categories{
-    display: grid;
-    grid-template-columns: repeat (3, 33%);
-    width: 700px;
+    width: 800px;
+  
 }
 
 .bookshelf{
@@ -136,7 +150,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-family: 'Nunito Sans', sans-serif;
+    
     margin-bottom: calc(var(--footer-height));
 }
 
