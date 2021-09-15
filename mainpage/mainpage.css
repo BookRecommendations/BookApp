@@ -6,6 +6,13 @@ body {
     justify-content: left;
     font-family: 'Nunito Sans', sans-serif;
 }
+main {
+    background-image: url(../assets/images/mainpageBG/bookisFloating.jfif);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
+}
 .returned-book {
     width: fit-content;
     max-width: 70%;
@@ -27,6 +34,10 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    background-image: url(../assets/images/mainpageBG/bookisFloating.jfif);
+    background-repeat:repeat-y;
+    background-size: cover;
+    background-position-x:55% ;
 }
 .resultsimages {
     width: 100%;
@@ -72,14 +83,34 @@ nav {
     font-size: 1.5rem;
 }
 .title-mp {
+    display: flex;
     font-size: 3.5rem;
     text-align: center;
     background-color: rgba(100, 150, 250, 1);
     align-items: center;
+    background-image: url(../assets/images/mainpageBG/stackedbooks.jfif);
+    color: ivory;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.title-mp > div {
+    font-size: 3.5rem;
+    text-align: center;
+    align-items: center;
+   background-color: rgba(100, 100, 100, .5);
+    color: ivory;
+    width: fit-content;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+        
 }
 .stats-tp {
     display: flex;
     justify-content: center;
+    border: ridge 2px black;
 
 }
 .buttondiv {
