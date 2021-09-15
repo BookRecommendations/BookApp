@@ -1,14 +1,20 @@
-import { setUser, getUser, findById } from '../utils.js';
-import { booksWithPic, bookData } from '../data/data.js';
+import {
+    setUser,
+    getUser,
+    findById
+} from '../utils.js';
+import {
+    bookData
+} from '../data/data.js';
 
 
-export function addToUserObject(user, userData){
+export function addToUserObject(user, userData) {
     user.Genre = userData.get('genre');
     user.BookLength = userData.get('length');
-    user.ReadingLevel = userData.get('level');
+    user.AverageRating = userData.get('average-rating');
     user.newUser = false;
     setUser(user);
-    console.log(user);
+    
 }
 
 export function renderResults(arrayResults) {
@@ -40,28 +46,28 @@ export function renderResults(arrayResults) {
             user.bookstoread.push(bookObject);
             setUser(user);
             console.log(user.bookstoread);
-            
+
         });
 
         bookImage.src = `/data/${bookObject.imageLink}`;
-        
+
         const bookDescription = document.createElement('div');
-        bookDescription.textContent = 
-        `Title: ${bookObject.title}
+        bookDescription.textContent =
+            `Title: ${bookObject.title}
         Author: ${bookObject.author}
         Genre: ${bookObject.genre}
         Pages: ${bookObject.pages}
         Year: ${bookObject.year}`;
         bookDiv.append(bookImage, bookDescription, shelfButton, queueButton);
         containerDiv.append(bookDiv);
-        
+
         bookDiv.style.border = '5px solid brown';
         bookDiv.style.margin = '15px';
         bookDiv.style.padding = '10px';
 
-        
+
     }
-    
+
     return containerDiv;
 }
 
@@ -72,24 +78,24 @@ export function renderBookshelf() {
     hasReadDiv.classList = 'readcontainer';
     const queueDiv = document.createElement('div');
     queueDiv.classList = 'queuecontainer';
-    
+
     hasReadDiv.textContent = 'Books you have read:';
-    
+
     queueDiv.textContent = 'Books you want to read next';
-    
-    for (let i = 0; i < user.booksread.length; i++){
+
+    for (let i = 0; i < user.booksread.length; i++) {
         const readBookDiv = document.createElement('div');
         const readBookImg = document.createElement('img');
         readBookDiv.classList = 'readbookdiv';
         readBookImg.classList = 'readbookimg';
         readBookImg.src = `/data/${user.booksread[i].imageLink}`;
-        readBookDiv.textContent = 
-        `Title: ${user.booksread[i].title},
+        readBookDiv.textContent =
+            `Title: ${user.booksread[i].title},
         Author: ${user.booksread[i].author}
         Genre: ${user.booksread[i].genre}
         Pages: ${user.booksread[i].pages}
         Year: ${user.booksread[i].year}`;
-        
+
         readBookDiv.append(readBookImg);
         hasReadDiv.append(readBookDiv);
     }
@@ -104,7 +110,7 @@ export function renderBookshelf() {
         Genre: ${user.bookstoread[j].genre}
         Pages: ${user.bookstoread[j].pages}
         Year: ${user.bookstoread[j].year}`;
-        
+
 
         queueBookDiv.append(queueBookImg);
         queueDiv.append(queueBookDiv);
@@ -112,4 +118,35 @@ export function renderBookshelf() {
     bookShelfDiv.append(hasReadDiv, queueDiv);
 
 
+}
+export function bookLength() {
+    for (let book of bookData) {
+        if (book.pages < 200) {
+            return 'short';
+        } else if (book.pages > 200 && book.pages < 400) {
+            return 'medium';
+        } else return 'long';
+    }
+
+}
+export function bookRating() {
+    
+    for (let book of bookData){
+        if (book.average_rating > 3 && book.average_rating < 3.9) {
+            return '3';
+        }
+        else if (book.average_rating > 3.9 && book.average_rating < 4.49) {
+            return '4';
+        } else return '4.5';
+    }
+}
+export function getRecommendations() {
+    const user = getUser();
+    let recArray;
+    for (let book of bookData) {
+        if (book.genre === user.genre && bookLength() === user.length && bookRating() === user.rating) {
+            recArray.push(book);
+        }
+    }
+    return recArray;
 }
