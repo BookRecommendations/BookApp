@@ -1,5 +1,6 @@
-#BookApp
-<kbd> **Estefani Baughman, Amit Sheth, Daniel Gilles** </kbd>
+<kbd>
+# BookApp
+**Estefani Baughman, Amit Sheth, Daniel Gilles** </kbd>
 
 This project focus is to recommend books based on user feedback instead of internet reviews. </br>
 Problem Domain: Book Recommendations tend to be too generic. </br>
