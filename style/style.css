@@ -136,7 +136,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-family: 'Nunito Sans', sans-serif;
+    
     margin-bottom: calc(var(--footer-height));
 }
 
