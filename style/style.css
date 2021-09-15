@@ -37,6 +37,9 @@ body, .login {
     justify-content: center;
 
 }
+h2{
+    font-family:'Nunito Sans', sans-serif;;
+}
 
 .signup-body{
     display: block; 
