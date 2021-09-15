@@ -50,8 +50,8 @@ export function renderResults(arrayResults) {
             console.log(user.bookstoread);
 
         });
-
-        bookImage.src = `/data/${bookObject.imageLink}`;
+        
+        bookImage.src = `../data/${bookObject.imageLink}`;
         const bookDescription = document.createElement('div');
         bookDescription.textContent =
             `Title: ${bookObject.title}
