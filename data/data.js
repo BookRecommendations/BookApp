@@ -1373,7 +1373,7 @@ export let bookData = [{
 {
     'id': 118,
     'genre': 'Fantasy',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/hpboxset.png',
     'title': 'Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5)',
     'author': 'J.K. Rowling/Mary GrandPré',
     'average_rating': 4.78,
@@ -1391,7 +1391,7 @@ export let bookData = [{
 {
     'id': 110,
     'genre': 'Fantasy',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/hpboxset2.png',
     'title': 'Harry Potter Collection (Harry Potter  #1-6)',
     'author': 'J.K. Rowling',
     'average_rating': 4.73,
@@ -1495,7 +1495,7 @@ export let bookData = [{
 {
     'id': 125,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/strangerhere.png',
     'title': "I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away",
     'author': 'Bill Bryson',
     'average_rating': 3.9,
@@ -1512,7 +1512,7 @@ export let bookData = [{
 {
     'id': 126,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/lostcontinent.png',
     'title': 'The Lost Continent: Travels in Small Town America',
     'author': 'Bill Bryson',
     'average_rating': 3.83,
@@ -1529,7 +1529,7 @@ export let bookData = [{
 {
     'id': 127,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/herenorthere.png',
     'title': 'Neither Here nor There: Travels in Europe',
     'author': 'Bill Bryson',
     'average_rating': 3.86,
@@ -1546,7 +1546,7 @@ export let bookData = [{
 {
     'id': 128,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/smallisland.png',
     'title': 'Notes from a Small Island',
     'author': 'Bill Bryson',
     'average_rating': 3.91,
@@ -1563,7 +1563,7 @@ export let bookData = [{
 {
     'id': 129,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/mothertongue.png',
     'title': 'The Mother Tongue: English and How It Got That Way',
     'author': 'Bill Bryson',
     'average_rating': 3.93,
@@ -1665,7 +1665,7 @@ export let bookData = [{
 {
     'id': 137,
     'genre': 'Fantasy',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/lotr-cvc.png',
     'title': 'The Lord of the Rings: Complete Visual Companion',
     'author': 'Jude Fisher',
     'average_rating': 4.5,
@@ -1700,7 +1700,7 @@ export let bookData = [{
 {
     'id': 151,
     'genre': 'Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/hatchet.png',
     'title': 'Hatchet: A Guide for Using "Hatchet" in the Classroom',
     'author': 'Donna Ickes/Edward Sciranko/Keith Vasconcelles',
     'average_rating': 4,
@@ -1717,7 +1717,7 @@ export let bookData = [{
 {
     'id': 153,
     'genre': 'Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/guts.png',
     'title': 'Guts: The True Stories behind Hatchet and the Brian Books',
     'author': 'Gary Paulsen',
     'average_rating': 3.88,
@@ -1751,7 +1751,7 @@ export let bookData = [{
 {
     'id': 155,
     'genre': 'Non-Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/hatchetjobs.png',
     'title': 'Hatchet Jobs: Writings on Contemporary Fiction',
     'author': 'Dale Peck',
     'average_rating': 3.45,
@@ -1819,7 +1819,7 @@ export let bookData = [{
 {
     'id': 161,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/changeling.png',
     'title': 'The Changeling',
     'author': 'Zilpha Keatley Snyder',
     'average_rating': 4.17,
@@ -1836,7 +1836,7 @@ export let bookData = [{
 {
     'id': 163,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/changeling2.png',
     'title': 'The Changeling',
     'author': 'Kate Horsley',
     'average_rating': 3.55,
@@ -1939,7 +1939,7 @@ export let bookData = [{
 {
     'id': 174,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/reader1.png',
     'title': 'The John McPhee Reader (John McPhee Reader  #1)',
     'author': 'John McPhee/William Howarth',
     'average_rating': 4.42,
@@ -1973,7 +1973,7 @@ export let bookData = [{
 {
     'id': 176,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/heirsofpractice.png',
     'title': 'Heirs of General Practice',
     'author': 'John McPhee',
     'average_rating': 4.17,
@@ -1990,7 +1990,7 @@ export let bookData = [{
 {
     'id': 177,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/controlofnature.png',
     'title': 'The Control of Nature',
     'author': 'John McPhee',
     'average_rating': 4.24,
@@ -2041,7 +2041,7 @@ export let bookData = [{
 {
     'id': 180,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/laplace.png',
     'title': 'La Place de la Concorde Suisse',
     'author': 'John McPhee',
     'average_rating': 3.92,
@@ -2058,7 +2058,7 @@ export let bookData = [{
 {
     'id': 181,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/goodweight.png',
     'title': 'Giving Good Weight',
     'author': 'John McPhee',
     'average_rating': 4.23,
@@ -2109,7 +2109,7 @@ export let bookData = [{
 {
     'id': 186,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/heidi.png',
     'title': "The Heidi Chronicles: Uncommon Women and Others & Isn't It Romantic",
     'author': 'Wendy Wasserstein',
     'average_rating': 3.84,
@@ -2160,7 +2160,7 @@ export let bookData = [{
 {
     'id': 191,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/alwaysenough.png',
     'title': "Always Enough: God's Miraculous Provision Among the Poorest Children on Earth",
     'author': 'Heidi Baker/Rolland Baker',
     'average_rating': 4.46,
@@ -2177,7 +2177,7 @@ export let bookData = [{
 {
     'id': 192,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/mapping.png',
     'title': 'Mapping the Big Picture: Integrating Curriculum & Assessment K-12',
     'author': 'Heidi Hayes Jacobs',
     'average_rating': 3.68,
@@ -2194,7 +2194,7 @@ export let bookData = [{
 {
     'id': 193,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/heidi2.png',
     'title': 'Heidi (Heidi  #1-2)',
     'author': 'Johanna Spyri/Beverly Cleary/Angelo  Rinaldi',
     'average_rating': 3.99,
@@ -2211,7 +2211,7 @@ export let bookData = [{
 {
     'id': 194,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/mapping2.png',
     'title': 'Getting Results with Curriculum Mapping',
     'author': 'Heidi Hayes Jacobs',
     'average_rating': 3.25,
@@ -2262,7 +2262,7 @@ export let bookData = [{
 {
     'id': 199,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/players.png',
     'title': "The Player's Handbook: The Ultimate Guide on Dating and Relationships",
     'author': 'Heidi Fleiss/Libby Keatinge',
     'average_rating': 3.82,
@@ -2313,7 +2313,7 @@ export let bookData = [{
 {
     'id': 1105,
     'genre': 'Science Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/dune.png',
     'title': 'Chapterhouse: Dune (Dune Chronicles #6)',
     'author': 'Frank Herbert',
     'average_rating': 3.91,
@@ -2330,7 +2330,7 @@ export let bookData = [{
 {
     'id': 1106,
     'genre': 'Science Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/dune2.png',
     'title': 'Dune Messiah (Dune Chronicles #2)',
     'author': 'Frank Herbert',
     'average_rating': 3.88,
@@ -2347,7 +2347,7 @@ export let bookData = [{
 {
     'id': 1107,
     'genre': 'Science Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/dune3.png',
     'title': 'Dreamer of Dune: The Biography of Frank Herbert',
     'author': 'Brian Herbert',
     'average_rating': 4.01,
@@ -2364,7 +2364,7 @@ export let bookData = [{
 {
     'id': 1109,
     'genre': 'Science Fiction',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/dune4.png',
     'title': 'Heretics of Dune (Dune Chronicles  #5)',
     'author': 'Frank Herbert',
     'average_rating': 3.86,
@@ -2415,7 +2415,7 @@ export let bookData = [{
 {
     'id': 1119,
     'genre': 'Classic',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/lotr-fotr.png',
     'title': 'The Lord of the Rings: The Art of the Fellowship of the Ring',
     'author': 'Gary Russell',
     'average_rating': 4.59,
@@ -2432,7 +2432,7 @@ export let bookData = [{
 {
     'id': 1122,
     'genre': 'Business',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/powerofone.png',
     'title': 'The Power of One (The Power of One  #1)',
     'author': 'Bryce Courtenay',
     'average_rating': 4.35,
@@ -2449,7 +2449,7 @@ export let bookData = [{
 {
     'id': 1123,
     'genre': 'Business',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/powerofone.png',
     'title': 'The Power of One (The Power of One  #1)',
     'author': 'Bryce Courtenay',
     'average_rating': 4.35,
@@ -2483,7 +2483,7 @@ export let bookData = [{
 {
     'id': 1130,
     'genre': 'Business',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/powerhour.png',
     'title': 'Power of an Hour: Business and Life Mastery in One Hour a Week',
     'author': 'Dave Lakhani',
     'average_rating': 3.34,
@@ -2518,7 +2518,7 @@ export let bookData = [{
 {
     'id': 1137,
     'genre': 'Business',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/ebay.png',
     'title': 'Starting an eBay Business for Dummies',
     'author': 'Marsha Collier',
     'average_rating': 3.55,
@@ -2535,7 +2535,7 @@ export let bookData = [{
 {
     'id': 1138,
     'genre': 'Business',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/ebay2.png',
     'title': 'eBay: Top 100 Simplified Tips & Tricks',
     'author': 'Julia Wilkinson',
     'average_rating': 4.27,
@@ -2552,7 +2552,7 @@ export let bookData = [{
 {
     'id': 1139,
     'genre': 'Business',
-    'imageLink': 'images/default.jpg',
+    'imageLink': 'images/ebay3.png',
     'title': 'ebay Timesaving Techniques for Dummies',
     'author': 'Marsha Collier',
     'average_rating': 3.39,
