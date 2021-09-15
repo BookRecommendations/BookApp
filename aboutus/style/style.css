@@ -79,6 +79,26 @@ img {
   outline: none;
 }
 
+nav *{
+  float: left;
+  width: 18%;
+  color: antiquewhite;
+  display: block;
+  margin-top: 50px;
+  min-width: 150px;
+  width: auto !important; 
+  width: 200px;
+}
+
+
+nav ul{
+  width: 80%;
+}
+
+.one{
+  margin-left: 20px;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
