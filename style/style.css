@@ -38,6 +38,10 @@ body, .login {
 
 }
 
+h2{
+    font-family:'Nunito Sans', sans-serif;;
+}
+
 .signup-body{
     display: block; 
     height: 100%;
