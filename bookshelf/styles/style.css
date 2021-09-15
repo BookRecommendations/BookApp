@@ -23,71 +23,95 @@ body{
     background-color: var(--color2);
     background: linear-gradient(to left top, #358, #101) fixed;
     color: antiquewhite;
-    display: flex;
     justify-content: center;
     font-family: 'Nunito Sans', sans-serif;
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
     margin: 0;
 }
-
+.bookshelf {
+    display: flex;
+    justify-content: center;
+    
+}
 .readcontainer {
     border: 5px solid gray;
     margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    color: blue;
+    border: 5px solid brown;
+    width: 40%;
+    background-color: beige;
+    border-right: 20px solid brown;
+    border-left: 25px solid brown;
+    
     }
     
 .readbookdiv {
-    border: 1px solid black;
-    }
-
+    
+    font-size: 15px;
+    color: black;
+    border: 1px solid brown;
+    display: flex;
+    
+}
 .readbookimg {
-    
-    }
-    
+    border-radius: 10px;
+    width: 100px;
+    height: 150px;
+}
+        
 .queuecontainer {
-        border: 5px solid brown;
-        color: brown;
-    }
-
+    border: 5px solid brown;
+    color: red;
+    font-size: 25px;
+    width: 40%;
+    background-color: beige;
+    border-right: 25px solid brown;
+    border-left: 25px solid brown;
+}
 .queuebookdiv {
     color: black;
-    border: 1px solid black;
-    }
-    
-.queuebookimg {
-    
-    }
-
-    main {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+    border: 1px solid red;
+    font-size: 15px;
+    display: flex;
+}
         
-        margin-bottom: calc(var(--footer-height));
-    }
-    
-    section {
-        font-family: 'Nunito Sans', sans-serif;
-        background-color: var(--color5);
-        width: 1000px;
-        max-width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: var(--gutter);
-        padding-bottom: var(--gutter);
-        margin-top: var(--gutter);
-        margin-bottom: var(--gutter);
-        border: solid 2px var(--color1);
-    }
+.queuebookimg {
+       width: 100px;
+       height: 150px;
+       border-radius: 10px; 
+}
 
-     @keyframes pulse {
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: calc(var(--footer-height));
+}
+    
+section {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--color5);
+    width: 1000px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--gutter);
+    padding-bottom: var(--gutter);
+    margin-top: var(--gutter);
+    margin-bottom: var(--gutter);
+    border: solid 2px var(--color1);
+}    
+
+@keyframes pulse {
     20% {
       transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
     }
