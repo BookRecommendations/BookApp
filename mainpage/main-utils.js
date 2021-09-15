@@ -75,7 +75,7 @@ export function renderBookshelf() {
     const queueDiv = document.createElement('div');
     queueDiv.classList.add('queuecontainer');
 
-    hasReadDiv.textContent = 'Books you read:';
+    hasReadDiv.textContent = 'Books read:';
     queueDiv.textContent = 'Books to read next:';
 
     for (let i = 0; i < user.booksread.length; i++) {

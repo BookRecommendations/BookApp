@@ -17,10 +17,11 @@ export function getTotalPagesRead(){
     const booksRead = getUserRead();
     let pagesRead = 0;
     for (let book of booksRead){
-        const pages = findById(booksRead, book.id);
-        const totalPages = pages.pages;
+        const pages = book.pages;
+        const totalPages = pages;
         pagesRead = pagesRead + totalPages;
     }
+    return pagesRead;
 }
 
 export function getUser() {
