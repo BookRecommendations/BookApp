@@ -1,12 +1,12 @@
 import { getUser, setUser } from '../utils.js';
 import { bookData } from '../data/data.js';
-import { addToUserObject, renderResults } from './main-utils.js';
+import { addToUserObject, getRecommendations, renderResults } from './main-utils.js';
 
 const formEl = document.querySelector('.userform');
 const resultsDiv = document.querySelector('.resultsdiv');
 const user = getUser();
-const booksReturned = [bookData[15], bookData[5], bookData[6]];
-
+const booksReturned = getRecommendations();
+console.log(booksReturned);
 
 if (user.newUser) {
     formEl.style.display = 'block';
@@ -35,8 +35,10 @@ if (!user.newUser) {
 
 const formButton = document.createElement('button');
 const buttonDiv = document.querySelector('.buttondiv');
+
 formButton.textContent = 'Search Again';
 buttonDiv.append(formButton);
+
 formButton.addEventListener('click', () => {
     formEl.style.display = 'block';
 });

@@ -39,7 +39,7 @@ export function createUser(formData) {
         newUser: true,
         Genre:'',
         BookLength:'',
-        ReadingLevel:''
+        AverageRating:''
     };
     return newUser;
 }
