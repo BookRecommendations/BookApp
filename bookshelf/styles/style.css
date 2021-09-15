@@ -35,7 +35,7 @@ h1 {
 .bookshelf {
     display: flex;
     justify-content: center;
-    height: 100%;
+    
     
 }
 .readcontainer {
@@ -60,7 +60,7 @@ h1 {
 }
 .readbookimg {
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
     height:100%;
 }   
 .queuecontainer {
