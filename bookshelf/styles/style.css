@@ -14,75 +14,75 @@ body{
     --color4: hsla(45, 73%, 98%, 1);
     --color5: hsla(224, 40%, 79%, 1); */
     
-    --header-height: 80px;
-    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
-    --gutter: 30px;
-    --footer-height: 25px;
+    
     
     font-family: 'Nunito Sans', sans-serif;
     background-color: var(--color2);
     background: linear-gradient(to left top, #358, #101) fixed;
     color: antiquewhite;
-    justify-content: center;
+    
     font-family: 'Nunito Sans', sans-serif;
-    align-items: center;
-    justify-content: center;
+    
+   
     height: 100vh;
-    overflow: hidden;
-    margin: 0;
+    
+    
+}
+h1 {
+   display: flex;
+   justify-content: center;
 }
 .bookshelf {
     display: flex;
     justify-content: center;
     
+    
 }
 .readcontainer {
     border: 5px solid gray;
-    margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 140%;
     font-weight: 900;
     color: blue;
     border: 5px solid brown;
     width: 40%;
+    
     background-color: beige;
-    border-right: 20px solid brown;
-    border-left: 25px solid brown;
+    
     
     }
     
 .readbookdiv {
-    
-    font-size: 15px;
+    font-size: 80%;
     color: black;
     border: 1px solid brown;
     display: flex;
-    
+    padding:10px;
 }
 .readbookimg {
     border-radius: 10px;
-    width: 100px;
-    height: 150px;
-}
-        
+    width: 40%;
+    height:100%;
+}   
 .queuecontainer {
     border: 5px solid brown;
     color: red;
-    font-size: 25px;
+    font-size: 140%;
+    font-weight: 900;
     width: 40%;
     background-color: beige;
-    border-right: 25px solid brown;
-    border-left: 25px solid brown;
+    
 }
 .queuebookdiv {
     color: black;
-    border: 1px solid red;
-    font-size: 15px;
+    border: 1px solid brown;
+    font-size: 80%;
     display: flex;
+    padding:10px;
 }
         
 .queuebookimg {
-       width: 100px;
-       height: 150px;
+       width: 40%;
+       height: 100%;
        border-radius: 10px; 
 }
 
@@ -110,7 +110,32 @@ section {
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
 }    
+.buttondiv {
+    margin-left: 25px;
+}
+button {
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: grey;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
 
+button:hover{
+    transform: scale(1.2);
+}
+
+.statcontainer {
+    margin-left: 9%;
+    border: 1px solid red;
+    width: 30%;
+    border-radius: 10px;
+    padding:5px;
+}
 @keyframes pulse {
     20% {
       transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
