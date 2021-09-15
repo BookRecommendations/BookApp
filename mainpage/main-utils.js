@@ -19,14 +19,14 @@ export function addToUserObject(user, userData) {
 
 export function renderResults(arrayResults) {
     const containerDiv = document.createElement('div');
-
+    containerDiv.classList.add('cnt-div');
     for (let i = 0; i < arrayResults.length; i++) {
         let bookObject = findById(bookData, Number(arrayResults[i].id));
         console.log(bookObject);
         const bookDiv = document.createElement('div');
         const bookImage = document.createElement('img');
         bookImage.classList.add ('resultsimages');
-        
+        bookDiv.classList.add('returned-book');
         const shelfButton = document.createElement('button');
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
@@ -62,9 +62,6 @@ export function renderResults(arrayResults) {
         bookDiv.append(bookImage, bookDescription, shelfButton, queueButton);
         containerDiv.append(bookDiv);
 
-        bookDiv.style.border = '5px solid brown';
-        bookDiv.style.margin = '15px';
-        bookDiv.style.padding = '10px';
     }
 
     return containerDiv;
