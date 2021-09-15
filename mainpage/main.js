@@ -38,13 +38,12 @@ const buttonDiv = document.querySelector('.buttondiv');
 
 formButton.textContent = 'Search Again';
 buttonDiv.append(formButton);
-
 formButton.addEventListener('click', () => {
     formEl.style.display = 'block';
 });
 
 const showShelfButton = document.createElement('button');
-document.body.append(showShelfButton);
+buttonDiv.append(showShelfButton);
 showShelfButton.textContent = 'Show Bookshelf';
 showShelfButton.addEventListener('click', () => {
     window.location = '../bookshelf/index.html';
