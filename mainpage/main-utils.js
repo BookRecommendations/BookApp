@@ -21,11 +21,11 @@ export function renderResults(arrayResults) {
     const containerDiv = document.createElement('div');
 
     for (let i = 0; i < arrayResults.length; i++) {
-        const user = getUser();
         let bookObject = findById(bookData, Number(arrayResults[i].id));
         console.log(bookObject);
         const bookDiv = document.createElement('div');
         const bookImage = document.createElement('img');
+        bookImage.classList.add ('resultsimages');
         
         const shelfButton = document.createElement('button');
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
@@ -74,9 +74,9 @@ export function renderBookshelf() {
     const user = getUser();
     const bookShelfDiv = document.querySelector('.bookshelf');
     const hasReadDiv = document.createElement('div');
-    hasReadDiv.classList = 'readcontainer';
+    hasReadDiv.classList.add('readcontainer');
     const queueDiv = document.createElement('div');
-    queueDiv.classList = 'queuecontainer';
+    queueDiv.classList.add('queuecontainer');
 
     hasReadDiv.textContent = 'Books you have read:';
     queueDiv.textContent = 'Books you want to read next';
@@ -84,8 +84,8 @@ export function renderBookshelf() {
     for (let i = 0; i < user.booksread.length; i++) {
         const readBookDiv = document.createElement('div');
         const readBookImg = document.createElement('img');
-        readBookDiv.classList = 'readbookdiv';
-        readBookImg.classList = 'readbookimg';
+        readBookDiv.classList.add('readbookdiv');
+        readBookImg.classList.add('readbookimg');
         readBookImg.src = `/data/${user.booksread[i].imageLink}`;
         readBookDiv.textContent =
             `Title: ${user.booksread[i].title},
@@ -100,8 +100,8 @@ export function renderBookshelf() {
     for (let j = 0; j < user.bookstoread.length; j++) {
         const queueBookDiv = document.createElement('div');
         const queueBookImg = document.createElement('img');
-        queueBookDiv.classList = 'queuebookdiv';
-        queueBookImg.classList = 'queuebookimg';
+        queueBookDiv.classList.add('queuebookdiv');
+        queueBookImg.classList.add('queuebookimg');
         queueBookImg.src = `/data/${user.bookstoread[j].imageLink}`;
         queueBookDiv.textContent = `Title: ${user.bookstoread[j].title},
         Author: ${user.bookstoread[j].author}
