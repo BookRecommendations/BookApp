@@ -146,6 +146,14 @@ section {
     padding:5px;
 }
 
+.removebutton {
+    height: 30%;
+    width:30%;
+    background-color: rgb(241,238,228, 0.50);
+    float: bottom;
+    
+}
+
 /*header*/
 .main-header {
     width: 100%;
