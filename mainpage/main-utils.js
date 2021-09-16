@@ -171,7 +171,7 @@ export function getRecommendations() {
     if (recArray.length === 0) {
         const noResults = document.getElementById('noResults');
         recArray = defaultArray;
-        noResults.textContent = ('Your Criteria returned 0 results, Therefore we have given you a list of great books to enjoy');
+        noResults.textContent = ('Your Criteria returned 0 results, Therefore, we have given you a list of great books to enjoy');
     }
     return recArray;
 }
