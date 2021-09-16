@@ -83,7 +83,7 @@ export function renderBookshelf() {
         const readBookImg = document.createElement('img');
         const removeRButton = document.createElement('button');
         removeRButton.textContent = `Remove from list`;
-        removeRButton.classList.add('removButton');
+        removeRButton.classList.add('removebutton');
         removeRButton.addEventListener('click', () => {
             const user = getUser();
             alert(`You have removed ${user.booksread[i]} from the list`);
@@ -135,6 +135,7 @@ export function renderBookshelf() {
         queueBookDiv.append(queueBookImg, removeQButton);
         queueDiv.append(queueBookDiv);
     }
+    
     bookShelfDiv.append(hasReadDiv, queueDiv);
 }
 
