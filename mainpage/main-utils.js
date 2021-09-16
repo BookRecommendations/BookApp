@@ -32,7 +32,7 @@ export function renderResults(arrayResults) {
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
             alert(`You have added ${bookObject.title} to your finsihed books`);
-            bookDiv.style.background = 'lightsalmon';
+            bookDiv.style.background = 'orange';
             const user = getUser();
             user.booksread.push(bookObject);
             setUser(user);
@@ -43,7 +43,7 @@ export function renderResults(arrayResults) {
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
             alert(`You have added ${bookObject.title} to your list`);
-            bookDiv.style.background = 'khaki';
+            bookDiv.style.background = 'yellow';
             const user = getUser();
             user.bookstoread.push(bookObject);
             setUser(user);
@@ -162,7 +162,12 @@ export function getRecommendations() {
     const user = getUser();
     let recArray = [];
     for (let book of bookData) {
-        if (book.genre === user.Genre && (bookLength(book) === user.BookLength) && (bookRating(book) === user.AverageRating)) {
+        if (book.genre === user.Genre 
+        || user.Genre === 'all'
+        && (bookLength(book) === user.BookLength 
+        || user.BookLength === 'all')
+        && (bookRating(book) === user.AverageRating 
+        || user.AverageRating === 'all')) {
            
             recArray.push(book);
         }
@@ -174,6 +179,7 @@ export function getRecommendations() {
     }
     return recArray;
 }
+
 
 export function renderUserStats() {
     
