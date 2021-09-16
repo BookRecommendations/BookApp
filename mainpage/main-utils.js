@@ -55,12 +55,11 @@ export function renderResults(arrayResults) {
         bookDescription.textContent =
             `Title: ${bookObject.title}
         Author: ${bookObject.author}
-        Genre: ${bookObject.genre}
         Pages: ${bookObject.pages}
         Year: ${bookObject.year}`;
         bookDiv.append(bookImage, bookDescription, shelfButton, queueButton);
         containerDiv.append(bookDiv);
-
+        bookDescription.classList.add('book-description');
     }
 
     return containerDiv;
