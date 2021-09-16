@@ -31,22 +31,49 @@ export function renderResults(arrayResults) {
         const shelfButton = document.createElement('button');
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
+
+            
+            bookDiv.style.background = 'orange';
+
             alert(`You have added ${bookObject.title} to your finsihed books`);
             bookDiv.style.background = 'lightsalmon';
+
             const user = getUser();
-            user.booksread.push(bookObject);
-            setUser(user);
-            renderBookshelf();
+            if (user.booksread.some(book => book.id === bookObject.id)){
+                alert(`${bookObject.title} is already in your list`);
+                
+            }
+            else {
+                alert(`You have added ${bookObject.title} to your finsihed books`);
+                user.booksread.push(bookObject);
+                setUser(user);
+            }
+
+            
+            
+            
+            
         });
         
         const queueButton = document.createElement('button');
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
+
+           
+            bookDiv.style.background = 'yellow';
+
             alert(`You have added ${bookObject.title} to your list`);
             bookDiv.style.background = 'khaki';
+
             const user = getUser();
-            user.bookstoread.push(bookObject);
-            setUser(user);
+            if (user.bookstoread.some(book => book.id === bookObject.id)){
+                alert(`${bookObject.title} is already in your list`);
+            }
+            else {
+                alert(`You have added ${bookObject.title} to your list`);
+                user.bookstoread.push(bookObject);
+                setUser(user);
+            }
 
         });
         
@@ -84,14 +111,13 @@ export function renderBookshelf() {
         removeRButton.classList.add('removebutton');
         removeRButton.addEventListener('click', () => {
             const user = getUser();
-            alert(`You have removed ${user.booksread[i]} from the list`);
+            alert(`You have removed ${user.booksread[i].title} from the list`);
             user.booksread.splice(i, 1);
             setUser(user);
             readBookDiv.remove();
             renderUserStats();
-
-
         });
+
         readBookDiv.classList.add('readbookdiv');
         readBookImg.classList.add('readbookimg');
         readBookImg.src = `../data/${user.booksread[i].imageLink}`;
@@ -176,8 +202,6 @@ export function getRecommendations() {
 }
 
 export function renderUserStats() {
-    
-
     const user = getUser();
     let pagesread = getTotalPagesRead();
     
@@ -198,3 +222,4 @@ export function renderUserStats() {
     
     statContainer.append(bookcountDiv, pagesDiv, booklistDiv);
 }
+
