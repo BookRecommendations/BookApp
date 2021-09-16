@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
 
 body{
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
@@ -18,43 +19,41 @@ body{
     
     font-family: 'Nunito Sans', sans-serif;
     background-color: var(--color2);
-    background-image: url('https://images.unsplash.com/photo-1603058817990-2b9a9abbce86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2466&q=80');
+    background-image: url('https://images.unsplash.com/photo-1564316912292-de44e84f8fc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80');
+    background-size: cover;
+    background-attachment: fixed;
     color: antiquewhite;
-    
-    font-family: 'Nunito Sans', sans-serif;
-    
-   
-    height: 100vh;
-    
-    
+    font-family: 'Nunito Sans', sans-serif; 
 }
+
 h1 {
    display: flex;
    justify-content: center;
+   font-weight: 900;
+   color: #025;
+   text-shadow: -1px 0 antiquewhite, 0 1px antiquewhite, 1px 0 antiquewhite, 0 -1px antiquewhite;
 }
 .bookshelf {
     display: flex;
     justify-content: center;
-    
-    
 }
+
 .readcontainer {
     border: 5px solid gray;
-    font-size: 140%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 160%;
     font-weight: 900;
-    color: red;
-    border: 5px solid brown;
+    color: #025;
+    text-shadow: -1px 0 antiquewhite, 0 1px antiquewhite, 1px 0 antiquewhite, 0 -1px antiquewhite;
+    border: 5px solid rgb(87,25,0);
     width: 40%;
-
-    
-    
-    background-color: rgb(241,238,228, 0.50);
+    background-color: rgba(145,145,145, 0.75);
 }
     
 .readbookdiv {
     font-size: 80%;
-    color: black;
-    border: 1px solid brown;
+    color: #025;
+    border: 1px solid rgb(87,25,0);
     display: flex;
     padding:10px;
 }
@@ -64,20 +63,19 @@ h1 {
     height:100%;
 }   
 .queuecontainer {
-    border: 5px solid brown;
-    color: red;
-    font-size: 140%;
+    border: 5px solid rgb(87,25,0);
+    text-shadow: -1px 0 antiquewhite, 0 1px antiquewhite, 1px 0 antiquewhite, 0 -1px antiquewhite;
+    color: #025;
+    font-size: 160%;
     font-weight: 900;
     width: 40%;
-
-    background-color: rgb(241,238,228, 0.50);
-
-    margin-left: 15%;
-    
+    background-color: rgba(145,145,145, 0.75);
+    margin-left: 8%;
 }
+
 .queuebookdiv {
-    color: black;
-    border: 1px solid brown;
+    color: #025;
+    border: 1px solid rgb(87,25,0);
     font-size: 80%;
     display: flex;
     padding:10px;
@@ -126,7 +124,7 @@ section {
     transition: all .2s ease-in-out;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    border: 1px solid antiquewhite;
     
 }
 
@@ -137,7 +135,10 @@ section {
 .statcontainer {
     margin-left: 9%;
     font-size: 18px;
-    border: 2px solid red;
+    border: 2px solid black;
+    color:black;
+    text-shadow: -1px 0 antiquewhite, 0 1px antiquewhite, 1px 0 antiquewhite, 0 -1px antiquewhite;
+    background-color: rgb(241,238,228, 0.50);
     width: 30%;
     border-radius: 10px;
     padding:5px;
@@ -146,9 +147,25 @@ section {
 .removebutton {
     height: 30%;
     width:30%;
-    background-color: rgb(241,238,228, 0.50);
+    background-color: black;
+    color: antiquewhite;
     float: bottom;
     
+}
+
+button{
+    font-size: auto;
+    background-color: black;
+    color: antiquewhite;
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(110%);
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /*header*/
@@ -163,8 +180,9 @@ section {
 nav {
     background-color: antiquewhite;
     border: ridge 2px black;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 1.5rem;
+
 }
 .title-mp {
     display: flex;
@@ -178,6 +196,7 @@ nav {
     background-size: cover;
     justify-content: center;
 }
+
 .title-mp > div {
     font-size: 3.5rem;
     text-align: center;
@@ -189,20 +208,21 @@ nav {
     margin: 0;
     padding: 10px;
     border-radius: 5px;
-        
 }
+
 .stats-tp {
     display: flex;
     justify-content: center;
     border: ridge 2px black;
-
 }
+
 .buttondiv {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
 }
+
 .buttondiv > a > button {
     width: 100%;
     height: fit-content;
@@ -222,10 +242,8 @@ li > a {
     transition: ease-in-out 500ms;
     text-decoration: none;
     padding: 4px;
-
-    
-    
 }
+
 li > a:hover {
     background-color: black;
     color: antiquewhite;
@@ -233,6 +251,10 @@ li > a:hover {
 }
 ul {
     list-style-type: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 2px;
+    margin-left:0;
 }
 
 @keyframes pulse {

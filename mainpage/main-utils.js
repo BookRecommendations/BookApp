@@ -31,8 +31,13 @@ export function renderResults(arrayResults) {
         const shelfButton = document.createElement('button');
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
+
             
             bookDiv.style.background = 'orange';
+
+            alert(`You have added ${bookObject.title} to your finsihed books`);
+            bookDiv.style.background = 'lightsalmon';
+
             const user = getUser();
             if (user.booksread.some(book => book.id === bookObject.id)){
                 alert(`${bookObject.title} is already in your list`);
@@ -53,8 +58,13 @@ export function renderResults(arrayResults) {
         const queueButton = document.createElement('button');
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
+
            
             bookDiv.style.background = 'yellow';
+
+            alert(`You have added ${bookObject.title} to your list`);
+            bookDiv.style.background = 'khaki';
+
             const user = getUser();
             if (user.bookstoread.some(book => book.id === bookObject.id)){
                 alert(`${bookObject.title} is already in your list`);
@@ -72,12 +82,11 @@ export function renderResults(arrayResults) {
         bookDescription.textContent =
             `Title: ${bookObject.title}
         Author: ${bookObject.author}
-        Genre: ${bookObject.genre}
         Pages: ${bookObject.pages}
         Year: ${bookObject.year}`;
         bookDiv.append(bookImage, bookDescription, shelfButton, queueButton);
         containerDiv.append(bookDiv);
-
+        bookDescription.classList.add('book-description');
     }
 
     return containerDiv;

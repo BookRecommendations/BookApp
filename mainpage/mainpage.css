@@ -83,7 +83,7 @@ main {
 
 .returned-book>button:hover {
     transition: 1500ms;
-    background-color: darkslateblue;
+    background-color: black;
     cursor: pointer;
     color: antiquewhite;
     transform: scale(115%);
@@ -118,7 +118,7 @@ nav {
     background-color: rgba(100, 150, 250, 1);
     align-items: center;
     background-image: url(../assets/images/mainpageBG/stackedbooks.jfif);
-    color: ivory;
+    color: antiquewhite;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -129,7 +129,7 @@ nav {
     text-align: center;
     align-items: center;
     background-color: rgba(100, 100, 100, .5);
-    color: ivory;
+    color: antiquewhite;
     width: fit-content;
     text-align: center;
     margin: 0;
@@ -144,7 +144,6 @@ nav {
     justify-content: center;
     border: ridge 2px black;
     font-family: 'Nunito Sans', sans-serif;
-
 }
 
 .buttondiv {
@@ -161,12 +160,27 @@ nav {
     font-size: auto;
     background-color: black;
     color: antiquewhite;
-    transition: ease-in-out 1000ms;
+    transition: all .2s ease-in-out;
     border-radius: 5px;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 .buttondiv>button:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.button{
+    font-size: auto;
+    background-color: black;
+    color: antiquewhite;
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.button:hover{
     cursor: pointer;
     transform: scale(110%);
     font-family: 'Nunito Sans', sans-serif;
@@ -222,4 +236,8 @@ li>a:hover {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
 
+}
+
+.book-decription{
+    font-family: 'Nunito Sans', sans-serif;
 }
