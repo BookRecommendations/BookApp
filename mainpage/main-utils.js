@@ -31,22 +31,39 @@ export function renderResults(arrayResults) {
         const shelfButton = document.createElement('button');
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
-            alert(`You have added ${bookObject.title} to your finsihed books`);
+            
             bookDiv.style.background = 'orange';
             const user = getUser();
-            user.booksread.push(bookObject);
-            setUser(user);
-            renderBookshelf();
+            if (user.booksread.some(book => book.id === bookObject.id)){
+                alert(`${bookObject.title} is already in your list`);
+                
+            }
+            else {
+                alert(`You have added ${bookObject.title} to your finsihed books`);
+                user.booksread.push(bookObject);
+                setUser(user);
+            }
+
+            
+            
+            
+            
         });
         
         const queueButton = document.createElement('button');
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
-            alert(`You have added ${bookObject.title} to your list`);
+           
             bookDiv.style.background = 'yellow';
             const user = getUser();
-            user.bookstoread.push(bookObject);
-            setUser(user);
+            if (user.bookstoread.some(book => book.id === bookObject.id)){
+                alert(`${bookObject.title} is already in your list`);
+            }
+            else {
+                alert(`You have added ${bookObject.title} to your list`);
+                user.bookstoread.push(bookObject);
+                setUser(user);
+            }
 
         });
         
