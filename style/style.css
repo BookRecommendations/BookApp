@@ -178,11 +178,6 @@ section {
     border: solid 2px var(--color1);
 }
 
-/*.main-section-one{
-    position:absolute;
-    left: 100px;
-}*/
-
 .button{
     background-color: black;
     color: antiquewhite;
