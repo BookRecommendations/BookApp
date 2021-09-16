@@ -46,6 +46,10 @@ h2{
     font-family:'Nunito Sans', sans-serif;;
 }
 
+h4{
+    margin-bottom: 0;
+}
+
 .signup-body{
     display: block; 
     height: 100%;
@@ -125,7 +129,6 @@ h4{
 
 .categories{
     width: 800px;
-  
 }
 
 .bookshelf{
