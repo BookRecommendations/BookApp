@@ -21,26 +21,26 @@ formEl.addEventListener('submit', (event) => {
     const user = getUser();
     addToUserObject(user, userData);
 
-    formEl.style.display = 'none';
+    // formEl.style.display = 'none';
     
     const returnedDiv = renderResults(getRecommendations());
     resultsDiv.append(returnedDiv);
     
 });
 
-if (!user.newUser) {
+// if (!user.newUser) {
 
-    formEl.style.display = 'none';
-}
+//     formEl.style.display = 'none';
+// }
 
-const formButton = document.createElement('button');
+// const formButton = document.createElement('button');
 const buttonDiv = document.querySelector('.buttondiv');
 
-formButton.textContent = 'Search Again';
-buttonDiv.append(formButton);
-formButton.addEventListener('click', () => {
-    formEl.style.display = 'block';
-});
+// formButton.textContent = 'Search Again';
+// buttonDiv.append(formButton);
+// formButton.addEventListener('click', () => {
+//     formEl.style.display = 'block';
+// });
 
 const showShelfButton = document.createElement('button');
 buttonDiv.append(showShelfButton);

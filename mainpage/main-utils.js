@@ -132,7 +132,7 @@ export function bookRating(book) {
 }
 let defaultArray = [bookData[42], bookData[43], bookData[46], bookData[62], bookData[69], bookData[88], bookData[20],
     bookData[126], bookData[17], bookData[3], bookData[104], bookData[106], bookData[111], bookData[115]];
-    console.log(defaultArray);
+    
 export function getRecommendations() {
     const user = getUser();
     let recArray = [];
@@ -143,10 +143,10 @@ export function getRecommendations() {
         }
     }
     if (recArray.length === 0) {
+        const noResults = document.getElementById('noResults');
+        noResults.textContent = ('Your Criteria returned 0 results, Therefore we have given you a list of great books to enjoy');
         recArray = defaultArray;
     }
-    console.log(user.Genre, user.BookLength, user.AverageRating);
-    console.log(recArray);
     return recArray;
 }
 

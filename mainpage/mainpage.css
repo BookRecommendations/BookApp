@@ -64,9 +64,11 @@ main {
     
 }
 .returned-book > button:hover {
-    transition: 1000ms;
-    background-color: ivory;
+    transition: 1500ms;
+    background-color: darkslateblue;
     cursor: pointer;
+    color: antiquewhite;
+    transform: scale(115%);
 }
 .main-header {
     width: 100%;
@@ -75,6 +77,7 @@ main {
     background-color: antiquewhite;
     height: fit-content;
     color: black;
+    min-height: 120px;
 }
 nav {
     background-color: antiquewhite;
@@ -134,6 +137,9 @@ nav {
     transform: scale(110%);
 }
 
+ul > li {
+    margin-top: 5px;
+}
 li > a {
     transition: ease-in-out 500ms;
     text-decoration: none;
@@ -145,4 +151,21 @@ li > a:hover {
     background-color: black;
     color: antiquewhite;
     border-radius: 20px;
+}
+#noResults {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    
+}
+#submitform {
+    border-radius: 5px;
+    transition: ease-in-out 1000ms;
+}
+#submitform:hover {
+    border-radius: 5px;
+    background-color: black;
+    color: antiquewhite;
+    transform: scale(110%);
+    transform: translateX(5%);
+    cursor: pointer;
 }
