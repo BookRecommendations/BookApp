@@ -1,7 +1,8 @@
 import {
     setUser,
     getUser,
-    findById
+    findById,
+    getTotalPagesRead
 } from '../utils.js';
 import {
     bookData
@@ -91,6 +92,7 @@ export function renderBookshelf() {
             console.log(user.booksread);
             setUser(user);
             readBookDiv.remove();
+            renderUserStats();
 
 
         });
@@ -120,6 +122,7 @@ export function renderBookshelf() {
             console.log(user.bookstoread);
             setUser(user);
             queueBookDiv.remove();
+            renderUserStats();
 
             
         });
@@ -177,3 +180,26 @@ export function getRecommendations() {
     return recArray;
 }
 
+export function renderUserStats() {
+    
+
+    const user = getUser();
+    let pagesread = getTotalPagesRead();
+    
+    const statContainer = document.querySelector('.statcontainer');
+    const pagesDiv = document.createElement('div');
+    const bookcountDiv = document.createElement('div');
+    const booklistDiv = document.createElement('div');
+    pagesDiv.classList.add('stat');
+    bookcountDiv.classList.add('stat');
+    booklistDiv.classList.add('stat');
+
+    if (statContainer.childNodes[0]) {
+        statContainer.innerHTML = '';
+    }
+    pagesDiv.textContent = `Total pages read: ${pagesread}`;
+    bookcountDiv.textContent = `Books read: ${user.booksread.length}`;
+    booklistDiv.textContent = `Books on your read list: ${user.bookstoread.length}`;
+    
+    statContainer.append(bookcountDiv, pagesDiv, booklistDiv);
+}
