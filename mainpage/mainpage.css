@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 body {
     height: 100vh;
     display: inline-block;
@@ -6,13 +7,15 @@ body {
     justify-content: left;
     font-family: 'Nunito Sans', sans-serif;
 }
+
 main {
     background-image: url(../assets/images/mainpageBG/bookisFloating.jfif);
     height: 100vh;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 40%;
 }
+
 .returned-book {
     width: fit-content;
     max-width: 70%;
@@ -27,6 +30,7 @@ main {
     background-color: rgba(300, 300, 300, .5);
     color: black;
 }
+
 .resultsdiv {
     display: flex;
     flex-direction: column;
@@ -35,15 +39,17 @@ main {
     justify-content: center;
     align-items: center;
     background-image: url(../assets/images/mainpageBG/bookisFloating.jfif);
-    background-repeat:repeat-y;
+    background-repeat: repeat-y;
     background-size: cover;
-    background-position-x:55% ;
+    background-position-x: 55%;
 }
+
 .resultsimages {
     width: 100%;
     height: 25%;
     max-height: 300px;
 }
+
 .cnt-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,24 +58,28 @@ main {
     align-items: center;
     justify-content: center;
 }
-.returned-book > div {
+
+.returned-book>div {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.returned-book > button {
+
+.returned-book>button {
     width: 50%;
     border-radius: 5px;
     max-height: fit-content;
-    
+
 }
-.returned-book > button:hover {
+
+.returned-book>button:hover {
     transition: 1500ms;
     background-color: darkslateblue;
     cursor: pointer;
     color: antiquewhite;
     transform: scale(115%);
 }
+
 .main-header {
     width: 100%;
     display: grid;
@@ -79,12 +89,14 @@ main {
     color: black;
     min-height: 120px;
 }
+
 nav {
     background-color: antiquewhite;
     border: ridge 2px black;
     text-align: center;
     font-size: 1.5rem;
 }
+
 .title-mp {
     display: flex;
     font-size: 3.5rem;
@@ -97,70 +109,77 @@ nav {
     background-size: cover;
     justify-content: center;
 }
-.title-mp > div {
+
+.title-mp>div {
     font-size: 3.5rem;
     text-align: center;
     align-items: center;
-   background-color: rgba(100, 100, 100, .5);
+    background-color: rgba(100, 100, 100, .5);
     color: ivory;
     width: fit-content;
     text-align: center;
     margin: 0;
     padding: 10px;
     border-radius: 5px;
-        
+
 }
+
 .stats-tp {
     display: flex;
     justify-content: center;
     border: ridge 2px black;
 
 }
+
 .buttondiv {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
 }
-.buttondiv > button {
+
+.buttondiv>button {
     width: 100%;
     height: fit-content;
     font-size: auto;
     transition: ease-in-out 1000ms;
     border-radius: 5px;
-    
 }
-.buttondiv > button:hover { 
+
+.buttondiv>button:hover {
     cursor: pointer;
-    background-color: black ;
+    background-color: black;
     color: antiquewhite;
     transform: scale(110%);
 }
 
-ul > li {
+ul>li {
     margin-top: 5px;
 }
-li > a {
+
+li>a {
     transition: ease-in-out 500ms;
     text-decoration: none;
     padding: 4px;
-    
-    
 }
-li > a:hover {
+
+li>a:hover {
     background-color: black;
     color: antiquewhite;
     border-radius: 20px;
 }
+
 #noResults {
     font-size: 1.5rem;
     margin-top: 5px;
-    
+
 }
+
 #submitform {
     border-radius: 5px;
     transition: ease-in-out 1000ms;
 }
+
 #submitform:hover {
     border-radius: 5px;
     background-color: black;
