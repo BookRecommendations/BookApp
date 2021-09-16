@@ -46,7 +46,7 @@ h1 {
     border: 5px solid brown;
     width: 40%;
     
-    background-color: beige;
+    background-color: antiquewhite;
     
     
     }
@@ -69,7 +69,7 @@ h1 {
     font-size: 140%;
     font-weight: 900;
     width: 40%;
-    background-color: beige;
+    background-color: antiquewhite;
     margin-left: 15%;
     
 }
@@ -113,6 +113,7 @@ section {
 }    
 .buttondivtwo {
     margin-left: 9%;
+    margin-bottom: 10px;
 }
 .mainpagebutton {
     background-color: black;
@@ -124,6 +125,7 @@ section {
     display: flex;
     justify-content: center;
     border: 1px solid red;
+    
 }
 
 .mainpagebutton:hover{
@@ -138,7 +140,6 @@ section {
     border-radius: 10px;
     padding:5px;
 }
-
 
 /*header*/
 .main-header {
@@ -211,6 +212,7 @@ li > a {
     transition: ease-in-out 500ms;
     text-decoration: none;
     padding: 4px;
+
     
     
 }
@@ -219,6 +221,10 @@ li > a:hover {
     color: antiquewhite;
     border-radius: 20px;
 }
+ul {
+    list-style-type: none;
+}
+
 @keyframes pulse {
     20% {
       transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);

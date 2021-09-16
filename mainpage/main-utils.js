@@ -81,6 +81,19 @@ export function renderBookshelf() {
     for (let i = 0; i < user.booksread.length; i++) {
         const readBookDiv = document.createElement('div');
         const readBookImg = document.createElement('img');
+        const removeRButton = document.createElement('button');
+        removeRButton.textContent = `Remove from list`;
+        removeRButton.classList.add('removButton');
+        removeRButton.addEventListener('click', () => {
+            const user = getUser();
+            alert(`You have removed ${user.booksread[i]} from the list`);
+            user.booksread.splice(i, 1);
+            console.log(user.booksread);
+            setUser(user);
+            readBookDiv.remove();
+
+
+        });
         readBookDiv.classList.add('readbookdiv');
         readBookImg.classList.add('readbookimg');
         readBookImg.src = `../data/${user.booksread[i].imageLink}`;
@@ -91,12 +104,25 @@ export function renderBookshelf() {
         Pages: ${user.booksread[i].pages}
         Year: ${user.booksread[i].year}`;
 
-        readBookDiv.append(readBookImg);
+        readBookDiv.append(readBookImg, removeRButton);
         hasReadDiv.append(readBookDiv);
     }
     for (let j = 0; j < user.bookstoread.length; j++) {
         const queueBookDiv = document.createElement('div');
         const queueBookImg = document.createElement('img');
+        const removeQButton = document.createElement('button');
+        removeQButton.textContent = 'Remove from list';
+        removeQButton.classList.add('removebutton');
+        removeQButton.addEventListener('click', () => {
+            const user = getUser();
+            alert(`You have removed ${user.bookstoread[j].title} from your books to read`);
+            user.bookstoread.splice(j, 1);
+            console.log(user.bookstoread);
+            setUser(user);
+            queueBookDiv.remove();
+
+            
+        });
         queueBookDiv.classList.add('queuebookdiv');
         queueBookImg.classList.add('queuebookimg');
         queueBookImg.src = `../data/${user.bookstoread[j].imageLink}`;
@@ -106,7 +132,7 @@ export function renderBookshelf() {
         Pages: ${user.bookstoread[j].pages}
         Year: ${user.bookstoread[j].year}`;
 
-        queueBookDiv.append(queueBookImg);
+        queueBookDiv.append(queueBookImg, removeQButton);
         queueDiv.append(queueBookDiv);
     }
     bookShelfDiv.append(hasReadDiv, queueDiv);
