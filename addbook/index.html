@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    
+    
+    
+    <title>Add a book</title>
+</head>
+
+<body>
+
+   
+    <form class='bookform'>
+        <label for='id'>ID:</label>
+        <input type='text' id='id' name='id'>
+        <label for ='title'>Title:</label>
+        <input type='text' id='title' name='title'>
+        <label for='author'>Author:</label>
+        <input type='text' id='author' name='author'>
+        <label for='image'>ImageURL:</label>
+        <input type='text' id='image' name='image'>
+        <label for='pages'>Pages:</label>
+        <input type='text' id='pages' name='pages'>
+        <label for='genre'>Genre:</label>
+        <select id='genre' name='genre'>
+            <option value="Classic">Classic</option>
+            <option value="Business">Business</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Science Fiction">Science Fiction</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Historical Fiction">Historical Fiction</option>
+        </select>
+        </select>
+        <button type='submit' id='submitform' name='submitform'>Submit Book</button>
+    </form> 
+    <br><br><br>
+
+    <a id='mainpagelink' href='../mainpage/index.html'>Main page<br></a>
+    <a id='shelflink' href='../bookshelf/index.html'>Bookshelf</a><br>
+
+
+    <div class='usercontainer'></div>
+
+
+
+    <script type="module" src="addbook.js"></script>
+</body>
+</html>

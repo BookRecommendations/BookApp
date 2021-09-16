@@ -85,14 +85,13 @@ export function renderBookshelf() {
         removeRButton.classList.add('removebutton');
         removeRButton.addEventListener('click', () => {
             const user = getUser();
-            alert(`You have removed ${user.booksread[i]} from the list`);
+            alert(`You have removed ${user.booksread[i].title} from the list`);
             user.booksread.splice(i, 1);
             setUser(user);
             readBookDiv.remove();
             renderUserStats();
-
-
         });
+
         readBookDiv.classList.add('readbookdiv');
         readBookImg.classList.add('readbookimg');
         readBookImg.src = `../data/${user.booksread[i].imageLink}`;
@@ -177,8 +176,6 @@ export function getRecommendations() {
 }
 
 export function renderUserStats() {
-    
-
     const user = getUser();
     let pagesread = getTotalPagesRead();
     
@@ -199,3 +196,4 @@ export function renderUserStats() {
     
     statContainer.append(bookcountDiv, pagesDiv, booklistDiv);
 }
+
