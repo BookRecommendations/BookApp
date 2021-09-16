@@ -25,18 +25,23 @@ bookFormEl.addEventListener('submit', (event) => {
     setUser(user);
     console.log(bookArray);
     console.log(user);
+    renderUserBooks();
 });
 
-const userContainer = document.querySelector('.usercontainer');
-for (let i = 0; i < user.useraddedbooks.length; i++) {
-    const bookDiv = document.createElement('div');
-    const bookImg = document.createElement('img');
-    bookDiv.textContent = `Title: ${user.useraddedbooks[i].title}
-Author: ${user.userbooksadded[i].author}
-Genre: ${user.userbooksadded[i].genre}
-Pages: ${user.userbooksadded[i].pages}
-Year: ${user.userbooksadded[i].year}`;
 
-    bookImg.src = user.booksadded[i].imageLink;
-    userContainer.append(bookDiv, bookImg);
+function renderUserBooks () {
+    const user = getUser();
+    const userContainer = document.querySelector('.usercontainer');
+    for (let i = 0; i < user.useraddedbooks.length; i++) {
+        const bookDiv = document.createElement('div');
+        const bookImg = document.createElement('img');
+        bookDiv.textContent = `Title: ${user.useraddedbooks[i].title}
+Author: ${user.useraddedbooks[i].author}
+Genre: ${user.useraddedbooks[i].genre}
+Pages: ${user.useraddedbooks[i].pages}
+Year: ${user.useraddedbooks[i].year}`;
+
+        bookImg.src = user.useraddedbooks[i].imageLink;
+        userContainer.append(bookDiv, bookImg);
+    }
 }
