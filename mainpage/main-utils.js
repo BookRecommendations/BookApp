@@ -36,7 +36,6 @@ export function renderResults(arrayResults) {
             const user = getUser();
             user.booksread.push(bookObject);
             setUser(user);
-            console.log(user.booksread);
             renderBookshelf();
         });
         
@@ -48,7 +47,6 @@ export function renderResults(arrayResults) {
             const user = getUser();
             user.bookstoread.push(bookObject);
             setUser(user);
-            console.log(user.bookstoread);
 
         });
         
@@ -89,7 +87,6 @@ export function renderBookshelf() {
             const user = getUser();
             alert(`You have removed ${user.booksread[i]} from the list`);
             user.booksread.splice(i, 1);
-            console.log(user.booksread);
             setUser(user);
             readBookDiv.remove();
             renderUserStats();
@@ -119,7 +116,6 @@ export function renderBookshelf() {
             const user = getUser();
             alert(`You have removed ${user.bookstoread[j].title} from your books to read`);
             user.bookstoread.splice(j, 1);
-            console.log(user.bookstoread);
             setUser(user);
             queueBookDiv.remove();
             renderUserStats();
