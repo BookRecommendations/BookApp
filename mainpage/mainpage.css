@@ -97,7 +97,7 @@ main {
     background-color: antiquewhite;
     height: fit-content;
     color: black;
-    min-height: 120px;
+    min-height: 160px;
     position: fixed;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -193,8 +193,10 @@ li>a:hover {
 
 #noResults {
     font-size: 1.5rem;
-    margin-top: 5px;
     font-family: 'Nunito Sans', sans-serif;
+    margin-top: 15%;
+    background-color: rgba(20, 20, 20, .75);
+
 }
 
 #submitform {
@@ -213,11 +215,11 @@ li>a:hover {
     font-family: 'Nunito Sans', sans-serif;
 }
 .userform {
-    display: flex;
-    flex-direction: column ;
+    background-color: rgba(20, 20, 20, .75);
     position: fixed;
-    top: 0px;
+    top: 14%;
     left: 10%;
-    font-size: .75rem;
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+
 }
