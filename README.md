@@ -1,5 +1,5 @@
 
-# BookApp
+# BOOKR
 
 <kbd> **Amit Sheth, Daniel Gilles, Estefani Baughman** </kbd>
 

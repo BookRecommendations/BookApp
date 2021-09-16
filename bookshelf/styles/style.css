@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
 
 body{
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
@@ -28,7 +29,7 @@ body{
 h1 {
    display: flex;
    justify-content: center;
-   font-weight: bolder;
+   font-weight: 900;
    color: #025;
    text-shadow: -1px 0 antiquewhite, 0 1px antiquewhite, 1px 0 antiquewhite, 0 -1px antiquewhite;
 }
@@ -39,13 +40,14 @@ h1 {
 
 .readcontainer {
     border: 5px solid gray;
-    font-size: 140%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 160%;
     font-weight: 900;
     color: #025;
     text-shadow: -1px 0 antiquewhite, 0 1px antiquewhite, 1px 0 antiquewhite, 0 -1px antiquewhite;
     border: 5px solid rgb(87,25,0);
     width: 40%;
-    background-color: rgb(241,238,228, 0.50);
+    background-color: rgba(145,145,145, 0.75);
 }
     
 .readbookdiv {
@@ -64,10 +66,10 @@ h1 {
     border: 5px solid rgb(87,25,0);
     text-shadow: -1px 0 antiquewhite, 0 1px antiquewhite, 1px 0 antiquewhite, 0 -1px antiquewhite;
     color: #025;
-    font-size: 140%;
+    font-size: 160%;
     font-weight: 900;
     width: 40%;
-    background-color: rgb(241,238,228, 0.50);
+    background-color: rgba(145,145,145, 0.75);
     margin-left: 8%;
 }
 
