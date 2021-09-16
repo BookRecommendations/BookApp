@@ -111,10 +111,10 @@ section {
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
 }    
-.buttondiv {
+.buttondivtwo {
     margin-left: 9%;
 }
-button {
+.mainpagebutton {
     background-color: black;
     color: antiquewhite;
     border-radius: 10px;
@@ -126,7 +126,7 @@ button {
     border: 1px solid red;
 }
 
-button:hover{
+.mainpagebutton:hover{
     transform: scale(1.2);
 }
 
@@ -136,6 +136,87 @@ button:hover{
     width: 30%;
     border-radius: 10px;
     padding:5px;
+}
+
+
+/*header*/
+.main-header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    background-color: antiquewhite;
+    height: fit-content;
+    color: black;
+}
+nav {
+    background-color: antiquewhite;
+    border: ridge 2px black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.title-mp {
+    display: flex;
+    font-size: 3.5rem;
+    text-align: center;
+    background-color: rgba(100, 150, 250, 1);
+    align-items: center;
+    background-image: url(../../assets/images/mainpageBG/stackedbooks.jfif);
+    color: ivory;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.title-mp > div {
+    font-size: 3.5rem;
+    text-align: center;
+    align-items: center;
+   background-color: rgba(100, 100, 100, .5);
+    color: ivory;
+    width: fit-content;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+        
+}
+.stats-tp {
+    display: flex;
+    justify-content: center;
+    border: ridge 2px black;
+
+}
+.buttondiv {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+}
+.buttondiv > a > button {
+    width: 100%;
+    height: fit-content;
+    font-size: auto;
+    transition: ease-in-out 1000ms;
+    border-radius: 5px;
+    
+}
+ a > button:hover { 
+    cursor: pointer;
+    background-color: black ;
+    color: antiquewhite;
+    transform: scale(110%);
+}
+
+li > a {
+    transition: ease-in-out 500ms;
+    text-decoration: none;
+    padding: 4px;
+    
+    
+}
+li > a:hover {
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 20px;
 }
 @keyframes pulse {
     20% {

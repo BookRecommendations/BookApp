@@ -23,8 +23,9 @@ booklistDiv.textContent = `Books on your read list: ${user.bookstoread.length}`;
 
 statContainer.append(bookcountDiv, pagesDiv, booklistDiv);
 
-const buttonDiv = document.querySelector('.buttondiv');
+const buttonDiv = document.querySelector('.buttondivtwo');
 const mainpageButton = document.createElement('button');
+mainpageButton.classList.add('mainpagebutton');
 mainpageButton.textContent = 'Return to search page';
 
 buttonDiv.append(mainpageButton);
