@@ -1,7 +1,8 @@
 import {
     setUser,
     getUser,
-    findById
+    findById,
+    getTotalPagesRead
 } from '../utils.js';
 import {
     bookData
@@ -81,6 +82,20 @@ export function renderBookshelf() {
     for (let i = 0; i < user.booksread.length; i++) {
         const readBookDiv = document.createElement('div');
         const readBookImg = document.createElement('img');
+        const removeRButton = document.createElement('button');
+        removeRButton.textContent = `Remove from list`;
+        removeRButton.classList.add('removebutton');
+        removeRButton.addEventListener('click', () => {
+            const user = getUser();
+            alert(`You have removed ${user.booksread[i]} from the list`);
+            user.booksread.splice(i, 1);
+            console.log(user.booksread);
+            setUser(user);
+            readBookDiv.remove();
+            renderUserStats();
+
+
+        });
         readBookDiv.classList.add('readbookdiv');
         readBookImg.classList.add('readbookimg');
         readBookImg.src = `../data/${user.booksread[i].imageLink}`;
@@ -91,12 +106,26 @@ export function renderBookshelf() {
         Pages: ${user.booksread[i].pages}
         Year: ${user.booksread[i].year}`;
 
-        readBookDiv.append(readBookImg);
+        readBookDiv.append(readBookImg, removeRButton);
         hasReadDiv.append(readBookDiv);
     }
     for (let j = 0; j < user.bookstoread.length; j++) {
         const queueBookDiv = document.createElement('div');
         const queueBookImg = document.createElement('img');
+        const removeQButton = document.createElement('button');
+        removeQButton.textContent = 'Remove from list';
+        removeQButton.classList.add('removebutton');
+        removeQButton.addEventListener('click', () => {
+            const user = getUser();
+            alert(`You have removed ${user.bookstoread[j].title} from your books to read`);
+            user.bookstoread.splice(j, 1);
+            console.log(user.bookstoread);
+            setUser(user);
+            queueBookDiv.remove();
+            renderUserStats();
+
+            
+        });
         queueBookDiv.classList.add('queuebookdiv');
         queueBookImg.classList.add('queuebookimg');
         queueBookImg.src = `../data/${user.bookstoread[j].imageLink}`;
@@ -106,9 +135,10 @@ export function renderBookshelf() {
         Pages: ${user.bookstoread[j].pages}
         Year: ${user.bookstoread[j].year}`;
 
-        queueBookDiv.append(queueBookImg);
+        queueBookDiv.append(queueBookImg, removeQButton);
         queueDiv.append(queueBookDiv);
     }
+    
     bookShelfDiv.append(hasReadDiv, queueDiv);
 }
 
@@ -132,7 +162,7 @@ export function bookRating(book) {
 }
 let defaultArray = [bookData[42], bookData[43], bookData[46], bookData[62], bookData[69], bookData[88], bookData[20],
     bookData[126], bookData[17], bookData[3], bookData[104], bookData[106], bookData[111], bookData[115]];
-    console.log(defaultArray);
+    
 export function getRecommendations() {
     const user = getUser();
     let recArray = [];
@@ -143,10 +173,33 @@ export function getRecommendations() {
         }
     }
     if (recArray.length === 0) {
+        const noResults = document.getElementById('noResults');
         recArray = defaultArray;
+        noResults.textContent = ('Your Criteria returned 0 results, Therefore, we have given you a list of great books to enjoy');
     }
-    console.log(user.Genre, user.BookLength, user.AverageRating);
-    console.log(recArray);
     return recArray;
 }
 
+export function renderUserStats() {
+    
+
+    const user = getUser();
+    let pagesread = getTotalPagesRead();
+    
+    const statContainer = document.querySelector('.statcontainer');
+    const pagesDiv = document.createElement('div');
+    const bookcountDiv = document.createElement('div');
+    const booklistDiv = document.createElement('div');
+    pagesDiv.classList.add('stat');
+    bookcountDiv.classList.add('stat');
+    booklistDiv.classList.add('stat');
+
+    if (statContainer.childNodes[0]) {
+        statContainer.innerHTML = '';
+    }
+    pagesDiv.textContent = `Total pages read: ${pagesread}`;
+    bookcountDiv.textContent = `Books read: ${user.booksread.length}`;
+    booklistDiv.textContent = `Books on your read list: ${user.bookstoread.length}`;
+    
+    statContainer.append(bookcountDiv, pagesDiv, booklistDiv);
+}
