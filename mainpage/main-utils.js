@@ -32,7 +32,7 @@ export function renderResults(arrayResults) {
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
             alert(`You have added ${bookObject.title} to your finsihed books`);
-            bookDiv.style.background = 'orange';
+            bookDiv.style.background = 'lightsalmon';
             const user = getUser();
             user.booksread.push(bookObject);
             setUser(user);
@@ -43,7 +43,7 @@ export function renderResults(arrayResults) {
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
             alert(`You have added ${bookObject.title} to your list`);
-            bookDiv.style.background = 'yellow';
+            bookDiv.style.background = 'khaki';
             const user = getUser();
             user.bookstoread.push(bookObject);
             setUser(user);
