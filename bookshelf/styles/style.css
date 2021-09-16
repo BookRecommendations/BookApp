@@ -18,7 +18,7 @@ body{
     
     font-family: 'Nunito Sans', sans-serif;
     background-color: var(--color2);
-    background: linear-gradient(to left top, #358, #101) fixed;
+    background-image: url('https://images.unsplash.com/photo-1603058817990-2b9a9abbce86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2466&q=80');
     color: antiquewhite;
     
     font-family: 'Nunito Sans', sans-serif;
@@ -45,8 +45,11 @@ h1 {
     color: red;
     border: 5px solid brown;
     width: 40%;
+
     
-    background-color: antiquewhite;
+    
+    background-color: rgb(241,238,228, 0.50);
+
     
     
     }
@@ -69,7 +72,9 @@ h1 {
     font-size: 140%;
     font-weight: 900;
     width: 40%;
-    background-color: antiquewhite;
+
+    background-color: rgb(241,238,228, 0.50);
+
     margin-left: 15%;
     
 }
