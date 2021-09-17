@@ -37,7 +37,7 @@ export function renderResults(arrayResults) {
                 alert(`${bookObject.title} is already in your list`);
             }
             else {
-                alert(`You have added ${bookObject.title} to your finsihed books`);
+                alert(`You have added ${bookObject.title} to your finished books`);
                 user.booksread.push(bookObject);
                 setUser(user);
             }
@@ -93,7 +93,7 @@ export function renderBookshelf() {
         removeRButton.classList.add('removebutton');
         removeRButton.addEventListener('click', () => {
             const user = getUser();
-            alert(`You have removed ${user.booksread[i].title} from the list`);
+            alert(`You have removed this book from the list`);
             user.booksread.splice(i, 1);
             setUser(user);
             readBookDiv.remove();
@@ -121,7 +121,7 @@ export function renderBookshelf() {
         removeQButton.classList.add('removebutton');
         removeQButton.addEventListener('click', () => {
             const user = getUser();
-            alert(`You have removed ${user.bookstoread[j].title} from your books to read`);
+            alert(`You have removed this book from your books to read`);
             user.bookstoread.splice(j, 1);
             setUser(user);
             queueBookDiv.remove();
