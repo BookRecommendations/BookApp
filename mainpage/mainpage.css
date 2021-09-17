@@ -9,11 +9,12 @@ body {
 }
 
 main {
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Nunito Sans', sans-serif;
     background-image: url(../assets/images/mainpageBG/bookisFloating.jfif);
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position-y: 40%;
     margin-top: 120px;
 }
@@ -42,11 +43,12 @@ main {
     justify-content: center;
     align-items: center;
     background-image: url(../assets/images/mainpageBG/bookisFloating.jfif);
-    background-repeat: repeat-y;
+    background-position-y: 35%;
     background-size: cover;
-    background-position-x: 55%;
-    margin-top: 10%;
+    background-attachment: fixed;
+    /* margin-top: 10%; */
     font-family: 'Nunito Sans', sans-serif;
+    padding-top: 10%;
 }
 
 .resultsimages {
@@ -228,10 +230,10 @@ li>a:hover {
     cursor: pointer;
     font-family: 'Nunito Sans', sans-serif;
 }
-.userform {
+.user-form {
     background-color: rgba(20, 20, 20, .75);
     position: fixed;
-    top: 14%;
+    top: 19%;
     left: 10%;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
