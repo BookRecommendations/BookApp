@@ -32,7 +32,7 @@ export function renderResults(arrayResults) {
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
 
-            bookDiv.style.background = 'orange';
+            bookDiv.style.background = 'lavender';
             const user = getUser();
             if (user.booksread.some(book => book.id === bookObject.id)){
                 alert(`${bookObject.title} is already in your list`);

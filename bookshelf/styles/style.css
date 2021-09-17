@@ -33,6 +33,7 @@ h1 {
    color: #025;
    text-shadow: -1px 0 antiquewhite, 0 1px antiquewhite, 1px 0 antiquewhite, 0 -1px antiquewhite;
 }
+
 .bookshelf {
     display: flex;
     justify-content: center;
