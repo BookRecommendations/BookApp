@@ -1,13 +1,8 @@
 import { getUser } from '../utils.js';
 import { addToUserObject, getRecommendations, renderResults } from './main-utils.js';
 
-const formEl = document.querySelector('.userform');
+const formEl = document.querySelector('.user-form');
 const resultsDiv = document.querySelector('.results-div');
-const user = getUser();
-
-if (user.newUser) {
-    formEl.style.display = 'block';
-}
 
 formEl.addEventListener('submit', (event) => {
     if (resultsDiv.childNodes[0]) {
