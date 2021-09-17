@@ -23,7 +23,7 @@ export function renderResults(arrayResults) {
     containerDiv.classList.add('cnt-div');
     for (let i = 0; i < arrayResults.length; i++) {
         let bookObject = findById(bookData, Number(arrayResults[i].id));
-        console.log(bookObject);
+        // console.log(bookObject);
         const bookDiv = document.createElement('div');
         const bookImage = document.createElement('img');
         bookImage.classList.add ('resultsimages');
@@ -42,7 +42,6 @@ export function renderResults(arrayResults) {
                 user.booksread.push(bookObject);
                 setUser(user);
             }
-
         });
         
         const queueButton = document.createElement('button');
@@ -50,6 +49,7 @@ export function renderResults(arrayResults) {
         queueButton.addEventListener('click', () => {
 
             bookDiv.style.background = 'yellow';
+
             bookDiv.style.background = 'khaki';
             const user = getUser();
             if (user.bookstoread.some(book => book.id === bookObject.id)){
@@ -159,7 +159,6 @@ export function bookLength(book) {
 
 
 export function bookRating(book) {
-    
     if (book.average_rating > 3 && book.average_rating < 3.9) {
         return '3';
     }
@@ -167,6 +166,7 @@ export function bookRating(book) {
         return '4';
     } else return '4.5';
 }
+
 let defaultArray = [bookData[42], bookData[43], bookData[46], bookData[62], bookData[69], bookData[88], bookData[20],
     bookData[126], bookData[17], bookData[3], bookData[104], bookData[106], bookData[111], bookData[115]];
     
@@ -174,8 +174,12 @@ export function getRecommendations() {
     const user = getUser();
     let recArray = [];
     for (let book of bookData) {
-        if (book.genre === user.Genre && (bookLength(book) === user.BookLength) && (bookRating(book) === user.AverageRating)) {
-           
+        if ((book.genre === user.Genre 
+        || user.Genre === 'all')
+        && (bookLength(book) === user.BookLength 
+        || user.BookLength === 'all')
+        && (bookRating(book) === user.AverageRating 
+        || user.AverageRating === 'all')) {
             recArray.push(book);
         }
     }
@@ -190,11 +194,11 @@ export function getRecommendations() {
 export function renderUserStats() {
     const user = getUser();
     let pagesread = getTotalPagesRead();
-    
     const statContainer = document.querySelector('.statcontainer');
     const pagesDiv = document.createElement('div');
     const bookcountDiv = document.createElement('div');
     const booklistDiv = document.createElement('div');
+    
     pagesDiv.classList.add('stat');
     bookcountDiv.classList.add('stat');
     booklistDiv.classList.add('stat');
