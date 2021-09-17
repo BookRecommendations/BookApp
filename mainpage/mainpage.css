@@ -40,13 +40,13 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     background-image: url(../assets/images/mainpageBG/bookisFloating.jfif);
     background-position-y: 35%;
     background-size: cover;
     background-attachment: fixed;
-    /* margin-top: 10%; */
     font-family: 'Nunito Sans', sans-serif;
     padding-top: 10%;
 }
