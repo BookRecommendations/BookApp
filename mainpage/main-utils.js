@@ -32,15 +32,10 @@ export function renderResults(arrayResults) {
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
         shelfButton.addEventListener('click', () => {
 
-            
-            bookDiv.style.background = 'orange';
-
-            alert(`You have added ${bookObject.title} to your finished books`);
             bookDiv.style.background = 'orange';
             const user = getUser();
             if (user.booksread.some(book => book.id === bookObject.id)){
                 alert(`${bookObject.title} is already in your list`);
-                
             }
             else {
                 alert(`You have added ${bookObject.title} to your finsihed books`);
@@ -53,9 +48,8 @@ export function renderResults(arrayResults) {
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
 
-           
             bookDiv.style.background = 'yellow';
-            alert(`You have added ${bookObject.title} to your list`);
+
             bookDiv.style.background = 'khaki';
             const user = getUser();
             if (user.bookstoread.some(book => book.id === bookObject.id)){
