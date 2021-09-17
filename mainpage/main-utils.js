@@ -29,7 +29,6 @@ export function renderResults(arrayResults) {
         bookDiv.classList.add('returned-book');
         const shelfButton = document.createElement('button');
         shelfButton.textContent = 'Add Completed Book to Bookshelf';
-        
         shelfButton.addEventListener('click', () => {
             bookDiv.style.background = 'lavender';
             const user = getUser();
@@ -46,7 +45,6 @@ export function renderResults(arrayResults) {
         const queueButton = document.createElement('button');
         queueButton.textContent = 'Add Book to Queue';
         queueButton.addEventListener('click', () => {
-            bookDiv.style.background = 'yellow';
             bookDiv.style.background = 'khaki';
             const user = getUser();
             if (user.bookstoread.some(book => book.id === bookObject.id)){
