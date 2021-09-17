@@ -23,7 +23,6 @@ export function renderResults(arrayResults) {
     containerDiv.classList.add('cnt-div');
     for (let i = 0; i < arrayResults.length; i++) {
         let bookObject = findById(bookData, Number(arrayResults[i].id));
-        // console.log(bookObject);
         const bookDiv = document.createElement('div');
         const bookImage = document.createElement('img');
         bookImage.classList.add ('resultsimages');
@@ -184,7 +183,7 @@ export function getRecommendations() {
         }
     }
     if (recArray.length === 0) {
-        const noResults = document.getElementById('noResults');
+        const noResults = document.getElementById('no-results');
         recArray = defaultArray;
         noResults.textContent = ('Your Criteria returned 0 results, Therefore, we have given you a list of great books to enjoy');
     }
@@ -194,7 +193,7 @@ export function getRecommendations() {
 export function renderUserStats() {
     const user = getUser();
     let pagesread = getTotalPagesRead();
-    const statContainer = document.querySelector('.statcontainer');
+    const statContainer = document.querySelector('.stat-container');
     const pagesDiv = document.createElement('div');
     const bookcountDiv = document.createElement('div');
     const booklistDiv = document.createElement('div');

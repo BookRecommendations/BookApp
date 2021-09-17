@@ -34,7 +34,7 @@ main {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.resultsdiv {
+.results-div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -146,7 +146,7 @@ nav {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.buttondiv {
+.button-div {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -154,7 +154,7 @@ nav {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.buttondiv>button {
+.button-div>button {
     width: 100%;
     height: fit-content;
     font-size: auto;
@@ -165,7 +165,7 @@ nav {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.buttondiv>button:hover {
+.button-div>button:hover {
     cursor: pointer;
     transform: scale(110%);
     font-family: 'Nunito Sans', sans-serif;
@@ -205,7 +205,7 @@ li>a:hover {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-#noResults {
+#no-results {
     font-size: 1.5rem;
     font-family: 'Nunito Sans', sans-serif;
     margin-top: 15%;
@@ -213,13 +213,13 @@ li>a:hover {
 
 }
 
-#submitform {
+#submit-form {
     border-radius: 5px;
     transition: ease-in-out 1000ms;
     font-family: 'Nunito Sans', sans-serif;
 }
 
-#submitform:hover {
+#submit-form:hover {
     border-radius: 5px;
     background-color: black;
     color: antiquewhite;

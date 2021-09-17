@@ -1,6 +1,5 @@
 import { getUser, setUser, findById } from '../utils.js';
 
-// import pokemon from '../data.js';
 const test = QUnit.test;
 
 

@@ -2,21 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
 
 body{
-    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
-
-    /* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
-    
-    
-    
     font-family: 'Nunito Sans', sans-serif;
     background-color: var(--color2);
     background-image: url('https://images.unsplash.com/photo-1564316912292-de44e84f8fc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80');
@@ -112,7 +97,7 @@ section {
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
 }    
-.buttondivtwo {
+.button-div-two {
     margin-left: 9%;
     margin-bottom: 10px;
 }
@@ -133,7 +118,7 @@ section {
     transform: scale(1.2);
 }
 
-.statcontainer {
+.stat-container {
     margin-left: 9%;
     font-size: 18px;
     border: 2px solid black;
@@ -169,7 +154,7 @@ button:hover{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/*header*/
+
 .main-header {
     width: 100%;
     display: grid;
@@ -181,7 +166,6 @@ button:hover{
 nav {
     background-color: antiquewhite;
     border: ridge 2px black;
-    /*text-align: center;*/
     font-size: 1.5rem;
 
 }
@@ -217,14 +201,14 @@ nav {
     border: ridge 2px black;
 }
 
-.buttondiv {
+.button-div {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
 }
 
-.buttondiv > a > button {
+.button-div > a > button {
     width: 100%;
     height: fit-content;
     font-size: auto;
