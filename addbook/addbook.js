@@ -19,12 +19,9 @@ bookFormEl.addEventListener('submit', (event) => {
         genre: bookData.get('genre'),
         pages: bookData.get('pages'),
     };
-    console.log(bookObject);
     user.useraddedbooks.push(bookObject);
     userAddedBooks.push(bookObject);
     setUser(user);
-    console.log(bookArray);
-    console.log(user);
     renderUserBooks();
 });
 
