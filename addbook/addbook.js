@@ -5,7 +5,7 @@ const bookFormEl = document.querySelector('.bookform');
 let bookArray = [];
 const user = getUser();
 setUser(user);
-
+renderUserBooks();
 bookFormEl.addEventListener('submit', (event) => {
     const user = getUser();
     event.preventDefault();
@@ -29,12 +29,17 @@ bookFormEl.addEventListener('submit', (event) => {
 });
 
 
-function renderUserBooks () {
+function renderUserBooks() {
     const user = getUser();
     const userContainer = document.querySelector('.usercontainer');
+    if (userContainer.childNodes[0]) {
+        userContainer.innerHTML = '';
+    }
     for (let i = 0; i < user.useraddedbooks.length; i++) {
         const bookDiv = document.createElement('div');
+        bookDiv.classList.add('bookdiv');
         const bookImg = document.createElement('img');
+        bookImg.classList.add('bookimg');
         bookDiv.textContent = `Title: ${user.useraddedbooks[i].title}
 Author: ${user.useraddedbooks[i].author}
 Genre: ${user.useraddedbooks[i].genre}
