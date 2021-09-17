@@ -43,8 +43,7 @@ function renderUserBooks() {
         bookDiv.textContent = `Title: ${user.useraddedbooks[i].title}
 Author: ${user.useraddedbooks[i].author}
 Genre: ${user.useraddedbooks[i].genre}
-Pages: ${user.useraddedbooks[i].pages}
-Year: ${user.useraddedbooks[i].year}`;
+Pages: ${user.useraddedbooks[i].pages}`;
 
         bookImg.src = user.useraddedbooks[i].imageLink;
         userContainer.append(bookDiv, bookImg);

@@ -1,5 +1,18 @@
 
-
+body {
+    background-color: var(--color2);
+    background: linear-gradient(to left top, #358, #101) fixed;
+    color: antiquewhite;
+}
+.bookform {
+    width: 40%;
+}
+label {
+    
+}
+input {
+    margin-bottom: 5px;
+}
 .usercontainer {
 
 }
@@ -11,4 +24,9 @@
 .bookimg {
     height: 100%;
     width: 40%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
