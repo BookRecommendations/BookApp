@@ -2,20 +2,23 @@ export function setUser(user) {
     const stringyUser = JSON.stringify(user);
     localStorage.setItem('USER', stringyUser);
 }
+
+// might be nice to refactor these with destructuring
 export function getUserRead(){
-    const userObject = getUser();
-    const userRead = userObject.booksread;
-    return userRead; 
+    const { booksread } = getUser();
+
+    return booksread; 
 }
 export function getUserToRead(){
-    const userObject = getUser();
-    const userToRead = userObject.bookstoread;
-    return userToRead; 
+    const { bookstoread } = getUser();
+
+    return bookstoread; 
 }
 
 export function getTotalPagesRead(){
     const booksRead = getUserRead();
     let pagesRead = 0;
+    // nice counting loop!
     for (let book of booksRead){
         const pages = book.pages;
         const totalPages = pages;
@@ -38,6 +41,7 @@ export function createUser(formData) {
         bookstoread: [],
         totalpgsrd: [],
         newUser: true,
+        // i'd like to see all keys in objects lowercase, reserving capitalization for classes and React components
         Genre:'',
         BookLength:'',
         AverageRating:'',

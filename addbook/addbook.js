@@ -2,13 +2,13 @@ import { getUser, setUser } from '../utils.js';
 import { userAddedBooks } from '../data/userdata.js';
 
 const bookFormEl = document.querySelector('.bookform');
-let bookArray = [];
 const user = getUser();
 setUser(user);
 renderUserBooks();
 bookFormEl.addEventListener('submit', (event) => {
-    const user = getUser();
+    // as a rule, prevent default should always come first
     event.preventDefault();
+    const user = getUser();
     const bookData = new FormData(bookFormEl);
 
     const bookObject = {
@@ -20,6 +20,7 @@ bookFormEl.addEventListener('submit', (event) => {
         pages: bookData.get('pages'),
     };
     user.useraddedbooks.push(bookObject);
+    // does this array below ever get used? it seems like user.userAddedBooks does everything?
     userAddedBooks.push(bookObject);
     setUser(user);
     renderUserBooks();
@@ -32,17 +33,18 @@ function renderUserBooks() {
     if (userContainer.childNodes[0]) {
         userContainer.innerHTML = '';
     }
-    for (let i = 0; i < user.useraddedbooks.length; i++) {
+    for (let book of user.useraddedbooks) {
         const bookDiv = document.createElement('div');
         bookDiv.classList.add('bookdiv');
         const bookImg = document.createElement('img');
         bookImg.classList.add('bookimg');
-        bookDiv.textContent = `Title: ${user.useraddedbooks[i].title}
-Author: ${user.useraddedbooks[i].author}
-Genre: ${user.useraddedbooks[i].genre}
-Pages: ${user.useraddedbooks[i].pages}`;
+        // i wonder if it would have been better to give each of these items their own element instead of sticking them all inside the same div? 
+        bookDiv.textContent = `Title: ${book.title}
+Author: ${book.author}
+Genre: ${book.genre}
+Pages: ${book.pages}`;
 
-        bookImg.src = user.useraddedbooks[i].imageLink;
+        bookImg.src = book.imageLink;
         userContainer.append(bookDiv, bookImg);
     }
 }

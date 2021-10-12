@@ -10,6 +10,7 @@ import {
 
 
 export function addToUserObject(user, userData) {
+    // i would prefer to see lowercase key names here--capitalization is usually reserved for classes in javascript
     user.Genre = userData.get('genre');
     user.BookLength = userData.get('length');
     user.AverageRating = userData.get('average-rating');
@@ -21,8 +22,8 @@ export function addToUserObject(user, userData) {
 export function renderResults(arrayResults) {
     const containerDiv = document.createElement('div');
     containerDiv.classList.add('cnt-div');
-    for (let i = 0; i < arrayResults.length; i++) {
-        let bookObject = findById(bookData, Number(arrayResults[i].id));
+    for (let item of arrayResults) {
+        let bookObject = findById(bookData, Number(item.id));
         const bookDiv = document.createElement('div');
         const bookImage = document.createElement('img');
         bookImage.classList.add ('resultsimages');
