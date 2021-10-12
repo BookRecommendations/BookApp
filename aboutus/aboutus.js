@@ -1,3 +1,5 @@
+// I would like to see all these files in kabob case--so, about-us.js and add-book.js, etc, instead of aboutus.js and addbook.js
+
 const imgs = document.getElementById('imgs');
 const leftBtn = document.getElementById('left');
 const rightBtn = document.getElementById('right');
@@ -13,6 +15,7 @@ function run() {
     changeImage();
 }
 
+// cool state mutation function!
 function changeImage() {
     if (idx > img.length - 1) {
         idx = 0;
@@ -23,6 +26,7 @@ function changeImage() {
     imgs.style.transform = `translateX(${-idx * 500}px)`;
 }
 
+// this is really cool--treating the interval id as state, and changing it every time you cancel and set a new one is really cool thinking!
 function resetInterval() {
     clearInterval(interval);
     interval = setInterval(run, 2000);
